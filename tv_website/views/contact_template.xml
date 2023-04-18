@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <template id="website.contactus" name="Contact Us">
+    <t t-call="website.layout">
+      <div id="wrap"  class="oe_structure oe_empty">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
+              data-oe-xpath="/t[1]/t[1]/div[1]/t[1]/ol[1]">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
+                 data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/t[4]/div[1]">
+              <img src="//assets.terre-voyages.com/gpv/bando_contact-01.jpg"/>
+              <div class="carousel-caption"></div>
+            </div>
+            <div class="item" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
+                 data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/t[4]/div[2]">
+              <img src="//assets.terre-voyages.com/gpv/bando_contact-02.jpg"/>
+              <div class="carousel-caption"></div>
+            </div>
+            <div class="item" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
+                 data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/t[4]/div[3]">
+              <img src="//assets.terre-voyages.com/gpv/bando_contact-03.jpg"/>
+              <div class="carousel-caption"></div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="container">
+          <section id="contactpage" class="contain  bordersection no-padding" itemscope="1"
+                   itemtype="" data-oe-id="1706" data-oe-model="ir.ui.view" data-oe-field="arch"
+                   data-oe-xpath="/t[1]/t[1]/div[1]/section[1]">
+            <h2 class="page_title">
+              Contactez-nous
+            </h2>
+            <div class="inner mentions ">
+              <div class="breadcrumb">
+                <div itemprop="breadcrumb">
+                  <a href="/">Accueil</a>
+                  - Contact
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <h3>Contactez-nous, un expert à votre service</h3>
+
+                <p class="chapo">Un projet de voyage, une question sur nos offres, un dossier en cours; les choix pour
+                  nous contacter sont nombreux.
+                  <br/>
+                  A notre agence, au téléphone, par courrier postal ou par email; notre équipe de spécialistes vous
+                  répondra dans les plus brefs délais.
+                </p>
+              </div>
+              <div class="row inner">
+                <div class="col-xs-12 col-sm-4 mt16">
+                  <div>
+                    <h3 class="leftprice" style="margin-bottom: 10px !important;">Par téléphone</h3>
+                    <p class="text-center font16">Au 01 55 37 37 40</p>
+                  </div>
+                  <div>
+                    <h3 class="leftprice mt16" style="margin-bottom: 10px !important;">A l'agence golf plus voyages</h3>
+                    <p class="text-center">
+                      28, Boulevard de la Bastille
+                      <br/>
+                      75012 PARIS
+                      <br/>
+                      <br/>
+                    </p>
+
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-8 mt16">
+                  <form id="contact-us-page" method="post" action="#" novalidate="novalidate">
+                    <input type="hidden" name="cookie" value=""/>
+                    <input type="hidden" value="Message" name="form_type"/>
+                    <input type="hidden" value="Golf Plus Voyages" id="website" name="website"/>
+                    <h3 class="leftprice contact-us">Avec le formulaire de contact</h3>
+                    <div class="row">
+                      <div class="form-group col-xs-12 col-sm-6">
+                        <label class="col-xs-12 col-sm-4 formmlabel">Nom</label>
+                        <input type="text" name="nom" id="nom" minlength="2" required="required"
+                               class="form col-xs-12 col-sm-8" placeholder="" aria-required="true"/>
+                        <label class="error col-xs-12 text-right" for="nom"></label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-group col-xs-12 col-sm-6">
+                        <label class="col-xs-12  col-sm-4 formmlabel">Email</label>
+                        <input type="email" name="email" id="email" required="required" class="form col-xs-12 col-sm-8"
+                               placeholder="" aria-required="true"/>
+                        <label class="error col-xs-12 text-right" for="email"></label>
+                      </div>
+                      <div class="form-group col-xs-12 col-sm-6">
+                        <label class="col-xs-12 col-sm-4 formmlabel">Téléphone</label>
+                        <input type="tel" name="telephone" id="telephone" required="required"
+                               class="form col-xs-12 col-sm-8" placeholder="" aria-required="true"/>
+                        <label class="error col-xs-12 text-right" for="telephone"></label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-group col-xs-12 col-sm-12">
+                        <label class="col-xs-12 col-sm-2 formmlabel">Message</label>
+                        <textarea name="desc_projet" id="message" required="required"
+                                  class="form textarea col-xs-12 col-sm-10" placeholder=""
+                                  aria-required="true"></textarea>
+                        <label class="error col-xs-12 text-right" for="message"></label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-group col-xs-12 col-sm-12">
+                        <button type="submit" id="submit" name="submit" class="form-btn">Envoyer mon message</button>
+                        <div id="result" class="warning col-xs-12 "></div>
+                      </div>
+                    </div>
+
+                  </form>
+                  <div>
+                    <p>Pour toutes questions, suggestions concernant le site vous pouvez contacter l'équipe en charge
+                      sur
+                      l'adresse :
+                      <a href="mailto: info@golfplusvoyages.com">info@golfplusvoyages.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </t>
+  </template>
+</odoo>

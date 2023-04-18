@@ -1,0 +1,50 @@
+.bgInscription {
+	background:url("https://assets.terre-voyages.com/images/bandeaux/bg_inscription.jpg") center top transparent;
+}
+
+.bgPresse{
+	background:url("https://assets.terre-voyages.com/images/bandeaux/bg_presse.jpg") center top transparent;
+}
+
+.bgMentions {
+	background:url("https://assets.terre-voyages.com/images/bandeaux/bg_mentions-legales.jpg") center top transparent;
+}
+
+.bgConditions {
+	background:url("https://assets.terre-voyages.com/images/bandeaux/bg_conditions.jpg") center top transparent;
+}
+
+.bgConseillers{
+	background:url("https://assets.terre-voyages.com/images/bandeaux/bg_conseillers.jpg") center top transparent;
+}
+
+.bgAboutUs{
+	background:url("https://assets.terre-voyages.com/images/bandeaux/bg_aboutus.jpg") center top transparent;
+}
+
+.bgGalerie{
+	background:url("https://assets.terre-voyages.com/images/bandeaux/bg_gallerie.jpg") center top transparent;
+}
+
+.bgContact{
+  background:url("https://assets.terre-voyages.com/images/bandeaux/bg_contact.jpg") center top transparent;
+}
+.bgDevis{
+	background:url("https://assets.terre-voyages.com/images/bandeaux/bg_devis.jpg") center top transparent;
+}
+.bgConfirmation{
+  background:url("https://assets.terre-voyages.com/images/bandeaux/bg_confirmation.jpg") center top transparent;
+}
+
+.imageAvis{
+  background: url("https://assets.terre-voyages.com/images/bandeaux/bg_avis-clients.jpg") center top transparent;
+}
+
+.bg404{
+  background:url("https://assets.terre-voyages.com/images/bandeaux/bg_404.jpg") center top transparent;
+}
+
+.bgEspaceLog{
+  background:url("https://assets.terre-voyages.com/images/bandeaux/bg_espace-login.jpg") center top transparent;
+  height: 450px;
+}

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2022 eTech SA
+      License AGPL-3.0 -->
+<odoo>
+  <template id="template_header_default_inherit" inherit_id="website.template_header_default" name="header custom">
+    <xpath expr="//div[@id='top_menu_container']" position="replace">
+      <div class="col-md-4">
+        <t t-set="_navbar_expand_class" t-value="''"/>
+        <div id="top_menu_container" class="container">
+          <div>MENU</div>
+          <div class="d-flex align-items-center ms-auto">
+            <!-- Navbar Toggler -->
+            <t t-call="website.navbar_toggler">
+              <t t-set="_toggler_class" t-valuef="ms-2"/>
+            </t>
+          </div>
+          <!-- Navbar Collapse -->
+          <div id="top_menu_collapse" class="collapse navbar-collapse">
+            <t t-set="_nav_class" t-valuef=""/>
+            <t t-call="website.navbar_nav">
+              <!-- Menu -->
+              <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                <t t-call="website.submenu">
+                  <t t-set="item_class" t-valuef="nav-item"/>
+                  <t t-set="link_class" t-valuef="nav-link"/>
+                </t>
+              </t>
+              <li class="nav-item">
+                <!-- Language Selector -->
+                <t t-call="website.placeholder_header_language_selector">
+                  <t t-set="_div_classes" t-valuef="pb-2"/>
+                </t>
+              </li>
+              <!-- Call To Action -->
+              <li class="nav-item">
+                <t t-call="website.placeholder_header_call_to_action"/>
+              </li>
+              <!-- Sign In -->
+              <t t-call="portal.placeholder_user_sign_in">
+                <t t-set="_item_class" t-valuef="nav-item"/>
+                <t t-set="_link_class" t-valuef="nav-link"/>
+              </t>
+              <!-- User Dropdown -->
+              <t t-call="portal.user_dropdown">
+                <t t-set="_user_name" t-value="true"/>
+                <t t-set="_item_class" t-valuef="nav-item dropdown"/>
+                <t t-set="_link_class" t-valuef="nav-link"/>
+              </t>
+            </t>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <!-- Brand -->
+        <t t-call="website.placeholder_header_brand"/>
+      </div>
+      <div class="col-md-4">
+        <div class="nav-block" align="right">
+          <div class="info-block" align="right">
+            <p class="md-none" data-oe-source-id="1415" data-oe-id="1750" data-oe-model="ir.ui.view"
+               data-oe-field="arch" data-oe-xpath="/data/xpath[1]/div/p[1]">
+              <i class="fa fa-caret-right" style="color: green !important;"></i>
+              <a href="/devis">VOTRE PROJET</a>
+            </p>
+            <p>
+              <span data-oe-source-id="1415" data-oe-id="1750" data-oe-model="ir.ui.view" data-oe-field="arch"
+                    data-oe-xpath="/data/xpath[1]/div/p[2]/span[1]">
+                <i class="fa fa-envelope"></i>
+                <font class="md-none">
+                  <a href="/contactus">NOUS CONTACTER</a>
+                </font>
+              </span>
+              <span>
+                <i class="fa fa-phone" data-oe-source-id="1415" data-oe-id="1750" data-oe-model="ir.ui.view"
+                   data-oe-field="arch" data-oe-xpath="/data/xpath[1]/div/p[2]/span[2]/i[1]"></i>
+                <font class="md-none">+33 (0)1 5537 3740</font>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </xpath>
+  </template>
+  <!-- Footer templates -->
+  <template id="website.footer_custom" inherit_id="website.layout" name="Default" active="True">
+    <xpath expr="//div[@id='footer']" position="replace">
+      <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true">
+        <section class="bg-blue ptb-10" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                 data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[1]">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="sm-title">RECEVEZ NOTRE NEWSLETTER</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="ptb-20">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <form id="FormNews" method="post" action="" novalidate="novalidate">
+                  <div class="input-group-custom">
+                    <input type="hidden" name="cookie" value="" data-oe-id="1689" data-oe-model="ir.ui.view"
+                           data-oe-field="arch"
+                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]"/>
+                    <input type="hidden" value="Emailing" name="form_type" data-oe-id="1689" data-oe-model="ir.ui.view"
+                           data-oe-field="arch"
+                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/input[2]"/>
+                    <input type="hidden" value="Golf Plus Voyages" id="website" name="website" data-oe-id="1689"
+                           data-oe-model="ir.ui.view" data-oe-field="arch"
+                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/input[3]"/>
+                    <input type="email" name="email" id="emailnews" class="form-control-custom"
+                           placeholder="Votre email"
+                           required="required" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/input[4]"
+                           aria-required="true"/>
+                    <div style="color:black;" class="modal fade" id="newsletter_recaptcha" tabindex="-1" role="dialog"
+                         aria-labelledby="Newsletter" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                               data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                            <h4 class="modal-title" id="myModalLabel">Newsletter</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="form-group" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                                 data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]">
+                              <label for="footerInputEmail">Votre Email :</label>
+                              <input aria-required="true" class="form-control" id="modal_emailnews" name="email"
+                                     placeholder="" required="required" type="email"/>
+                            </div>
+                            <div class="form-group">
+                              <div id="g-recaptcha-subscribeme" class="g-recaptcha form-control"
+                                   data-sitekey="6LclrUEcAAAAANJCu2AacZUZe7n126__8TXBvvn-"
+                                   style="transform:scale(0.72);-webkit-transform:scale(0.72);transform-origin:0 0;-webkit-transform-origin:0 0;background: none !important; border: none !important; height:80px !important;"
+                                   data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                                   data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]">
+                                <div style="width: 304px; height: 78px;">
+                                  <div>
+                                    <iframe title="reCAPTCHA"
+                                            src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LclrUEcAAAAANJCu2AacZUZe7n126__8TXBvvn-&amp;co=aHR0cDovL2xvY2FsaG9zdDo4MDY5&amp;hl=fr&amp;v=6MY32oPwFCn9SUKWt8czDsDw&amp;size=normal&amp;cb=2crs5ychiq4t"
+                                            width="304" height="78" role="presentation" name="a-kwgx9x70ngrn"
+                                            frameborder="0" scrolling="no"
+                                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                                  </div>
+                                  <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                                            class="g-recaptcha-response"
+                                            style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                                 data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]">
+                              <button type="submit" class="btn btn-default">ok
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <input data-toggle="modal" data-target="#newsletter_recaptcha" class="custom-btn" type="button"
+                           value="S’inscrire" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/input[5]"/>
+
+                    <label class="error col-xs-12 text-center" for="emailnews" data-oe-id="1689"
+                           data-oe-model="ir.ui.view" data-oe-field="arch"
+                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/label[1]"></label>
+                  </div>
+                </form>
+              </div>
+              <div style="color:black;" class="modal fade" id="modal_newsletter_subscribe" tabindex="-1" role="dialog"
+                   aria-labelledby="Newsletter" aria-hidden="true" data-oe-id="1689" data-oe-model="ir.ui.view"
+                   data-oe-field="arch" data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[2]">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                      <h4 class="modal-title" id="myModalLabel">Newsletter</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>Votre demande d'inscription à la Newsletter a été envoyée !</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">
+                        Fermer
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                   data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[1]">
+                <h5 class="footer-title">Nos marques</h5>
+                <div class="border"></div>
+
+                <ul class="footer-list">
+                  <li class="link-warning">
+                    <a href="https://www.terre-voyages.com" target="_blank" class="mt8">Terre Voyages</a>
+                  </li>
+                  <li class="link-blue">
+                    <a href="https://www.fleuves-du-monde.com" target="_blank" class="mt8">Fleuves du Monde</a>
+                  </li>
+                  <li class="link-green">
+                    <a href="https://www.golfplusvoyages.com" target="_blank" class="mt8">Golf Plus Voyages</a>
+                  </li>
+                </ul>
+                <div class="rows">
+                  <span>sont des marques du</span>
+                </div>
+                <div class="rows">
+                  <a href="/">
+                    <img alt="Groupe - Terre Voyages" src="/tv_website/static/src/img/GroupeTerreVoyages.png"
+                         style="width: 180px; padding-top:9px" class="mt8"/>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <h5 class="footer-title" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                    data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[2]/h5[1]">Informations
+                </h5>
+                <div class="border" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                     data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[2]/div[1]"></div>
+                <p data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                   data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[2]/p[1]">
+                  <a href="/a-propos#tabs-1" style="color: #1a2d3e;">Qui sommes-nous</a>
+                </p>
+                <p data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                   data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[2]/p[2]">
+                  <a href="/a-propos#tabs-4" style="color: #1a2d3e;">Inscription et Assurances</a>
+                  <br/>
+                  <a href="/a-propos#tabs-4" style="color: #1a2d3e;">Conditions de vente</a>
+                </p>
+                <p>
+                  Contact presse :
+                  <br data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                      data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[2]/p[3]/br[1]"/>
+                  <a href="mailto:presse@terre-voyages.com" class="link-email" data-oe-model="website" data-oe-id="1"
+                     data-oe-field="website_email" data-oe-type="char" data-oe-expression="website.website_email"
+                     data-oe-translate="0">presse@terre-voyages.com
+                  </a>
+                </p>
+              </div>
+
+              <div class="col-md-4">
+                <h5 class="footer-title" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                    data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/h5[1]">Nous contacter
+                </h5>
+                <div class="border" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                     data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[1]"></div>
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <p>28 Bd de la Bastille
+                      <br/>
+                      75012 Paris
+                    </p>
+                    <p>
+                      Ouvert du lundi au vendredi
+                      <br/>
+                      de 9h à 18h,
+                      <br/>
+                      le samedi sur rendez-vous
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <form action="#" id="contact-us" method="post" novalidate="novalidate" role="form">
+                      <input name="cookie" type="hidden" value="" data-oe-id="1689" data-oe-model="ir.ui.view"
+                             data-oe-field="arch"
+                             data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/input[1]"/>
+                      <input id="website" name="website" type="hidden" value="Golf Plus Voyages" data-oe-id="1689"
+                             data-oe-model="ir.ui.view" data-oe-field="arch"
+                             data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/input[2]"/>
+                      <input name="form_type" type="hidden" value="Message" data-oe-id="1689" data-oe-model="ir.ui.view"
+                             data-oe-field="arch"
+                             data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/input[3]"/>
+                      <div class="input-group" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/div[1]">
+                        <input aria-required="true" class="form-control" id="footerInputName" minlength="2" name="nom"
+                               placeholder="Votre nom" required="required" type="text"/>
+                        <label class="error col-xs-12 text-center" for="footerInputName"></label>
+                      </div>
+                      <div class="input-group" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/div[2]">
+                        <input aria-required="true" class="form-control" id="footerInputEmail" name="email"
+                               placeholder="Votre mail" required="required" type="email"/>
+                        <label class="error col-xs-12 text-center" for="footerInputEmail"></label>
+                      </div>
+                      <div class="input-group" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/div[3]">
+                        <textarea aria-required="true" class="form-control" id="footerInputMess" name="desc_projet"
+                                  placeholder="Votre message" required="required" rows="4"></textarea>
+                        <label class="error col-xs-12 text-center" for="footerInputMess"></label>
+                      </div>
+                      <div class="input-group">
+                        <div id="g-recaptcha-contctus" class="g-recaptcha form-control"
+                             data-sitekey="6LclrUEcAAAAANJCu2AacZUZe7n126__8TXBvvn-"
+                             style="transform:scale(0.72);-webkit-transform:scale(0.72);transform-origin:0 0;-webkit-transform-origin:0 0;background: none !important; border: none !important; height:80px !important;"
+                             data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                             data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/div[4]/div[1]">
+                          <div style="width: 304px; height: 78px;">
+                            <div>
+                              <iframe title="reCAPTCHA"
+                                      src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LclrUEcAAAAANJCu2AacZUZe7n126__8TXBvvn-&amp;co=aHR0cDovL2xvY2FsaG9zdDo4MDY5&amp;hl=fr&amp;v=6MY32oPwFCn9SUKWt8czDsDw&amp;size=normal&amp;cb=u177oaqtvjii"
+                                      width="304" height="78" role="presentation" name="a-hwl6tj4mnt9r" frameborder="0"
+                                      scrolling="no"
+                                      sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                            </div>
+                            <textarea id="g-recaptcha-response-1" name="g-recaptcha-response"
+                                      class="g-recaptcha-response"
+                                      style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                          </div>
+                          <iframe style="display: none;"></iframe>
+                        </div>
+                      </div>
+                      <button type="submit" class="btn btn-blue btn-rounded" data-oe-id="1689"
+                              data-oe-model="ir.ui.view"
+                              data-oe-field="arch"
+                              data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/button[1]">
+                        Envoyer
+                      </button>
+                    </form>
+                    <div class="warning col-xs-12 " id="resultContactUs" data-oe-id="1689" data-oe-model="ir.ui.view"
+                         data-oe-field="arch"
+                         data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[1]"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <h5 class="footer-title" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                    data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[4]/h5[1]">Nous suivre
+                </h5>
+                <ul class="social-list">
+                  <li>
+                    <a href="#" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
+                       data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[4]/ul[1]/li[1]/a[1]">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/Golf-Plus-Voyages-408010862708295" data-oe-id="1689"
+                       data-oe-model="ir.ui.view" data-oe-field="arch"
+                       data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[4]/ul[1]/li[2]/a[1]">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://instagram.com/golfplusvoyages?igshid=m6iv45szxikp" data-oe-id="1689"
+                       data-oe-model="ir.ui.view" data-oe-field="arch"
+                       data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[4]/ul[1]/li[3]/a[1]">
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </xpath>
+  </template>
+  <template id="website.footer_copyright_company_name" inherit_id="website.layout">
+    <xpath expr="//footer//span[hasclass('o_footer_copyright_name')]" position="replace">
+      <p class="mb-10 text-white">
+        <a href="#" class="link text-white fw-normal">Mentions légales</a>
+        |
+        <a href="https://groupe.terre-voyages.com/protection-donnees-personelles" class="link text-white fw-normal"
+           target="_blank">Protection des données personnelles
+        </a>
+        |
+        Copyright © 2022 Terre Voyages - Tous droits réservés 2022
+      </p>
+    </xpath>
+  </template>
+</odoo>
