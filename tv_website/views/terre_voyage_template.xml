@@ -1,788 +1,546 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-  <template id="terre_voyage_template" name="Contact Us">
+  <template id="terre_voyage_template" name="Qui sommes-nous">
     <t t-call="website.layout">
-      <div id="wrap"  class="oe_structure oe_empty">
+      <div id="wrap" class="oe_structure oe_empty">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
               data-oe-xpath="/t[1]/t[1]/div[1]/t[1]/ol[1]">
-            <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-            <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
           </ol>
           <div class="carousel-inner" role="listbox">
-            <div class="item" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
-                 data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/t[3]/div[1]">
-              <img src="//assets.terre-voyages.com/gpv/bando_devis-01.jpg"/>
-              <div class="carousel-caption"></div>
-            </div>
-            <div class="item" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
-                 data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/t[3]/div[2]">
-              <img src="//assets.terre-voyages.com/gpv/bando_devis-02.jpg"/>
-              <div class="carousel-caption"></div>
-            </div>
             <div class="item active" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
-                 data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/t[3]/div[3]">
-              <img src="//assets.terre-voyages.com/gpv/bando_devis-03.jpg"/>
+                 data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/t[2]/div[1]">
+              <img src="//assets.terre-voyages.com/gpv/bando_a-propos-01.jpg"/>
+              <div class="carousel-caption"></div>
+            </div>
+            <div class="item" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
+                 data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/t[2]/div[2]">
+              <img src="//assets.terre-voyages.com/gpv/bando_a-propos-02.jpg"/>
+              <div class="carousel-caption"></div>
+            </div>
+            <div class="item" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
+                 data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/t[2]/div[3]">
+              <img src="//assets.terre-voyages.com/gpv/bando_a-propos-03.jpg"/>
               <div class="carousel-caption"></div>
             </div>
           </div>
         </div>
-        <div class="container">
-          <section id="demandedevis" class="contain bordersection no-padding">
-            <h2 class="page_title" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/h2[1]">Devis
-            </h2>
-
-            <div class="inner mentions">
-              <div class="breadcrumb breadcrunb_propos_page" data-oe-id="1708" data-oe-model="ir.ui.view"
-                   data-oe-field="arch" data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[1]">
+        <section id="produits" class="contain bordersection no-padding" data-oe-id="1707" data-oe-model="ir.ui.view"
+                 data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]/section[1]">
+          <div class="container">
+            <h1 class="page_title">A PROPOS</h1>
+            <div class="row inner mentions">
+              <div class="breadcrumb" style="margin-left: 16px !important;">
                 <div itemprop="breadcrumb">
                   <a href="/">Accueil</a>
-                  - Demande de devis
+                  - A Propos
                 </div>
               </div>
-              <div class="col-xs-12" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                   data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[2]">
-                <h3>Votre projet de voyage, un expert à votre service</h3>
-
-                <p class="">Indiquez nous vos souhaits en remplissant le formulaire ci-dessous.
+              <div class="col-sm-12 editable">
+                <h3>FOULEZ LES FAIRWAYS DU MONDE ENTIER AVEC GOLF PLUS VOYAGES</h3>
+                <p>
+                  Confiez-nous vos rêves de golf, en France ou à l’autre bout du monde, nous mettrons
+                  tout en œuvre pour qu’ils deviennent réalité.
                   <br/>
-                  Notre équipe de spécialistes répondra à votre demande dans les 48h.
+
+                  Parce que chaque golfeur est différent et aspire à pratiquer le golf selon ses
+                  envies, nous vous proposons de découvrir les parcours de France et du monde.
+                  <br/>
+                  GOLF PLUS VOYAGES vous propose une vaste gamme de produits touristiques et bien
+                  évidemment golfiques, qu’il s’agisse d’un ‘simple’ séjour avec golf, d'un voyage sur
+                  mesure golfique, d’un billet d’avion ou d’un stage.
                 </p>
               </div>
-              <div class="row inner margin-20">
-                <div class="col-xs-12 col-sm-3 margin-20" data-oe-id="1708" data-oe-model="ir.ui.view"
-                     data-oe-field="arch" data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[1]">
-                  <div class="">
-                    <h3 class="leftprice">Nous contacter</h3>
-                    <p class="text-center chapo">
-                      <span class="fontUppercasse">TÉL : 01 55 37 37 40</span>
-                      <br/>
-                      28, Boulevard de la Bastille
-                      <br/>
-                      75012 PARIS
-                      <br/>
-                      <br/>
-                    </p>
+            </div>
+          </div>
+        </section>
+        <section class="contain bordersection" id="details">
+          <div class="container">
+            <div class="row mentions">
+              <div class="col-md-3 col-xs-12 s_tabs_nav mb-3" data-oe-id="1707" data-oe-model="ir.ui.view"
+                   data-oe-field="arch"
+                   data-oe-xpath="/t[1]/t[1]/div[1]/section[2]/div[1]/div[1]">
+                <ul class="nav nav-pills tab_custom"
+                    role="tablist">
+                  <li class="nav-item" role="tab" tabindex="-1" aria-controls="tabs-1"
+                      aria-labelledby="ui-id-1" aria-selected="false" aria-expanded="false">
+                    <a href="#tabs-1" class="nav-link active" role="tab" data-bs-toggle="tab" tabindex="-1"
+                       id="ui-id-1">L'agence
+                    </a>
+                  </li>
+                  <li class="nav-item" role="tab">
+                    <a href="#tabs-2" class="nav-link" role="tab" data-bs-toggle="tab" tabindex="-1" id="ui-id-2">
+                      conseillers
+                    </a>
+                  </li>
+                  <li class="nav-item" role="tab">
+                    <a href="#tabs-4" data-bs-toggle="tab" class="nav-link" role="tab" tabindex="-1" id="ui-id-3">
+                      inscription
+                      et
+                      assurance
+                    </a>
+                  </li>
+                </ul>
+                <div class="col-xs-12 text-center ">
+                  <p style="font-family: Verdana,Arial,sans-serif !important; font-size: 14px;">
+                    Venez prendre un café avec
+                    <br/>
+                    nous au :
+                    <br/>
+                    <br/>
+                    28 boulevard de la Bastille
+                    <br/>
+                    75012 PARIS
+                    <br/>
+                    <br/>
+                    tél: 01 55 37 37 40
+                    <br/>
+                    M° : Bastille / Gare de Lyon /<br/>Quai de la Rapée
+                    <br/>
+                  </p>
+                </div>
+                <div class="col-xs-12 text-center">
+                  <p style="font-size:14.1px;font-family: Verdana,Arial,sans-serif !important;">
+                    <br/>N’hésitez pas à venir nous rencontrer!
+                  </p>
+                </div>
+                <div class="col-xs-12">
+                  <div class="mapleftslide text-center">
+                    <img src="/tv_website/static/src/ftp-img/apropos/plan_95360.PNG" class="img-responsive center-block"
+                         alt=""/>
                   </div>
                 </div>
-                <div id="devisMyTrip" class="col-xs-12 col-sm-8 margin-20">
-                  <form id="demande-de-devis" method="post" action="#" novalidate="novalidate">
-                    <input type="hidden" value="Devis" name="form_type" data-oe-id="1708" data-oe-model="ir.ui.view"
-                           data-oe-field="arch"
-                           data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/input[1]"/>
-                    <input type="hidden" value="" name="titre_circuit" data-oe-id="1708" data-oe-model="ir.ui.view"
-                           data-oe-field="arch"
-                           data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/input[2]"/>
-                    <input type="hidden" value="" name="cookie" data-oe-id="1708" data-oe-model="ir.ui.view"
-                           data-oe-field="arch"
-                           data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/input[3]"/>
-                    <input type="hidden" value="Golf Plus Voyages" id="website" name="website" data-oe-id="1708"
+              </div>
+              <div class="col-md-9 col-xs-12 s_tabs_content tab-content">
+                <div id="tabs-1" class="tab-pane fade active show contenttabs"
+                     aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="true" style="display: none;"
+                     data-oe-id="1707"
+                     data-oe-model="ir.ui.view" data-oe-field="arch"
+                     data-oe-xpath="/t[1]/t[1]/div[1]/section[2]/div[1]/div[2]/div[1]">
+                  <div class="row">
+                    <div class="col-xs-12 no-padding">
+                      <h3 style="padding: 8px 5px 5px 0px;">EDDY MALDEREZ, NOTRE DIRECTEUR
+                        D’AGENCE
+                      </h3>
+                      <div class="mt8">
+                        a une grande expérience du monde du golf et une passion pour les voyages
+                        autour du golf.
+                        Eddy et son équipe sauront vous conseiller au mieux pour vos projets
+                        de voyages et vous apporter leur expérience pour un service sur mesure,
+                        dédié à votre plaisir.
+                        Que vous soyez un particulier, un couple ou une famille de golfeurs, un
+                        groupe d’amis, un professionnel enseignant du golf, une association, une
+                        section golf de CE ou encore une société, notre équipe de professionnels
+                        vous propose :
+                      </div>
+                      <br/>
+                      <div>
+                        <ul id="contenttabs_ul_agency">
+                          <li class="ui-corner-left">
+                            Des séjours organisables à Distance
+                          </li>
+                          <li class="ui-corner-left">
+                            Des séjours golfs et thématiques associées (Safaris,
+                            œnotourisme, visites de sites historiques, découverte des
+                            cultures locales, croisières en bateau, etc.)
+                          </li>
+                          <li class="ui-corner-left">
+                            Des stages de golf à l’étranger
+                          </li>
+                          <li class="ui-corner-left">
+                            Des évènements golfiques et des voyages autour de ces évènements
+                          </li>
+                          <li class="ui-corner-left">
+                            Des séjours Sur Mesure pour répondre à toutes vos attentes
+                          </li>
+                          <li class="ui-corner-left">
+                            De la billetterie
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mt8">
+                        <p style="margin: 0;" class="mtp">Golf Plus Voyages, c’est également :</p>
+                        <ul id="contenttabs_ul_agency">
+                          <li class="ui-corner-left">
+                            Une agence de voyages avant tout : Séjours hors golf et voyages
+                            d’affaires
+                          </li>
+                          <li class="ui-corner-left">
+                            Un Tour Opérateur spécialisé golf
+                          </li>
+                          <li class="ui-corner-left">
+                            Les agréments ATOUT France, IATA.
+                          </li>
+                          <li class="ui-corner-left">
+                            Des adhésions à LES ENTREPRISES DU VOYAGE, APST, AFTOG
+                            (Association Française des Tour-Opérateurs de Golf), IAGTO
+                            (International Association of Golf Tour Operators)
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="tabs-2" class="tab-pane fadecontenttabs"
+                     aria-labelledby="ui-id-2" role="tabpanel" aria-hidden="false">
+                  <div class="row" data-oe-id="1707" data-oe-model="ir.ui.view" data-oe-field="arch"
+                       data-oe-xpath="/t[1]/t[1]/div[1]/section[2]/div[1]/div[2]/div[2]/div[1]">
+                    <div class="col-xs-12 no-padding">Eddy MALDEREZ, NOTRE DIRECTEUR D’AGENCE a une
+                      grande expérience du monde du golf et une passion pour les voyages autour du
+                      golf.
+                      <br/>
+                      Eddy et son équipe sauront vous conseiller au mieux pour vos projets de
+                      voyages et vous apporter leur expérience pour un service sur mesure, dédié à
+                      votre plaisir.
+                    </div>
+                  </div>
+                  <div class="row margin-20">
+                    <div class="col-sm-4 col-xs-12 no-padding">
+                      <img alt="" class="img-responsive center-block"
+                           src="https://assets.terre-voyages.com/gpv/images/conseillers/eddy.jpg" data-oe-id="1745"
                            data-oe-model="ir.ui.view" data-oe-field="arch"
-                           data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/input[4]"/>
-
-                    <h3 class="leftprice contact-us" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                        data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/h3[1]">Votre projet
-                    </h3>
-                    <div class="row" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                         data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/div[1]">
-                      <div class="form-group col-xs-12 col-sm-12">
-                        <label class="col-xs-12 col-sm-2 formmlabel">Pays</label>
-                        <select id="destination" name="destination" class="form col-xs-12 col-sm-10">
-                          <option value="">Choix</option>
-                          <option value="Afghanistan">Afghanistan</option>
-                          <option value="Afrique du Sud">Afrique du Sud</option>
-                          <option value="Albanie">Albanie</option>
-                          <option value="Algérie">Algérie</option>
-                          <option value="Allemagne">Allemagne</option>
-                          <option value="Andorre">Andorre</option>
-                          <option value="Angola">Angola</option>
-                          <option value="Anguilla">Anguilla</option>
-                          <option value="Antarctique">Antarctique</option>
-                          <option value="Antigua-et-Barbuda">Antigua-et-Barbuda</option>
-                          <option value="Antilles néerlandaises">Antilles néerlandaises</option>
-                          <option value="Arabie saoudite">Arabie saoudite</option>
-                          <option value="Argentine">Argentine</option>
-                          <option value="Arménie">Arménie</option>
-                          <option value="Aruba">Aruba</option>
-                          <option value="Australie">Australie</option>
-                          <option value="Autriche">Autriche</option>
-                          <option value="Azerbaïdjan">Azerbaïdjan</option>
-                          <option value="Bahamas">Bahamas</option>
-                          <option value="Bahreïn">Bahreïn</option>
-                          <option value="Bangladesh">Bangladesh</option>
-                          <option value="Barbade">Barbade</option>
-                          <option value="Belgique">Belgique</option>
-                          <option value="Belize">Belize</option>
-                          <option value="Bermudes">Bermudes</option>
-                          <option value="Bhoutan">Bhoutan</option>
-                          <option value="Bolivie">Bolivie</option>
-                          <option value="Bosnie-Herzégovine">Bosnie-Herzégovine</option>
-                          <option value="Botswana">Botswana</option>
-                          <option value="Brunéi Darussalam">Brunéi Darussalam</option>
-                          <option value="Brésil">Brésil</option>
-                          <option value="Bulgarie">Bulgarie</option>
-                          <option value="Burkina Faso">Burkina Faso</option>
-                          <option value="Burundi">Burundi</option>
-                          <option value="Bélarus">Bélarus</option>
-                          <option value="Bénin">Bénin</option>
-                          <option value="Cambodge">Cambodge</option>
-                          <option value="Cameroun">Cameroun</option>
-                          <option value="Canada">Canada</option>
-                          <option value="Cap-Vert">Cap-Vert</option>
-                          <option value="Chili">Chili</option>
-                          <option value="Chine">Chine</option>
-                          <option value="Chypre">Chypre</option>
-                          <option value="Colombie">Colombie</option>
-                          <option value="Comores">Comores</option>
-                          <option value="Congo">Congo</option>
-                          <option value="Corée du Nord">Corée du Nord</option>
-                          <option value="Corée du Sud">Corée du Sud</option>
-                          <option value="Costa Rica">Costa Rica</option>
-                          <option value="Croatie">Croatie</option>
-                          <option value="Cuba">Cuba</option>
-                          <option value="Côte d’Ivoire">Côte d’Ivoire</option>
-                          <option value="Danemark">Danemark</option>
-                          <option value="Djibouti">Djibouti</option>
-                          <option value="Dominique">Dominique</option>
-                          <option value="El Salvador">El Salvador</option>
-                          <option value="Espagne">Espagne</option>
-                          <option value="Estonie">Estonie</option>
-                          <option value="Fidji">Fidji</option>
-                          <option value="Finlande">Finlande</option>
-                          <option value="France">France</option>
-                          <option value="Gabon">Gabon</option>
-                          <option value="Gambie">Gambie</option>
-                          <option value="Ghana">Ghana</option>
-                          <option value="Gibraltar">Gibraltar</option>
-                          <option value="Grenade">Grenade</option>
-                          <option value="Groenland">Groenland</option>
-                          <option value="Grèce">Grèce</option>
-                          <option value="Guadeloupe">Guadeloupe</option>
-                          <option value="Guam">Guam</option>
-                          <option value="Guatemala">Guatemala</option>
-                          <option value="Guernesey">Guernesey</option>
-                          <option value="Guinée">Guinée</option>
-                          <option value="Guinée équatoriale">Guinée équatoriale</option>
-                          <option value="Guinée-Bissau">Guinée-Bissau</option>
-                          <option value="Guyana">Guyana</option>
-                          <option value="Guyane française">Guyane française</option>
-                          <option value="Géorgie">Géorgie</option>
-                          <option value="Géorgie du Sud et les îles Sandwich du Sud">Géorgie du Sud et les îles Sandwich
-                            du Sud
-                          </option>
-                          <option value="Haïti">Haïti</option>
-                          <option value="Honduras">Honduras</option>
-                          <option value="Hongrie">Hongrie</option>
-                          <option value="Inde">Inde</option>
-                          <option value="Indonésie">Indonésie</option>
-                          <option value="Irak">Irak</option>
-                          <option value="Iran">Iran</option>
-                          <option value="Irlande">Irlande</option>
-                          <option value="Islande">Islande</option>
-                          <option value="Israël">Israël</option>
-                          <option value="Italie">Italie</option>
-                          <option value="Jamaïque">Jamaïque</option>
-                          <option value="Japon">Japon</option>
-                          <option value="Jersey">Jersey</option>
-                          <option value="Jordanie">Jordanie</option>
-                          <option value="Kazakhstan">Kazakhstan</option>
-                          <option value="Kenya">Kenya</option>
-                          <option value="Kirghizistan">Kirghizistan</option>
-                          <option value="Kiribati">Kiribati</option>
-                          <option value="Koweït">Koweït</option>
-                          <option value="Laos">Laos</option>
-                          <option value="Lesotho">Lesotho</option>
-                          <option value="Lettonie">Lettonie</option>
-                          <option value="Liban">Liban</option>
-                          <option value="Libye">Libye</option>
-                          <option value="Libéria">Libéria</option>
-                          <option value="Liechtenstein">Liechtenstein</option>
-                          <option value="Lituanie">Lituanie</option>
-                          <option value="Luxembourg">Luxembourg</option>
-                          <option value="Macédoine">Macédoine</option>
-                          <option value="Madagascar">Madagascar</option>
-                          <option value="Malaisie">Malaisie</option>
-                          <option value="Malawi">Malawi</option>
-                          <option value="Maldives">Maldives</option>
-                          <option value="Mali">Mali</option>
-                          <option value="Malte">Malte</option>
-                          <option value="Maroc">Maroc</option>
-                          <option value="Martinique">Martinique</option>
-                          <option value="Maurice">Maurice</option>
-                          <option value="Mauritanie">Mauritanie</option>
-                          <option value="Mayotte">Mayotte</option>
-                          <option value="Mexique">Mexique</option>
-                          <option value="Moldavie">Moldavie</option>
-                          <option value="Monaco">Monaco</option>
-                          <option value="Mongolie">Mongolie</option>
-                          <option value="Montserrat">Montserrat</option>
-                          <option value="Monténégro">Monténégro</option>
-                          <option value="Mozambique">Mozambique</option>
-                          <option value="Myanmar">Myanmar</option>
-                          <option value="Namibie">Namibie</option>
-                          <option value="Nauru">Nauru</option>
-                          <option value="Nicaragua">Nicaragua</option>
-                          <option value="Niger">Niger</option>
-                          <option value="Nigéria">Nigéria</option>
-                          <option value="Niue">Niue</option>
-                          <option value="Norvège">Norvège</option>
-                          <option value="Nouvelle-Calédonie">Nouvelle-Calédonie</option>
-                          <option value="Nouvelle-Zélande">Nouvelle-Zélande</option>
-                          <option value="Népal">Népal</option>
-                          <option value="Oman">Oman</option>
-                          <option value="Ouganda">Ouganda</option>
-                          <option value="Ouzbékistan">Ouzbékistan</option>
-                          <option value="Pakistan">Pakistan</option>
-                          <option value="Palaos">Palaos</option>
-                          <option value="Panama">Panama</option>
-                          <option value="Papouasie-Nouvelle-Guinée">Papouasie-Nouvelle-Guinée</option>
-                          <option value="Paraguay">Paraguay</option>
-                          <option value="Pays-Bas">Pays-Bas</option>
-                          <option value="Philippines">Philippines</option>
-                          <option value="Pitcairn">Pitcairn</option>
-                          <option value="Pologne">Pologne</option>
-                          <option value="Polynésie française">Polynésie française</option>
-                          <option value="Porto Rico">Porto Rico</option>
-                          <option value="Portugal">Portugal</option>
-                          <option value="Pérou">Pérou</option>
-                          <option value="Qatar">Qatar</option>
-                          <option value="R.A.S. chinoise de Hong Kong">R.A.S. chinoise de Hong Kong</option>
-                          <option value="R.A.S. chinoise de Macao">R.A.S. chinoise de Macao</option>
-                          <option value="Roumanie">Roumanie</option>
-                          <option value="Royaume-Uni">Royaume-Uni</option>
-                          <option value="Russie">Russie</option>
-                          <option value="Rwanda">Rwanda</option>
-                          <option value="République centrafricaine">République centrafricaine</option>
-                          <option value="République dominicaine">République dominicaine</option>
-                          <option value="République démocratique du Congo">République démocratique du Congo</option>
-                          <option value="République tchèque">République tchèque</option>
-                          <option value="Réunion">Réunion</option>
-                          <option value="Sahara occidental">Sahara occidental</option>
-                          <option value="Saint-Barthélémy">Saint-Barthélémy</option>
-                          <option value="Saint-Kitts-et-Nevis">Saint-Kitts-et-Nevis</option>
-                          <option value="Saint-Marin">Saint-Marin</option>
-                          <option value="Saint-Martin">Saint-Martin</option>
-                          <option value="Saint-Pierre-et-Miquelon">Saint-Pierre-et-Miquelon</option>
-                          <option value="Saint-Vincent-et-les Grenadines">Saint-Vincent-et-les Grenadines</option>
-                          <option value="Sainte-Hélène">Sainte-Hélène</option>
-                          <option value="Sainte-Lucie">Sainte-Lucie</option>
-                          <option value="Samoa">Samoa</option>
-                          <option value="Samoa américaines">Samoa américaines</option>
-                          <option value="Sao Tomé-et-Principe">Sao Tomé-et-Principe</option>
-                          <option value="Serbie">Serbie</option>
-                          <option value="Serbie-et-Monténégro">Serbie-et-Monténégro</option>
-                          <option value="Seychelles">Seychelles</option>
-                          <option value="Sierra Leone">Sierra Leone</option>
-                          <option value="Singapour">Singapour</option>
-                          <option value="Slovaquie">Slovaquie</option>
-                          <option value="Slovénie">Slovénie</option>
-                          <option value="Somalie">Somalie</option>
-                          <option value="Soudan">Soudan</option>
-                          <option value="Sri Lanka">Sri Lanka</option>
-                          <option value="Suisse">Suisse</option>
-                          <option value="Suriname">Suriname</option>
-                          <option value="Suède">Suède</option>
-                          <option value="Svalbard et Île Jan Mayen">Svalbard et Île Jan Mayen</option>
-                          <option value="Swaziland">Swaziland</option>
-                          <option value="Syrie">Syrie</option>
-                          <option value="Sénégal">Sénégal</option>
-                          <option value="Tadjikistan">Tadjikistan</option>
-                          <option value="Tanzanie">Tanzanie</option>
-                          <option value="Taïwan">Taïwan</option>
-                          <option value="Tchad">Tchad</option>
-                          <option value="Terres australes françaises">Terres australes françaises</option>
-                          <option value="Territoire britannique de l'océan Indien">Territoire britannique de l'océan
-                            Indien
-                          </option>
-                          <option value="Territoire palestinien">Territoire palestinien</option>
-                          <option value="Thaïlande">Thaïlande</option>
-                          <option value="Timor oriental">Timor oriental</option>
-                          <option value="Togo">Togo</option>
-                          <option value="Tokelau">Tokelau</option>
-                          <option value="Tonga">Tonga</option>
-                          <option value="Trinité-et-Tobago">Trinité-et-Tobago</option>
-                          <option value="Tunisie">Tunisie</option>
-                          <option value="Turkménistan">Turkménistan</option>
-                          <option value="Turquie">Turquie</option>
-                          <option value="Tuvalu">Tuvalu</option>
-                          <option value="Ukraine">Ukraine</option>
-                          <option value="Uruguay">Uruguay</option>
-                          <option value="Vanuatu">Vanuatu</option>
-                          <option value="Venezuela">Venezuela</option>
-                          <option value="Viêt Nam">Viêt Nam</option>
-                          <option value="Wallis-et-Futuna">Wallis-et-Futuna</option>
-                          <option value="Yémen">Yémen</option>
-                          <option value="Zambie">Zambie</option>
-                          <option value="Zimbabwe">Zimbabwe</option>
-                          <option value="région indéterminée">région indéterminée</option>
-                          <option value="Égypte">Égypte</option>
-                          <option value="Émirats arabes unis">Émirats arabes unis</option>
-                          <option value="Équateur">Équateur</option>
-                          <option value="Érythrée">Érythrée</option>
-                          <option value="État de la Cité du Vatican">État de la Cité du Vatican</option>
-                          <option value="États fédérés de Micronésie">États fédérés de Micronésie</option>
-                          <option value="États-Unis">États-Unis</option>
-                          <option value="Éthiopie">Éthiopie</option>
-                          <option value="Île Bouvet">Île Bouvet</option>
-                          <option value="Île Christmas">Île Christmas</option>
-                          <option value="Île Norfolk">Île Norfolk</option>
-                          <option value="Île de Man">Île de Man</option>
-                          <option value="Îles Caïmans">Îles Caïmans</option>
-                          <option value="Îles Cocos - Keeling">Îles Cocos - Keeling</option>
-                          <option value="Îles Cook">Îles Cook</option>
-                          <option value="Îles Féroé">Îles Féroé</option>
-                          <option value="Îles Heard et MacDonald">Îles Heard et MacDonald</option>
-                          <option value="Îles Malouines">Îles Malouines</option>
-                          <option value="Îles Mariannes du Nord">Îles Mariannes du Nord</option>
-                          <option value="Îles Marshall">Îles Marshall</option>
-                          <option value="Îles Mineures Éloignées des États-Unis">Îles Mineures Éloignées des États-Unis
-                          </option>
-                          <option value="Îles Salomon">Îles Salomon</option>
-                          <option value="Îles Turks et Caïques">Îles Turks et Caïques</option>
-                          <option value="Îles Vierges britanniques">Îles Vierges britanniques</option>
-                          <option value="Îles Vierges des États-Unis">Îles Vierges des États-Unis</option>
-                          <option value="Îles Åland">Îles Åland</option>
-                        </select>
-                        <label class="error col-xs-12 text-right" for="destination"></label>
-                      </div>
+                           data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/img[1]"/>
                     </div>
-                    <div class="row" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                         data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/div[2]">
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-5 col-sm-4 formmlabel">Date de départ</label>
-                        <input type="text" name="date_depart" id="date_depart"
-                               class="form col-xs-7 col-sm-8 hasDatepicker"/>
-                        <label class="error col-xs-12 text-right" for="date_depart"></label>
-                      </div>
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-6 col-sm-6 formmlabel">
-                          Date flexible
-                          <input type="checkbox" name="date_flexible" id="date_flexible"/>
-                        </label>
-
-                        <label class="col-xs-6 col-sm-6 formmlabel">
-                          Vols inclus
-                          <input type="checkbox" name="vol_inclus" id="vol_inclus"/>
-                        </label>
-                      </div>
+                    <div class="col-sm-8 col-xs-12" style="padding-top:0px;">
+                      <h3>
+                        Eddy
+                        <br data-oe-id="1745" data-oe-model="ir.ui.view" data-oe-field="arch"
+                            data-oe-xpath="/t[1]/t[1]/div[1]/div[2]/h3[1]/br[1]"/>
+                      </h3>
+                      <span>
+                        Globe-trotter depuis une trentaine d'années, Eddy a parcouru plus de 70 pays sur les 6
+                        continents
+                        et conçoit des voyages depuis 25 ans.
+                        <br/>
+                        Aujourd’hui il met son expérience et sa parfaite maîtrise des destinations au service des
+                        golfeurs, pour leur plus grand bonheur !
+                      </span>
                     </div>
-                    <div class="row" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                         data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/div[3]">
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-5 col-sm-4 formmlabel">Durée (en jours)</label>
-                        <input type="number" name="duree" id="duree" min="0" class="form col-xs-7 col-sm-8"/>
-                        <label class="error col-xs-12 text-right" for="duree"></label>
-                      </div>
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-5 col-sm-4 formmlabel">Budget par personne</label>
-                        <input type="number" name="budget" min="0" step="100" id="budget"
-                               class="form col-xs-7 col-sm-8"/>
-                        <label class="error col-xs-12 text-right" for="budget"></label>
-                      </div>
+                  </div>
+                  <div class="row margin-20">
+                    <div class="col-sm-4 col-xs-12 no-padding">
+                      <img alt="" class="img-responsive center-block"
+                           src="https://assets.terre-voyages.com/gpv/images/conseillers/manon.jpg" data-oe-id="1745"
+                           data-oe-model="ir.ui.view" data-oe-field="arch"
+                           data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/img[1]"/>
                     </div>
-                    <div class="row" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                         data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/div[4]">
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-5 col-sm-4 formmlabel">Nombre d'adultes</label>
-                        <input type="number" name="nb_adulte" id="nb_adulte" min="0" class="form col-xs-7 col-sm-8"/>
-                        <label class="error col-xs-12 text-right" for="nb_adulte"></label>
-                      </div>
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-5 col-sm-4 formmlabel">Nombre d'enfants</label>
-                        <input type="number" name="nb_enfant" id="nb_enfant" min="0" class="form col-xs-7 col-sm-8"/>
-                        <label class="error col-xs-12 text-right" for="nb_enfant"></label>
-                      </div>
+                    <div class="col-sm-8 col-xs-12" style="padding-top:0px;">
+                      <h3>
+                        Manon
+                        <br data-oe-id="1745" data-oe-model="ir.ui.view" data-oe-field="arch"
+                            data-oe-xpath="/t[1]/t[1]/div[1]/div[2]/h3[1]/br[1]"/>
+                      </h3>
+                      <span>
+                        Fraichement diplômée d’un Master en Tourisme et Evènementiel, Manon est la nouvelle étoile
+                        montante de Golf Plus Voyages. Passionnée de voyages, connaissant de nombreuses destinations et
+                        fascinée par l’univers du golf, Manon vous aidera à la réalisation de vos projets de découverte
+                        golfique.
+                      </span>
                     </div>
-
-                    <div class="row" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                         data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/div[5]">
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-5 col-sm-4 formmlabel">Nombre de golfeurs</label>
-                        <input type="number" name="nb_golfeurs" id="nb_golfeurs" min="0"
-                               class="form col-xs-7 col-sm-8"/>
-                        <label class="error col-xs-12 text-right" for="nb_golfeurs"></label>
-                      </div>
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-5 col-sm-4 formmlabel">Nombre de non golfeurs</label>
-                        <input type="number" name="nb_non_golfeurs" id="nb_non_golfeurs" min="0"
-                               class="form col-xs-7 col-sm-8"/>
-                        <label class="error col-xs-12 text-right" for="nb_non_golfeurs"></label>
-                      </div>
+                  </div>
+                  <div class="row margin-20">
+                    <div class="col-sm-4 col-xs-12 no-padding">
+                      <img alt="" class="img-responsive center-block"
+                           src="https://assets.terre-voyages.com/gpv/images/conseillers/eugenia.jpg" data-oe-id="1745"
+                           data-oe-model="ir.ui.view" data-oe-field="arch"
+                           data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/img[1]"/>
                     </div>
-
-                    <div class="row">
-                      <div class="form-group col-xs-12 col-sm-12">
-                        <label class="col-xs-12 col-sm-2 formmlabel" data-oe-id="1708" data-oe-model="ir.ui.view"
-                               data-oe-field="arch"
-                               data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/div[6]/div[1]/label[1]">
-                          Description du projet
-                        </label>
-                        <textarea name="desc_projet" id="desc_projet" class="form textarea col-xs-12 col-sm-10"
-                                  rows="3">
-                        </textarea>
-                        <label class="error col-xs-12 text-right" for="desc_projet" data-oe-id="1708"
-                               data-oe-model="ir.ui.view" data-oe-field="arch"
-                               data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/div[6]/div[1]/label[2]"></label>
-                      </div>
-                    </div>
-                    <h3 class="blocktitle contact-us" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                        data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/h3[2]">Vos coordonnées
-                    </h3>
-                    <div class="row" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                         data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/div[7]">
-                      <div class="form-group col-xs-12 col-sm-12">
-                        <label class="col-xs-3 col-sm-3 formmlabel">
-                          Madame *
-                          <input type="radio" value="Mme" name="civilite" id="civilite" required="required"
-                                 aria-required="true"/>
-                        </label>
-                        <label class="col-xs-4 col-xs-offset-1 col-sm-3 formmlabel">
-                          Mademoiselle *
-                          <input type="radio" value="Mlle" name="civilite" required="required" aria-required="true"/>
-                        </label>
-                        <label class="col-xs-3 col-xs-offset-1 col-sm-3 formmlabel">
-                          Monsieur *
-                          <input type="radio" value="M." name="civilite" required="required" aria-required="true"/>
-                        </label>
-                        <label class="error col-xs-12 text-right" for="civilite"></label>
-                      </div>
-                    </div>
-                    <div class="row" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                         data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/div[8]">
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-4 col-sm-4 formmlabel">Prénom*</label>
-                        <input type="text" name="prenom" id="prenom" required="required" minlength="2"
-                               class="form col-xs-8 col-sm-8" placeholder="" aria-required="true"/>
-                        <label class="error col-xs-12 text-right" for="prenom"></label>
-                      </div>
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-4 col-sm-4 formmlabel">Nom*</label>
-                        <input type="text" name="nom" id="nom" required="required" minlength="2"
-                               class="form col-xs-8 col-sm-8" placeholder="" aria-required="true"/>
-                        <label class="error col-xs-12 text-right" for="nom"></label>
-                      </div>
+                    <div class="col-sm-8 col-xs-12" style="padding-top:0px;">
+                      <h3>
+                        Eugénia
+                        <br data-oe-id="1745" data-oe-model="ir.ui.view" data-oe-field="arch"
+                            data-oe-xpath="/t[1]/t[1]/div[1]/div[2]/h3[1]/br[1]"/>
+                      </h3>
+                      <span>
+                        La dernière recrue de Golf Plus Voyages est une passionnée de golf, qu’elle pratique aussi bien
+                        en
+                        famille qu’entre amis.
+                        <br/>
+                        Son crédo est d’allier le swing et les paysages de rêves, puis de partager ses expériences afin
+                        d’agrandir le nombre de passionnés de golf !
+                        <br/>
+                        Forte de son expérience dans l’organisation de voyages sur mesure, Eugénia apporte son expertise
+                        aussi bien pour les voyages en individuels que pour les groupes et les stages.
+                      </span>
 
                     </div>
-                    <div class="row" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                         data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/div[9]">
-                      <div class="form-group col-xs-12 col-sm-12">
-                        <label class="col-xs-12 col-sm-2 formmlabel">Adresse</label>
-                        <textarea name="adresse" id="adresse" class="form textarea col-xs-12 col-sm-10"
-                                  placeholder=""></textarea>
-                        <label class="error col-xs-12 text-right" for="adresse"></label>
+                  </div>
+                  <div class="row margin-20">
+                    <div class="col-sm-4 col-xs-12 no-padding">
+                      <img alt="" class="img-responsive center-block"
+                           src="https://assets.terre-voyages.com/gpv/images/conseillers/marie.jpg" data-oe-id="1745"
+                           data-oe-model="ir.ui.view" data-oe-field="arch"
+                           data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/img[1]"/>
+                    </div>
+                    <div class="col-sm-8 col-xs-12" style="padding-top:0px;">
+                      <h3>
+                        Marie
+                        <br data-oe-id="1745" data-oe-model="ir.ui.view" data-oe-field="arch"
+                            data-oe-xpath="/t[1]/t[1]/div[1]/div[2]/h3[1]/br[1]"/>
+                      </h3>
+                      <span>
+                        Après avoir vogué sur les fleuves et les mers du Monde, c’est tout naturellement que Marie a
+                        débarqué chez Terre Voyages.
+                        <br/>
+                        Fine connaisseuse des pays bordant la Méditerranée dont elle est la spécialiste pour notre
+                        groupe,
+                        et toujours d’une oreille attentive, Marie saura vous construire un séjour golfique à votre
+                        image.
+                      </span>
+                    </div>
+                  </div>
+                  <div class="row margin-20">
+                    <div class="col-sm-4 col-xs-12 no-padding">
+                      <img alt="" class="img-responsive center-block"
+                           src="https://assets.terre-voyages.com/gpv/images/conseillers/gregoire.jpg" data-oe-id="1745"
+                           data-oe-model="ir.ui.view" data-oe-field="arch"
+                           data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/img[1]"/>
+                    </div>
+                    <div class="col-sm-8 col-xs-12" style="padding-top:0px;">
+                      <h3>
+                        Grégoire
+                        <br data-oe-id="1745" data-oe-model="ir.ui.view" data-oe-field="arch"
+                            data-oe-xpath="/t[1]/t[1]/div[1]/div[2]/h3[1]/br[1]"/>
+                      </h3>
+                      <span>
+                        Futur titulaire d’un BTS Tourisme, Grégoire est la nouvelle recrue de Golf Plus Voyages.
+                        <br/>
+                        Après avoir travaillé dans différents domaines, il a choisi l’univers du tourisme, où il peut
+                        enfin assouvir sa passion pour les voyages. Incollable en géographie et curieux de nature, il
+                        est
+                        rapidement devenu un élément indispensable à l’équipe.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div id="tabs-3" class="tab-pane fade contenttabs"
+                     data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]/section[2]/div[1]/div[2]/div[3]">
+                  <div class="row">
+                    <div class="col-xs-12 no-padding">
+                      Depuis la création de golfplus Voyages, nous travaillons avec des
+                      partenaires locaux que nous avons sélectionnés avec patience et attention
+                      pour leur qualité de service, la générosité de leur accueil et leur
+                      gentillesse. Nos partenaires à destination contribuent à la définition de
+                      notre offre de circuits individuels ou accompagnés. Ils sont associés la
+                      définition de votre circuit individuel personnalisé et sont des acteurs
+                      essentiels de la réussite de votre voyage sur-mesure.
+                      <br/>
+                      <br/>
+                      Vous partez l’esprit tranquille en sachant que tout a été prévu. Cette
+                      exigence nous pousse à vous offrir les meilleurs services : guides
+                      francophones, véhicules confortables et sécuritaires, qualité des
+                      hébergement, des pagodes, des bateaux proposés, … Dans les pays que vous
+                      visitez, nos équipes aguerries vous accueillent, vous assistent et vous
+                      conseillent tout au long de votre voyages.
+                    </div>
+                  </div>
+                  <div class="row margin-20">
+                    <div class="col-sm-4 col-xs-12 no-padding">
+                      <img src="https://assets.terre-voyages.com/images/conseillers/bernard.jpg"
+                           class="img-responsive center-block" alt="Bernard Ramus"/>
+                    </div>
+                    <div class="col-sm-8 col-xs-12">
+                      Bernard Ramus
+                      <br/>
+                      Brésil - Amazone Dream
+                      <br/>
+                      Un passionné au service du grand fleuve
+                      <br/>
+                      Grand ami de Golf Plus Voyages, Bernard Ramus est un explorateur !
+                      Défricheur passionné il part réaliser son rêve sur le Brésil où il œuvre
+                      avec les populations locales à la préservation de la région, mais aussi
+                      l’amélioration des conditions de vie autour de fleuve Amazone.
+                      « Ma passion pour l’Amazonie est liée à l’aventure, à la découverte, aux
+                      rencontres, au voyage jusqu’au bout des rêves, au désir de liberté, de
+                      parcourir les chemins de traverse.»
+                    </div>
+                  </div>
+                  <div class="row margin-20">
+                    <div class="col-sm-4 col-xs-12 no-padding">
+                      <img src="/tv_website/static/src/ftp-img/apropos/equipe_laos_89754.jpg"
+                           class="img-responsive center-block" alt=""/>
+                    </div>
+                    <div class="col-sm-8 col-xs-12">
+                      Nom
+                      <br/>
+                      Destination - bateau
+                      <br/>
+                      Point fort - nombre d’années de collaboration?
+                      <br/>
+                      Description : Quam ob rem ut ii qui superiores sunt submittere se debent in
+                      amicitia, sic quodam modo inferiores extollere. Sunt enim quidam qui
+                      molestas amicitias faciunt, cum ipsi se contemni putant; quod non fere
+                      contingit nisi iis qui etiam contemnendos se arbitrantur; qui hac opinione
+                      non modo verbis sed etiam opere levandi sunt.
+                    </div>
+                  </div>
+                  <div class="row margin-20">
+                    <div class="col-sm-4 col-xs-12 no-padding">
+                      <img src="/tv_website/static/src/ftp-img/apropos/equipe_mongolie_5763.jpg"
+                           class="img-responsive center-block" alt=""/>
+                    </div>
+                    <div class="col-sm-8 col-xs-12">
+                      Nom
+                      <br/>
+                      Destination - bateau
+                      <br/>
+                      Point fort - nombre d’années de collaboration?
+                      <br/>
+                      Description : Quam ob rem ut ii qui superiores sunt submittere se debent in
+                      amicitia, sic quodam modo inferiores extollere. Sunt enim quidam qui
+                      molestas amicitias faciunt, cum ipsi se contemni putant; quod non fere
+                      contingit nisi iis qui etiam contemnendos se arbitrantur; qui hac opinione
+                      non modo verbis sed etiam opere levandi sunt.
+                    </div>
+                  </div>
+                  <div class="row margin-20">
+                    <div class="col-sm-4 col-xs-12 no-padding">
+                      <img src="/tv_website/static/src/ftp-img/apropos/equipe_senegal_43138.jpg"
+                           class="img-responsive center-block" alt=""/>
+                    </div>
+                    <div class="col-sm-8 col-xs-12">
+                      Nom
+                      <br/>
+                      Destination - bateau
+                      <br/>
+                      Point fort - nombre d’années de collaboration?
+                      <br/>
+                      Description : Quam ob rem ut ii qui superiores sunt submittere se debent in
+                      amicitia, sic quodam modo inferiores extollere. Sunt enim quidam qui
+                      molestas amicitias faciunt, cum ipsi se contemni putant; quod non fere
+                      contingit nisi iis qui etiam contemnendos se arbitrantur; qui hac opinione
+                      non modo verbis sed etiam opere levandi sunt.
+                    </div>
+                  </div>
+                  <div class="row margin-20">
+                    <div class="col-sm-4 col-xs-12 no-padding">
+                      <img src="/tv_website/static/src/ftp-img/apropos/equipe_birmanie_7964.jpg"
+                           class="img-responsive center-block" alt=""/>
+                    </div>
+                    <div class="col-sm-8 col-xs-12">
+                      Nom
+                      <br/>
+                      Destination - bateau
+                      <br/>
+                      Point fort - nombre d’années de collaboration?
+                      <br/>
+                      Description : Quam ob rem ut ii qui superiores sunt submittere se debent in
+                      amicitia, sic quodam modo inferiores extollere. Sunt enim quidam qui
+                      molestas amicitias faciunt, cum ipsi se contemni putant; quod non fere
+                      contingit nisi iis qui etiam contemnendos se arbitrantur; qui hac opinione
+                      non modo verbis sed etiam opere levandi sunt.
+                    </div>
+                  </div>
+                  <div class="row margin-20">
+                    <div class="col-sm-4 col-xs-12 no-padding">
+                      <img src="/tv_website/static/src/ftp-img/apropos/equipe_ouzbekistan_28537.jpg"
+                           class="img-responsive center-block" alt=""/>
+                    </div>
+                    <div class="col-sm-8 col-xs-12">
+                      Nom
+                      <br/>
+                      Destination - bateau
+                      <br/>
+                      Point fort - nombre d’années de collaboration?
+                      <br/>
+                      Description : Quam ob rem ut ii qui superiores sunt submittere se debent in
+                      amicitia, sic quodam modo inferiores extollere. Sunt enim quidam qui
+                      molestas amicitias faciunt, cum ipsi se contemni putant; quod non fere
+                      contingit nisi iis qui etiam contemnendos se arbitrantur; qui hac opinione
+                      non modo verbis sed etiam opere levandi sunt.
+                    </div>
+                  </div>
+                </div>
+                <div id="tabs-4" class="tab-pane fade contenttabs"
+                     data-oe-id="1707" data-oe-model="ir.ui.view" data-oe-field="arch"
+                     data-oe-xpath="/t[1]/t[1]/div[1]/section[2]/div[1]/div[2]/div[4]" aria-labelledby="ui-id-3"
+                     role="tabpanel" aria-hidden="true" style="display: none;">
+                  <div class="row">
+                    <div class="col-xs-12 file" id="inscription_sec">
+                      <h3>Inscriptions</h3>
+                      <h4>1. Conditions de vente :</h4>
+                      <p>
+                        <a href="https://assets.terre-voyages.com/gpv/pdf/bulletin-inscription-gpv.pdf"
+                           class="buttonPdf"
+                           target="_blank">
+                          <b>Bulletin d'inscription</b>
+                          <br/>
+                          <span><br/>Format PDF - 46ko
+                          </span>
+                        </a>
+                      </p>
+                      <h4>2. Remettez-nous votre bulletin d'inscription dûment rempli et
+                        accompagné de votre acompte de 35% du tarif à plus de 35 jours du
+                        départ, ou votre paiement complet si votre inscription se fait dans les
+                        35 jours précédant votre départ.
+                      </h4>
+                      <h4>3. Dès réception de votre dossier complet, nous vous enverrons votre
+                        confirmation d'inscription, votre facture ainsi que votre contrat
+                        d'assurance voyage.
+                      </h4>
+                      <h4>4. A 35 jours du départ, nous vous remercions de nous faire parvenir la
+                        totalité de votre paiement.
+                      </h4>
+                      <h4>5. Remise des documents de voyage</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12" id="ancre-assurance">
+                      <b>L'inscription à l'un des voyages ou séjours présentés, formalisée par la
+                        signature d'un bulletin d'inscription, implique l'acceptation des  <a href="#ancre-condition">
+                          conditions de vente
+                        </a> régissant les rapports entre les agences de voyages et leur
+                        clientèle en application du Décret n° 94-490 en date du 15 juin 1994
+                      </b>
+                    </div>
+                  </div>
+                  <div class="row margin-20">
+                    <div class="col-xs-12 file" id="inscription_sec">
+                      <h3>Assurances</h3>
+                      <h4>Vos bagages en toute sérénité !</h4>
+                      <div class="col-sm-12" id="ancre-condition">
+                        <p class="col-sm-6">
+                          <a href="https://assets.terre-voyages.com/gpv/pdf/assistance-gpv.pdf" class="buttonPdf"
+                             target="_blank">
+                            <b>Assistance bagages</b>
+                            <br/>
+                            <span><br/>Format PDF - 46ko
+                            </span>
+                          </a>
+                        </p>
+                      </div>
+                      <div>Pour plus d'information ou d'autres formules veuillez
+                        <a href="/contacts/contact">nous contacter</a>.
                       </div>
                     </div>
-
-                    <div class="row" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                         data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/div[10]">
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-5 col-sm-4 formmlabel">Code postal</label>
-                        <input type="text" name="code_postal" id="code_postal" class="form col-xs-7 col-sm-8"
-                               placeholder=""/>
-                        <label class="error col-xs-12 text-right" for="code_postal"></label>
-                      </div>
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-5 col-sm-4 formmlabel">Ville</label>
-                        <input type="text" name="ville" id="ville" minlength="2" class="form col-xs-7 col-sm-8"
-                               placeholder=""/>
-                        <label class="error col-xs-12 text-right" for="ville"></label>
-                      </div>
-
+                  </div>
+                  <div class="row margin-20">
+                    <div class="col-sm-12">
+                      <h3>Conditions de vente</h3>
                     </div>
-                    <div class="row" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                         data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/div[11]">
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-5 col-sm-4 formmlabel">Pays</label>
-                        <select id="pays" name="pays" class="form col-xs-7 col-sm-8">
-                          <option value="">Choix</option>
-                          <option value="Afghanistan">Afghanistan</option>
-                          <option value="Afrique du Sud">Afrique du Sud</option>
-                          <option value="Albanie">Albanie</option>
-                          <option value="Algérie">Algérie</option>
-                          <option value="Allemagne">Allemagne</option>
-                          <option value="Andorre">Andorre</option>
-                          <option value="Angola">Angola</option>
-                          <option value="Anguilla">Anguilla</option>
-                          <option value="Antarctique">Antarctique</option>
-                          <option value="Antigua-et-Barbuda">Antigua-et-Barbuda</option>
-                          <option value="Antilles néerlandaises">Antilles néerlandaises</option>
-                          <option value="Arabie saoudite">Arabie saoudite</option>
-                          <option value="Argentine">Argentine</option>
-                          <option value="Arménie">Arménie</option>
-                          <option value="Aruba">Aruba</option>
-                          <option value="Australie">Australie</option>
-                          <option value="Autriche">Autriche</option>
-                          <option value="Azerbaïdjan">Azerbaïdjan</option>
-                          <option value="Bahamas">Bahamas</option>
-                          <option value="Bahreïn">Bahreïn</option>
-                          <option value="Bangladesh">Bangladesh</option>
-                          <option value="Barbade">Barbade</option>
-                          <option value="Belgique">Belgique</option>
-                          <option value="Belize">Belize</option>
-                          <option value="Bermudes">Bermudes</option>
-                          <option value="Bhoutan">Bhoutan</option>
-                          <option value="Bolivie">Bolivie</option>
-                          <option value="Bosnie-Herzégovine">Bosnie-Herzégovine</option>
-                          <option value="Botswana">Botswana</option>
-                          <option value="Brunéi Darussalam">Brunéi Darussalam</option>
-                          <option value="Brésil">Brésil</option>
-                          <option value="Bulgarie">Bulgarie</option>
-                          <option value="Burkina Faso">Burkina Faso</option>
-                          <option value="Burundi">Burundi</option>
-                          <option value="Bélarus">Bélarus</option>
-                          <option value="Bénin">Bénin</option>
-                          <option value="Cambodge">Cambodge</option>
-                          <option value="Cameroun">Cameroun</option>
-                          <option value="Canada">Canada</option>
-                          <option value="Cap-Vert">Cap-Vert</option>
-                          <option value="Chili">Chili</option>
-                          <option value="Chine">Chine</option>
-                          <option value="Chypre">Chypre</option>
-                          <option value="Colombie">Colombie</option>
-                          <option value="Comores">Comores</option>
-                          <option value="Congo">Congo</option>
-                          <option value="Corée du Nord">Corée du Nord</option>
-                          <option value="Corée du Sud">Corée du Sud</option>
-                          <option value="Costa Rica">Costa Rica</option>
-                          <option value="Croatie">Croatie</option>
-                          <option value="Cuba">Cuba</option>
-                          <option value="Côte d’Ivoire">Côte d’Ivoire</option>
-                          <option value="Danemark">Danemark</option>
-                          <option value="Djibouti">Djibouti</option>
-                          <option value="Dominique">Dominique</option>
-                          <option value="El Salvador">El Salvador</option>
-                          <option value="Espagne">Espagne</option>
-                          <option value="Estonie">Estonie</option>
-                          <option value="Fidji">Fidji</option>
-                          <option value="Finlande">Finlande</option>
-                          <option value="France">France</option>
-                          <option value="Gabon">Gabon</option>
-                          <option value="Gambie">Gambie</option>
-                          <option value="Ghana">Ghana</option>
-                          <option value="Gibraltar">Gibraltar</option>
-                          <option value="Grenade">Grenade</option>
-                          <option value="Groenland">Groenland</option>
-                          <option value="Grèce">Grèce</option>
-                          <option value="Guadeloupe">Guadeloupe</option>
-                          <option value="Guam">Guam</option>
-                          <option value="Guatemala">Guatemala</option>
-                          <option value="Guernesey">Guernesey</option>
-                          <option value="Guinée">Guinée</option>
-                          <option value="Guinée équatoriale">Guinée équatoriale</option>
-                          <option value="Guinée-Bissau">Guinée-Bissau</option>
-                          <option value="Guyana">Guyana</option>
-                          <option value="Guyane française">Guyane française</option>
-                          <option value="Géorgie">Géorgie</option>
-                          <option value="Géorgie du Sud et les îles Sandwich du Sud">Géorgie du Sud et les îles Sandwich
-                            du Sud
-                          </option>
-                          <option value="Haïti">Haïti</option>
-                          <option value="Honduras">Honduras</option>
-                          <option value="Hongrie">Hongrie</option>
-                          <option value="Inde">Inde</option>
-                          <option value="Indonésie">Indonésie</option>
-                          <option value="Irak">Irak</option>
-                          <option value="Iran">Iran</option>
-                          <option value="Irlande">Irlande</option>
-                          <option value="Islande">Islande</option>
-                          <option value="Israël">Israël</option>
-                          <option value="Italie">Italie</option>
-                          <option value="Jamaïque">Jamaïque</option>
-                          <option value="Japon">Japon</option>
-                          <option value="Jersey">Jersey</option>
-                          <option value="Jordanie">Jordanie</option>
-                          <option value="Kazakhstan">Kazakhstan</option>
-                          <option value="Kenya">Kenya</option>
-                          <option value="Kirghizistan">Kirghizistan</option>
-                          <option value="Kiribati">Kiribati</option>
-                          <option value="Koweït">Koweït</option>
-                          <option value="Laos">Laos</option>
-                          <option value="Lesotho">Lesotho</option>
-                          <option value="Lettonie">Lettonie</option>
-                          <option value="Liban">Liban</option>
-                          <option value="Libye">Libye</option>
-                          <option value="Libéria">Libéria</option>
-                          <option value="Liechtenstein">Liechtenstein</option>
-                          <option value="Lituanie">Lituanie</option>
-                          <option value="Luxembourg">Luxembourg</option>
-                          <option value="Macédoine">Macédoine</option>
-                          <option value="Madagascar">Madagascar</option>
-                          <option value="Malaisie">Malaisie</option>
-                          <option value="Malawi">Malawi</option>
-                          <option value="Maldives">Maldives</option>
-                          <option value="Mali">Mali</option>
-                          <option value="Malte">Malte</option>
-                          <option value="Maroc">Maroc</option>
-                          <option value="Martinique">Martinique</option>
-                          <option value="Maurice">Maurice</option>
-                          <option value="Mauritanie">Mauritanie</option>
-                          <option value="Mayotte">Mayotte</option>
-                          <option value="Mexique">Mexique</option>
-                          <option value="Moldavie">Moldavie</option>
-                          <option value="Monaco">Monaco</option>
-                          <option value="Mongolie">Mongolie</option>
-                          <option value="Montserrat">Montserrat</option>
-                          <option value="Monténégro">Monténégro</option>
-                          <option value="Mozambique">Mozambique</option>
-                          <option value="Myanmar">Myanmar</option>
-                          <option value="Namibie">Namibie</option>
-                          <option value="Nauru">Nauru</option>
-                          <option value="Nicaragua">Nicaragua</option>
-                          <option value="Niger">Niger</option>
-                          <option value="Nigéria">Nigéria</option>
-                          <option value="Niue">Niue</option>
-                          <option value="Norvège">Norvège</option>
-                          <option value="Nouvelle-Calédonie">Nouvelle-Calédonie</option>
-                          <option value="Nouvelle-Zélande">Nouvelle-Zélande</option>
-                          <option value="Népal">Népal</option>
-                          <option value="Oman">Oman</option>
-                          <option value="Ouganda">Ouganda</option>
-                          <option value="Ouzbékistan">Ouzbékistan</option>
-                          <option value="Pakistan">Pakistan</option>
-                          <option value="Palaos">Palaos</option>
-                          <option value="Panama">Panama</option>
-                          <option value="Papouasie-Nouvelle-Guinée">Papouasie-Nouvelle-Guinée</option>
-                          <option value="Paraguay">Paraguay</option>
-                          <option value="Pays-Bas">Pays-Bas</option>
-                          <option value="Philippines">Philippines</option>
-                          <option value="Pitcairn">Pitcairn</option>
-                          <option value="Pologne">Pologne</option>
-                          <option value="Polynésie française">Polynésie française</option>
-                          <option value="Porto Rico">Porto Rico</option>
-                          <option value="Portugal">Portugal</option>
-                          <option value="Pérou">Pérou</option>
-                          <option value="Qatar">Qatar</option>
-                          <option value="R.A.S. chinoise de Hong Kong">R.A.S. chinoise de Hong Kong</option>
-                          <option value="R.A.S. chinoise de Macao">R.A.S. chinoise de Macao</option>
-                          <option value="Roumanie">Roumanie</option>
-                          <option value="Royaume-Uni">Royaume-Uni</option>
-                          <option value="Russie">Russie</option>
-                          <option value="Rwanda">Rwanda</option>
-                          <option value="République centrafricaine">République centrafricaine</option>
-                          <option value="République dominicaine">République dominicaine</option>
-                          <option value="République démocratique du Congo">République démocratique du Congo</option>
-                          <option value="République tchèque">République tchèque</option>
-                          <option value="Réunion">Réunion</option>
-                          <option value="Sahara occidental">Sahara occidental</option>
-                          <option value="Saint-Barthélémy">Saint-Barthélémy</option>
-                          <option value="Saint-Kitts-et-Nevis">Saint-Kitts-et-Nevis</option>
-                          <option value="Saint-Marin">Saint-Marin</option>
-                          <option value="Saint-Martin">Saint-Martin</option>
-                          <option value="Saint-Pierre-et-Miquelon">Saint-Pierre-et-Miquelon</option>
-                          <option value="Saint-Vincent-et-les Grenadines">Saint-Vincent-et-les Grenadines</option>
-                          <option value="Sainte-Hélène">Sainte-Hélène</option>
-                          <option value="Sainte-Lucie">Sainte-Lucie</option>
-                          <option value="Samoa">Samoa</option>
-                          <option value="Samoa américaines">Samoa américaines</option>
-                          <option value="Sao Tomé-et-Principe">Sao Tomé-et-Principe</option>
-                          <option value="Serbie">Serbie</option>
-                          <option value="Serbie-et-Monténégro">Serbie-et-Monténégro</option>
-                          <option value="Seychelles">Seychelles</option>
-                          <option value="Sierra Leone">Sierra Leone</option>
-                          <option value="Singapour">Singapour</option>
-                          <option value="Slovaquie">Slovaquie</option>
-                          <option value="Slovénie">Slovénie</option>
-                          <option value="Somalie">Somalie</option>
-                          <option value="Soudan">Soudan</option>
-                          <option value="Sri Lanka">Sri Lanka</option>
-                          <option value="Suisse">Suisse</option>
-                          <option value="Suriname">Suriname</option>
-                          <option value="Suède">Suède</option>
-                          <option value="Svalbard et Île Jan Mayen">Svalbard et Île Jan Mayen</option>
-                          <option value="Swaziland">Swaziland</option>
-                          <option value="Syrie">Syrie</option>
-                          <option value="Sénégal">Sénégal</option>
-                          <option value="Tadjikistan">Tadjikistan</option>
-                          <option value="Tanzanie">Tanzanie</option>
-                          <option value="Taïwan">Taïwan</option>
-                          <option value="Tchad">Tchad</option>
-                          <option value="Terres australes françaises">Terres australes françaises</option>
-                          <option value="Territoire britannique de l'océan Indien">Territoire britannique de l'océan
-                            Indien
-                          </option>
-                          <option value="Territoire palestinien">Territoire palestinien</option>
-                          <option value="Thaïlande">Thaïlande</option>
-                          <option value="Timor oriental">Timor oriental</option>
-                          <option value="Togo">Togo</option>
-                          <option value="Tokelau">Tokelau</option>
-                          <option value="Tonga">Tonga</option>
-                          <option value="Trinité-et-Tobago">Trinité-et-Tobago</option>
-                          <option value="Tunisie">Tunisie</option>
-                          <option value="Turkménistan">Turkménistan</option>
-                          <option value="Turquie">Turquie</option>
-                          <option value="Tuvalu">Tuvalu</option>
-                          <option value="Ukraine">Ukraine</option>
-                          <option value="Uruguay">Uruguay</option>
-                          <option value="Vanuatu">Vanuatu</option>
-                          <option value="Venezuela">Venezuela</option>
-                          <option value="Viêt Nam">Viêt Nam</option>
-                          <option value="Wallis-et-Futuna">Wallis-et-Futuna</option>
-                          <option value="Yémen">Yémen</option>
-                          <option value="Zambie">Zambie</option>
-                          <option value="Zimbabwe">Zimbabwe</option>
-                          <option value="région indéterminée">région indéterminée</option>
-                          <option value="Égypte">Égypte</option>
-                          <option value="Émirats arabes unis">Émirats arabes unis</option>
-                          <option value="Équateur">Équateur</option>
-                          <option value="Érythrée">Érythrée</option>
-                          <option value="État de la Cité du Vatican">État de la Cité du Vatican</option>
-                          <option value="États fédérés de Micronésie">États fédérés de Micronésie</option>
-                          <option value="États-Unis">États-Unis</option>
-                          <option value="Éthiopie">Éthiopie</option>
-                          <option value="Île Bouvet">Île Bouvet</option>
-                          <option value="Île Christmas">Île Christmas</option>
-                          <option value="Île Norfolk">Île Norfolk</option>
-                          <option value="Île de Man">Île de Man</option>
-                          <option value="Îles Caïmans">Îles Caïmans</option>
-                          <option value="Îles Cocos - Keeling">Îles Cocos - Keeling</option>
-                          <option value="Îles Cook">Îles Cook</option>
-                          <option value="Îles Féroé">Îles Féroé</option>
-                          <option value="Îles Heard et MacDonald">Îles Heard et MacDonald</option>
-                          <option value="Îles Malouines">Îles Malouines</option>
-                          <option value="Îles Mariannes du Nord">Îles Mariannes du Nord</option>
-                          <option value="Îles Marshall">Îles Marshall</option>
-                          <option value="Îles Mineures Éloignées des États-Unis">Îles Mineures Éloignées des États-Unis
-                          </option>
-                          <option value="Îles Salomon">Îles Salomon</option>
-                          <option value="Îles Turks et Caïques">Îles Turks et Caïques</option>
-                          <option value="Îles Vierges britanniques">Îles Vierges britanniques</option>
-                          <option value="Îles Vierges des États-Unis">Îles Vierges des États-Unis</option>
-                          <option value="Îles Åland">Îles Åland</option>
-                        </select>
-                        <label class="error col-xs-12 text-right" for="pays"></label>
-                      </div>
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-5 col-sm-4 formmlabel">Téléphone</label>
-                        <input type="tel" name="telephone" id="telephone" class="form col-xs-7 col-sm-8"
-                               placeholder=""/>
-                        <label class="error col-xs-12 text-right" for="telephone"></label>
-                      </div>
+                    <div class="col-sm-12" id="inscription_sec">
+                      <h4>
+                        Lire les conditions de vente:
+                      </h4>
+                      <p class="col-sm-6">
+                        <a href="https://assets.terre-voyages.com/gpv/pdf/conditions-generales-de-vente-gpv.pdf"
+                           class="buttonPdf" target="_blank">
+                          <b>Condition générales de vente</b>
+                          <br/>
+                          <span><br/>Format PDF - 46ko
+                          </span>
+                        </a>
+                      </p>
                     </div>
-                    <div class="row" data-oe-id="1708" data-oe-model="ir.ui.view" data-oe-field="arch"
-                         data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/div[12]">
-                      <div class="form-group col-xs-12 col-sm-6">
-                        <label class="col-xs-5 col-sm-4 formmlabel">Email*</label>
-                        <input type="email" name="email" id="email" required="required" class="form col-xs-7 col-sm-8"
-                               placeholder="" aria-required="true"/>
-                        <label class="error col-xs-12 text-right" for="email"></label>
-                      </div>
-                    </div>
-                    <div class="form-group col-xs-12 col-sm-12" data-oe-id="1708" data-oe-model="ir.ui.view"
-                         data-oe-field="arch"
-                         data-oe-xpath="/t[1]/t[3]/div[1]/section[1]/div[1]/div[3]/div[2]/form[1]/div[13]">
-                      <button type="submit" id="submit" name="submit" class="form-btn">Envoyer ma
-                        demande
-                      </button>
-                      <div id="result" class="warning col-xs-12 "></div>
-                    </div>
-                  </form>
+                  </div>
                 </div>
               </div>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
       </div>
     </t>
   </template>

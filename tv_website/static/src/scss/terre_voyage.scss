@@ -1284,7 +1284,11 @@ span {
     color: red;
 }
 /*Mentions */
-.mentions h3{color:#388343; text-transform: uppercase; font-size:17px;}
+.mentions h3{
+    color:#388343; text-transform: uppercase; font-size:17px;
+    margin: 0;
+    padding: 0;
+}
 .mentions .legales {margin: 20px 0; color: #000; font-family: Arial, Verdana;}
 /* Form Inputs */
 form#contact-us {
@@ -1456,4 +1460,96 @@ input[type="date"],input[type="time"],input[type="datetime-local"],input[type="m
 form p.error {
   color: #da3838;
   font-size: 16px;
+}
+.tab_custom .nav-item {
+    width: 100%;
+    background-color: #388343 !important;
+    margin: 0;
+    border-bottom: 1px solid #fff;
+}
+.tab_custom .nav-link.active, .tab_custom .nav-link {
+    background-color: transparent !important;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 6px 15px;
+}
+.tab_custom .nav-link.active {
+    text-decoration: underline;
+}
+.tab_custom .nav-item:last-child {
+    border: none !important;
+}
+.bordersection{
+    border-top : 1px solid #b02826;
+}
+.tab_custom {
+    margin-bottom: 15px !important;
+    margin-top: 25px;
+}
+.tab-pane {
+    padding-top: 30px;
+}
+img.img-responsive.center-block {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.row.margin-20 {
+    margin-top: 20px;
+}
+.contenttabs a.buttonPdf span {
+  font-size: 12px;
+}
+
+.contenttabs a.buttonPdf:hover {
+  background: #edeae7 url('../image/icon_pdf.png') no-repeat scroll 17px center;
+}
+.contenttabs a.buttonPdf {
+  color: #000;
+  padding: 5px 10px;
+  background: white url('../image/icon_pdf.png') no-repeat scroll 17px center;
+  text-decoration: none;
+  padding-left: 70px;
+  display: block;
+  line-height: 1;
+}
+a.buttonPdf {
+  padding: 15px;
+}
+a.buttonPdf:hover {
+  background: #edeae7
+}
+a.buttonPdf > b {
+  font-size: 16px;
+}
+a.buttonPdf > span {
+  display: block;
+  margin-top: 3px;
+  font-size: 14px !important;
+}
+a.buttonPdf img {
+  line-height: 60px;
+  float: left;
+  margin-right: 15px;
+}
+.margtop25 {
+  margin-top: 25px;
+}
+#inscription_sec h4{
+    font-size: 13px !important;
+    text-transform: none;
+    color: inherit;
+}
+.cols-b {
+    column-count: 5;
+    list-style-type: none;
+    column-gap: 190px;
+    text-transform: uppercase;
+}
+
+.sub-item-bateaux {
+    font-size: 10px !important;
+    text-align-last: left;
+    color: #ffffff !important;
+    text-transform: capitalize;
+    margin-bottom: 6px !important;
 }
