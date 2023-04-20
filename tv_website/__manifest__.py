@@ -12,11 +12,12 @@
     "depends": [
         "base",
         "website",
+        "trip_website_sale",
     ],
     "data": [
         "views/layout_template.xml",
         "views/home_template.xml",
-        "views/contact_template.xml",
+        # "views/contact_template.xml",
         "views/devis_template.xml",
         "views/terre_voyage_template.xml",
     ],
