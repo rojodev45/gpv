@@ -431,7 +431,7 @@
                     </p>
                   </div>
                   <div class="col-md-6">
-                    <form action="#" id="contact-us" method="post" novalidate="novalidate" role="form">
+                    <form action="/messageus" id="contact-us" method="post" novalidate="novalidate" role="form">
                       <input name="cookie" type="hidden" value="" data-oe-id="1689" data-oe-model="ir.ui.view"
                              data-oe-field="arch"
                              data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/input[1]"/>
@@ -443,7 +443,7 @@
                              data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/input[3]"/>
                       <div class="input-group" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
                            data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/div[1]">
-                        <input aria-required="true" class="form-control" id="footerInputName" minlength="2" name="nom"
+                        <input aria-required="true" class="form-control" id="footerInputName" minlength="2" name="contact_name"
                                placeholder="Votre nom" required="required" type="text"/>
                         <label class="error col-xs-12 text-center" for="footerInputName"></label>
                       </div>
@@ -455,7 +455,7 @@
                       </div>
                       <div class="input-group" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
                            data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/div[3]">
-                        <textarea aria-required="true" class="form-control" id="footerInputMess" name="desc_projet"
+                        <textarea aria-required="true" class="form-control" id="footerInputMess" name="message"
                                   placeholder="Votre message" required="required" rows="4"></textarea>
                         <label class="error col-xs-12 text-center" for="footerInputMess"></label>
                       </div>
