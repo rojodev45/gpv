@@ -13,3 +13,8 @@ class Website(http.Controller):
     def terre_voyage_template(self, **kw):
         values = {}
         return http.request.render("tv_website.terre_voyage_template", values)
+
+    @http.route('/contact-tv', auth='user', website="True")
+    def contact_tv_template(self, **kw):
+        values = {}
+        return http.request.render("tv_website.contact_tv_template", values)

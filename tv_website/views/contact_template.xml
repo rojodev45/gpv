@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-  <template id="website.contactus" name="Contact Us">
+  <template id="contact_tv_template" name="Contact Us">
     <t t-call="website.layout">
       <div id="wrap"  class="oe_structure oe_empty">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
