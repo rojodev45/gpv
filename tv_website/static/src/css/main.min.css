@@ -4033,7 +4033,6 @@ has-feedback label ~ .form-control-feedback {
 }
 .navbar-nav > li {
     float: left;
-    padding-left: 5px;
 }
 @media (min-width: 767px) {
     .navbar-nav > li.first-action:before {
@@ -4348,7 +4347,7 @@ button.nav-link {
         float: none;
         text-decoration: none;
     }
-    #top .nav-link:before{
+    #top a.nav-link:before{
         content: "";
         width: 10px;
         height: 10px;
@@ -4356,11 +4355,11 @@ button.nav-link {
         margin-right: 10px;
         display: inline-block;
     }
-    #top_menu.level-1-item.item-default > .level-2,
-    #top_menu.level-1-item.item-default > .megamenu-mea,
-    #top_menu.level-1-item.megamenu-content-default .destinations,
-    #top_menu.level-1-item:hover .level-2,
-    #top_menu.level-1-item:hover .megamenu-mea {
+    #top .nav-item.item-default > .level-2,
+    #top .nav-item.item-default > .megamenu-mea,
+    #top .nav-item.megamenu-content-default .destinations,
+    #top .nav-item:hover .level-2,
+    #top .nav-item:hover .megamenu-mea {
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
@@ -4368,26 +4367,25 @@ button.nav-link {
         width: 95%;
         list-style: none;
     }
-    #top_menu.level-1-item:not(.megamenu-content-default):hover + .destinations {
+    #top .nav-item:not(.megamenu-content-default):hover + .destinations {
         display: none !important;
     }
-    #top_menu.level-1-item:not(.megamenu-content-default):hover ~ .megamenu-content-default {
+    #top .nav-item:not(.megamenu-content-default):hover ~ .megamenu-content-default {
         background: #fff;
     }
-    #top_menu.level-1-item.megamenu-content-default > .nav-link,
-    #top_menu.level-1-item:hover > .nav-link {
+    #top .nav-item.megamenu-content-default > .nav-link,
+    #top .nav-item:hover > .nav-link {
         color: #2a5a3b;
     }
-    #top_menu.nav-link {
+    #top .nav-link {
         width: auto;
         font-size: 13px !important;
         color: #0e171e;
         text-decoration: none;
-        padding-left: 10px;
         font-weight: 500 !important;
         text-transform: uppercase;
     }
-    #top_menu.nav-link span {
+    #top .nav-link span {
         display: inline-block;
         width: 151px;
         vertical-align: top;
