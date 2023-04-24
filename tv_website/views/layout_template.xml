@@ -322,7 +322,7 @@
                       </div>
                     </div>
 
-                    <input data-toggle="modal" data-target="#newsletter_recaptcha" class="custom-btn" type="button"
+                    <input data-bs-toggle="modal" data-bs-target="#newsletter_recaptcha" class="custom-btn" type="button"
                            value="S’inscrire" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
                            data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/input[5]"/>
 
