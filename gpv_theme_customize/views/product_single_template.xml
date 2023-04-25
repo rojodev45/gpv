@@ -131,9 +131,7 @@
                   <p>
                     - Luxe, confort et raffinement
                     <br/>
-                    <br/>
                     - Le seul 18 trous des Seychelles avec des vues spectaculaires
-                    <br/>
                     <br/>
                     - Végétation tropicale et plages sauvages où les tortues viennent pondre chaque année
                   </p>
@@ -145,7 +143,7 @@
         <section id="parcours_section" class="bordersection">
           <div class="container">
             <h2 class="header_inverse "
-                style="font-family: cabin;font-weight: bold;font-size: 25px;border: 0px solid #388343; margin: auto;">
+                style="font-weight: bold;font-size: 25px;border: 0px solid #388343; margin: auto;">
               PARCOURS
             </h2>
             <div class="row product_info"
@@ -293,7 +291,6 @@
               <div class="tab-content mt16">
                 <div id="product_hebergement" class="tab-pane fade in active">
                   <span class="text-justify" id="product_web_hebergement">
-                    <h2>HÉBERGEMENT</h2>
                     <h3>Séjourner</h3>
                     <p>
                       Sur un site exceptionnel, le long de la plage d’Anse Kerlan, les chambres à la décoration élégante

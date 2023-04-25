@@ -1717,9 +1717,6 @@ div.product_demande_scroll_devis {
   margin-top: 0;
   padding-top: 0
 }
-.contenttabs ul {
-  margin-left: 25px;
-}
 .contenttabs ol {
   margin-left: 15px;
 }
@@ -1782,4 +1779,47 @@ div.product_demande_scroll_devis {
     color: blue;
     font-style: italic;
     margin-top: 2px;
+}
+.contenttabs a {
+    text-decoration: none !important;
+}
+.contenttabs h2 {
+    font-size: 18px;
+    margin-top: 0;
+    color: #388343;
+    text-transform: uppercase;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+.contenttabs li.active a,
+.contenttabs li:hover a {
+    border: 1px solid #ddd !important;
+}
+.contenttabs h3 {
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 8px 5px 5px 1px;
+    color: #388343;
+}
+.contenttabs li {
+    list-style: circle;
+    line-height: 18px;
+    font-size: 14px !important;
+    margin: 0 !important;
+    font-weight: 500 !important;
+    line-height: 14.4px !important;
+    color: #1a2d3e !important;
+}
+.s_carousel.s_carousel_default .carousel-indicators li {
+    width: 10px !important;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.s_carousel.s_carousel_default .carousel-indicators li.active {
+    background-color: #fff !important;
 }

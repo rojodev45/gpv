@@ -251,13 +251,15 @@ font-size: 14px !important;
 .marge {
     padding: 0 10px;
 }
-
 .plus {
-    background-color: #388343;
     padding: 10px;
-    color: #fff;
+    color: #388343;
+    font-weight: bold;
 }
-
+.plus_produit {
+    border: 2px #388343 solid;
+    padding: 0px 0px 15px 0px;
+}
 /***  Plus produit encadrÃ©s **/
 .plus_produit {
     /*border: 2px #388343 solid;*/
@@ -511,8 +513,7 @@ div.call-to-action {
     .contenttabs h3{font-size:16px; margin-top:0;}
     .contenttabs h3.leftprice{font-size:17px; margin-top:0;}
     .contenttabs h3.top0{ margin-top : 0; padding-top:0}
-    .contenttabs ul{margin-left:25px;}
-    
+
     .contenttabs p{margin: 0 0 10px; text-align:justify}
     .contenttabs a{text-decoration:underline;color:#333}
     .contenttabs a.more {text-decoration:underline; color:#333; text-decoration:none;}

@@ -4259,10 +4259,6 @@ ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   padding-top: 0
 }
 
-.contenttabs ul {
-  margin-left: 25px;
-}
-
 .contenttabs ol {
   margin-left: 15px;
 }
@@ -7149,8 +7145,6 @@ margin-bottom: 5px;
 #extensions{display:none;}
 .contenttabs {font-size :12px; font-family:cabin; margin-bottom:20px;}
 .contenttabs h4 {font-size:16px;margin-top:0;color: #007bab;text-transform: uppercase;}
-.contenttabs ul{margin-left:25px;}
-
 a.buttonPdf > span {
 display: block;
 margin-top: 3px;
