@@ -1,0 +1,202 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* trip_website_sale
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-25 03:06+0000\n"
+"PO-Revision-Date: 2023-04-25 03:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: trip_website_sale
+#: model:res.continents,name:trip_website_sale.africa_continents_id
+msgid "AFRICA"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:res.continents,name:trip_website_sale.america_continents_id
+msgid "AMERICA"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:res.continents,name:trip_website_sale.asia_continents_id
+msgid "ASIA"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:res.continents,name:trip_website_sale.australia_continents_id
+msgid "AUSTRALIA"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields,field_description:trip_website_sale.field_product_product__blow_of_heart
+#: model:ir.model.fields,field_description:trip_website_sale.field_product_template__blow_of_heart
+msgid "Blow of heart"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields,field_description:trip_website_sale.field_product_public_category__website_group
+msgid "Category Group"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields,field_description:trip_website_sale.field_res_continents__name
+msgid "Continent Name"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model,name:trip_website_sale.model_res_continents
+#: model:ir.model.fields,field_description:trip_website_sale.field_product_public_category__res_continents_id
+msgid "Continents"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields.selection,name:trip_website_sale.selection__product_public_category__website_group__country
+msgid "Country"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields,field_description:trip_website_sale.field_res_continents__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields,field_description:trip_website_sale.field_res_continents__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields,field_description:trip_website_sale.field_res_continents__display_name
+msgid "Display name"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields,field_description:trip_website_sale.field_product_product__duration
+#: model:ir.model.fields,field_description:trip_website_sale.field_product_template__duration
+msgid "Duration"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:res.continents,name:trip_website_sale.europe_continents_id
+msgid "EUROPE"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:res.continents,display_name:trip_website_sale.africa_continents_id
+msgid "FAIRWAYS OF AFRICA"
+msgstr "FAIRWAYS D'AFRIQUE"
+
+#. module: trip_website_sale
+#: model:res.continents,display_name:trip_website_sale.america_continents_id
+msgid "FAIRWAYS OF AMERICAS"
+msgstr "FAIRWAYS DES AMÉRIQUES"
+
+#. module: trip_website_sale
+#: model:res.continents,display_name:trip_website_sale.asia_continents_id
+msgid "FAIRWAYS OF ASIA"
+msgstr "FAIRWAYS D'ASIE"
+
+#. module: trip_website_sale
+#: model:res.continents,display_name:trip_website_sale.europe_continents_id
+msgid "FAIRWAYS OF EUROPE"
+msgstr "FAIRWAYS D'EUROPE"
+
+#. module: trip_website_sale
+#: model:ir.model.fields,field_description:trip_website_sale.field_res_continents__id
+msgid "ID"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields,field_description:trip_website_sale.field_product_product__web_introduction
+#: model:ir.model.fields,field_description:trip_website_sale.field_product_template__web_introduction
+msgid "Introduction"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:res.continents,display_name:trip_website_sale.australia_continents_id
+msgid "Islands and Oceania Fairways"
+msgstr "Fairways des îles et de l'Océanie"
+
+#. module: trip_website_sale
+#: model:ir.model.fields,field_description:trip_website_sale.field_res_continents____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields,field_description:trip_website_sale.field_res_continents__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields,field_description:trip_website_sale.field_res_continents__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:res.continents,display_name:trip_website_sale.middle_east_continents_id
+msgid "MIDDLE EAST FAIRWAYS"
+msgstr "FAIRWAYS DU MOYEN-ORIENT"
+
+#. module: trip_website_sale
+#: model:res.continents,name:trip_website_sale.middle_east_continents_id
+msgid "MIDDLE-EAST"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields.selection,name:trip_website_sale.selection__product_public_category__website_group__multiple_country
+msgid "Multiple Country"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model,name:trip_website_sale.model_product_template
+msgid "Product"
+msgstr "Produit"
+
+#. module: trip_website_sale
+#: model:ir.model.fields.selection,name:trip_website_sale.selection__product_public_category__website_group__race
+msgid "Race"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields.selection,name:trip_website_sale.selection__product_public_category__website_group__rivers
+msgid "Rivers"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields,field_description:trip_website_sale.field_res_continents__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields.selection,name:trip_website_sale.selection__product_public_category__website_group__suggestion
+msgid "Suggestion"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields,field_description:trip_website_sale.field_product_product__web_tag_text
+#: model:ir.model.fields,field_description:trip_website_sale.field_product_template__web_tag_text
+msgid "Tag H1"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model.fields.selection,name:trip_website_sale.selection__product_public_category__website_group__themes
+msgid "Themes"
+msgstr ""
+
+#. module: trip_website_sale
+#: model:ir.model,name:trip_website_sale.model_website
+#: model_terms:ir.ui.view,arch_db:trip_website_sale.product_template_only_form_trip
+msgid "Website"
+msgstr "Site web"
+
+#. module: trip_website_sale
+#: model:ir.model,name:trip_website_sale.model_product_public_category
+msgid "Website Product Category"
+msgstr "Catégorie de produits du site web"

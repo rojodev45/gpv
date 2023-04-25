@@ -1,12 +1,4 @@
-from odoo import fields, models, _
-
-
-class ResContinents(models.Model):
-    _name = "res.continent"
-
-    name = fields.Char(string='Continent Name', translate=True, required=True)
-    display_name = fields.Char(string="Display name")
-    sequence = fields.Integer(string='Sequence')
+from odoo import fields, models
 
 
 class ProductTemplate(models.Model):
@@ -16,4 +8,19 @@ class ProductTemplate(models.Model):
     duration = fields.Integer(string='Duration', default=12)
     web_introduction = fields.Text(string="Introduction")
     web_tag_text = fields.Text(string='Tag H1')
+
+
+class ProductPublicCategory(models.Model):
+    _inherit = "product.public.category"
+
+    res_continents_id = fields.Many2one('res.continents', string='Continents')
+    website_group = fields.Selection(
+        [
+            ('suggestion', 'Suggestion'),
+            ('country', 'Country'),
+            ('multiple_country', 'Multiple Country'),
+            ('rivers', 'Rivers'),
+            ('themes', 'Themes'),
+            ('race', 'Race'),
+        ], string="Category Group")
 

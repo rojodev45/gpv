@@ -21,144 +21,19 @@
               <li class="nav-item dropdown  position-static">
                 <a data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle o_mega_menu_toggle"
                    aria-expanded="false">
-                  <span>test1</span>
+                  <span>NOS DESTINATIONS</span>
                 </a>
                 <div data-name="Mega Menu" class="dropdown-menu o_mega_menu dropdown-menu-start">
                   <section class="s_mega_menu_odoo_menu">
                     <div class="container">
                       <div class="row">
-                        <div class="col-md-6 col-lg pt16 pb24">
-                          <h4 class="o_default_snippet_text text-uppercase h5 fw-bold mt-0">Ordinateurs &amp;
-                            Appareils
+                        <div class="col-md-6 col-lg pt16 pb24" t-foreach="website.get_continents()" t-as="continent">
+                          <h4 class="o_default_snippet_text text-uppercase h5 fw-bold mt-0"><t t-esc="continent.display_name"/>
                           </h4>
                           <nav class="nav flex-column">
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Ordinateurs
-                              portables
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Ordinateurs
-                              de bureau
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Composants
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Tablettes</a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Smartphones
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">iPhone</a>
-                          </nav>
-                        </div>
-                        <div class="col-md-6 col-lg pt16 pb24">
-                          <h4 class="o_default_snippet_text text-uppercase h5 fw-bold mt-0">Moniteurs</h4>
-                          <nav class="nav flex-column">
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Télévisions
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Écrans de
-                              bureau
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Projecteurs
-                            </a>
-                          </nav>
-                        </div>
-                        <div class="col-md-6 col-lg pt16 pb24">
-                          <h4 class="o_default_snippet_text text-uppercase h5 fw-bold mt-0">Électronique</h4>
-                          <nav class="nav flex-column">
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Caméra</a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">GPS &amp;
-                              navigation
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Accessoires
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Accueil
-                              audio
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Audio de
-                              bureau
-                            </a>
-                          </nav>
-                        </div>
-                        <div class="col-md-6 col-lg pt16 pb24">
-                          <h4 class="o_default_snippet_text text-uppercase h5 fw-bold mt-0">Promotions</h4>
-                          <nav class="nav flex-column">
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Ordinateurs
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">
-                              Électronique
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Moniteurs</a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Réseaux</a>
-                          </nav>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                </div>
-              </li>
-              <li class="nav-item dropdown  position-static">
-                <a data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle o_mega_menu_toggle"
-                   aria-expanded="false">
-                  <span>test2</span>
-                </a>
-                <div data-name="Mega Menu" class="dropdown-menu o_mega_menu dropdown-menu-start">
-                  <section class="s_mega_menu_odoo_menu">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-6 col-lg pt16 pb24">
-                          <h4 class="o_default_snippet_text text-uppercase h5 fw-bold mt-0">Ordinateurs &amp;
-                            Appareils
-                          </h4>
-                          <nav class="nav flex-column">
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Ordinateurs
-                              portables
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Ordinateurs
-                              de bureau
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Composants
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Tablettes</a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Smartphones
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">iPhone</a>
-                          </nav>
-                        </div>
-                        <div class="col-md-6 col-lg pt16 pb24">
-                          <h4 class="o_default_snippet_text text-uppercase h5 fw-bold mt-0">Moniteurs</h4>
-                          <nav class="nav flex-column">
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Télévisions
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Écrans de
-                              bureau
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Projecteurs
-                            </a>
-                          </nav>
-                        </div>
-                        <div class="col-md-6 col-lg pt16 pb24">
-                          <h4 class="o_default_snippet_text text-uppercase h5 fw-bold mt-0">Électronique</h4>
-                          <nav class="nav flex-column">
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Caméra</a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">GPS &amp;
-                              navigation
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Accessoires
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Accueil
-                              audio
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Audio de
-                              bureau
-                            </a>
-                          </nav>
-                        </div>
-                        <div class="col-md-6 col-lg pt16 pb24">
-                          <h4 class="o_default_snippet_text text-uppercase h5 fw-bold mt-0">Promotions</h4>
-                          <nav class="nav flex-column">
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Ordinateurs
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">
-                              Électronique
-                            </a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Moniteurs</a>
-                            <a href="#" class="o_default_snippet_text" data-name="Menu Item">Réseaux</a>
+                            <t t-foreach="website.get_destination_by_continent(continent)" t-as="categ">
+                              <a class="o_default_snippet_text" title="" t-att-href="'/shop/category/' + slug(categ)" t-field="categ.name"/>
+                            </t>
                           </nav>
                         </div>
                       </div>

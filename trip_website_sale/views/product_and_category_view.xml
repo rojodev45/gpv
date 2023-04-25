@@ -18,4 +18,15 @@
             </xpath>
         </field>
     </record>
+    <record id="product_public_category_form_view_trip" model="ir.ui.view">
+        <field name="name">product.public.category.form.view.trip</field>
+        <field name="model">product.public.category</field>
+        <field name="inherit_id" ref="website_sale.product_public_category_form_view"/>
+        <field name="arch" type="xml">
+            <field name="parent_id" position="after">
+                <field name="website_group"/>
+                <field name="res_continents_id"/>
+            </field>
+        </field>
+    </record>
 </odoo>

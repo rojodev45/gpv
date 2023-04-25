@@ -2,9 +2,9 @@
 # License AGPL-3.0
 
 {
-    "name": "Trip Product",
+    "name": "Trip website sale",
     "description": """
-        Product customisation for Terre Voyage""",
+        customisation website sale for Terre Voyages""",
     "author": "eTech",
     "website": "https://www.etechconsulting-mg.com",
     "category": "",
@@ -14,8 +14,10 @@
         "website_sale",
     ],
     "data": [
+        "data/data.xml",
         "security/ir.model.access.csv",
-        "views/product_view.xml",
+        "views/product_and_category_view.xml",
+        "views/res_continents_view.xml",
     ],
     'assets': {
         },
