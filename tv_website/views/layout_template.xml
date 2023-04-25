@@ -21,14 +21,9 @@
               <li class="nav-item dropdown  position-static">
                 <a data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle o_mega_menu_toggle"
                    aria-expanded="false">
-                  <span data-oe-xpath="/t[1]/li[2]/a[1]/span[1]" data-oe-model="website.menu" data-oe-id="9"
-                        data-oe-field="name" data-oe-type="char" data-oe-expression="submenu.name">test1
-                  </span>
+                  <span>test1</span>
                 </a>
-                <div data-name="Mega Menu" data-oe-xpath="/t[1]/li[2]/div[1]"
-                     class="dropdown-menu o_mega_menu dropdown-menu-start" data-oe-model="website.menu" data-oe-id="9"
-                     data-oe-field="mega_menu_content" data-oe-type="html"
-                     data-oe-expression="submenu.mega_menu_content" style="">
+                <div data-name="Mega Menu" class="dropdown-menu o_mega_menu dropdown-menu-start">
                   <section class="s_mega_menu_odoo_menu">
                     <div class="container">
                       <div class="row">
@@ -100,14 +95,9 @@
               <li class="nav-item dropdown  position-static">
                 <a data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle o_mega_menu_toggle"
                    aria-expanded="false">
-                  <span data-oe-xpath="/t[1]/li[2]/a[1]/span[1]" data-oe-model="website.menu" data-oe-id="9"
-                        data-oe-field="name" data-oe-type="char" data-oe-expression="submenu.name">test2
-                  </span>
+                  <span>test2</span>
                 </a>
-                <div data-name="Mega Menu" data-oe-xpath="/t[1]/li[2]/div[1]"
-                     class="dropdown-menu o_mega_menu dropdown-menu-start" data-oe-model="website.menu" data-oe-id="9"
-                     data-oe-field="mega_menu_content" data-oe-type="html"
-                     data-oe-expression="submenu.mega_menu_content" style="">
+                <div data-name="Mega Menu" class="dropdown-menu o_mega_menu dropdown-menu-start">
                   <section class="s_mega_menu_odoo_menu">
                     <div class="container">
                       <div class="row">
@@ -177,17 +167,14 @@
                 </div>
               </li>
 
-              <li class="nav-link" data-oe-source-id="1415" data-oe-id="1751" data-oe-model="ir.ui.view"
-                  data-oe-field="arch" data-oe-xpath="/data/xpath[2]/div/div[1]/div[1]/ul[1]/li[2]">
+              <li class="nav-link">
                 <h4 class="menu-title" style="color: #000000;">DÉCOUVRIR AUSSI</h4>
               </li>
               <a class="nav-link link-blue" href="https://www.fleuves-du-monde.com" target="_blank"
-                 style="text-transform: none;" data-oe-source-id="1415" data-oe-id="1751" data-oe-model="ir.ui.view"
-                 data-oe-field="arch" data-oe-xpath="/data/xpath[2]/div/div[1]/div[1]/ul[1]/a[1]">Fleuves du Monde
+                 style="text-transform: none;">Fleuves du Monde
               </a>
               <a class="nav-link link-warning mb-20" href="/"
-                 style="text-transform: none;" data-oe-source-id="1415" data-oe-id="1751" data-oe-model="ir.ui.view"
-                 data-oe-field="arch" data-oe-xpath="/data/xpath[2]/div/div[1]/div[1]/ul[1]/a[2]">Terre Voyages
+                 style="text-transform: none;">Terre Voyages
               </a>
               <!-- Menu -->
               <t t-foreach="website.menu_id.child_id" t-as="submenu">
@@ -218,22 +205,19 @@
       <div class="col-md-4">
         <div class="nav-block" align="right">
           <div class="info-block" align="right">
-            <p class="md-none" data-oe-source-id="1415" data-oe-id="1750" data-oe-model="ir.ui.view"
-               data-oe-field="arch" data-oe-xpath="/data/xpath[1]/div/p[1]">
+            <p class="md-none">
               <i class="fa fa-caret-right" style="color: green !important;"></i>
               <a href="/devis">VOTRE PROJET</a>
             </p>
             <p>
-              <span data-oe-source-id="1415" data-oe-id="1750" data-oe-model="ir.ui.view" data-oe-field="arch"
-                    data-oe-xpath="/data/xpath[1]/div/p[2]/span[1]">
+              <span>
                 <i class="fa fa-envelope"></i>
                 <font class="md-none">
                   <a href="/contact-tv">NOUS CONTACTER</a>
                 </font>
               </span>
               <span>
-                <i class="fa fa-phone" data-oe-source-id="1415" data-oe-id="1750" data-oe-model="ir.ui.view"
-                   data-oe-field="arch" data-oe-xpath="/data/xpath[1]/div/p[2]/span[2]/i[1]"></i>
+                <i class="fa fa-phone"></i>
                 <font class="md-none">+33 (0)1 5537 3740</font>
               </span>
             </p>
@@ -246,8 +230,7 @@
   <template id="website.footer_custom" inherit_id="website.layout" name="Default" active="True">
     <xpath expr="//div[@id='footer']" position="replace">
       <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true">
-        <section class="bg-blue ptb-10" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                 data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[1]">
+        <section class="bg-blue ptb-10">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -262,32 +245,22 @@
               <div class="col-md-12">
                 <form id="FormNews" method="post" action="" novalidate="novalidate">
                   <div class="input-group-custom">
-                    <input type="hidden" name="cookie" value="" data-oe-id="1689" data-oe-model="ir.ui.view"
-                           data-oe-field="arch"
-                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]"/>
-                    <input type="hidden" value="Emailing" name="form_type" data-oe-id="1689" data-oe-model="ir.ui.view"
-                           data-oe-field="arch"
-                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/input[2]"/>
-                    <input type="hidden" value="Golf Plus Voyages" id="website" name="website" data-oe-id="1689"
-                           data-oe-model="ir.ui.view" data-oe-field="arch"
-                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/input[3]"/>
+                    <input type="hidden" name="cookie" value=""/>
+                    <input type="hidden" value="Emailing" name="form_type"/>
+                    <input type="hidden" value="Golf Plus Voyages" id="website" name="website"/>
                     <input type="email" name="email" id="emailnews" class="form-control-custom"
                            placeholder="Votre email"
-                           required="required" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/input[4]"
-                           aria-required="true"/>
+                           required="required"/>
                     <div style="color:black;" class="modal fade" id="newsletter_recaptcha" tabindex="-1" role="dialog"
                          aria-labelledby="Newsletter" aria-hidden="true">
                       <div class="modal-dialog">
                         <div class="modal-content">
-                          <div class="modal-header" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                               data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]">
+                          <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
                             <h4 class="modal-title" id="myModalLabel">Newsletter</h4>
                           </div>
                           <div class="modal-body">
-                            <div class="form-group" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                                 data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]">
+                            <div class="form-group">
                               <label for="footerInputEmail">Votre Email :</label>
                               <input aria-required="true" class="form-control" id="modal_emailnews" name="email"
                                      placeholder="" required="required" type="email"/>
@@ -295,9 +268,7 @@
                             <div class="form-group">
                               <div id="g-recaptcha-subscribeme" class="g-recaptcha form-control"
                                    data-sitekey="6LclrUEcAAAAANJCu2AacZUZe7n126__8TXBvvn-"
-                                   style="transform:scale(0.72);-webkit-transform:scale(0.72);transform-origin:0 0;-webkit-transform-origin:0 0;background: none !important; border: none !important; height:80px !important;"
-                                   data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                                   data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]">
+                                   style="transform:scale(0.72);-webkit-transform:scale(0.72);transform-origin:0 0;-webkit-transform-origin:0 0;background: none !important; border: none !important; height:80px !important;">
                                 <div style="width: 304px; height: 78px;">
                                   <div>
                                     <iframe title="reCAPTCHA"
@@ -312,8 +283,7 @@
                                 </div>
                               </div>
                             </div>
-                            <div class="modal-footer" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                                 data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]">
+                            <div class="modal-footer">
                               <button type="submit" class="btn btn-default">ok
                               </button>
                             </div>
@@ -322,19 +292,16 @@
                       </div>
                     </div>
 
-                    <input data-bs-toggle="modal" data-bs-target="#newsletter_recaptcha" class="custom-btn" type="button"
-                           value="S’inscrire" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/input[5]"/>
+                    <input data-bs-toggle="modal" data-bs-target="#newsletter_recaptcha" class="custom-btn"
+                           type="button"
+                           value="S’inscrire"/>
 
-                    <label class="error col-xs-12 text-center" for="emailnews" data-oe-id="1689"
-                           data-oe-model="ir.ui.view" data-oe-field="arch"
-                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[1]/form[1]/div[1]/label[1]"></label>
+                    <label class="error col-xs-12 text-center" for="emailnews"></label>
                   </div>
                 </form>
               </div>
               <div style="color:black;" class="modal fade" id="modal_newsletter_subscribe" tabindex="-1" role="dialog"
-                   aria-labelledby="Newsletter" aria-hidden="true" data-oe-id="1689" data-oe-model="ir.ui.view"
-                   data-oe-field="arch" data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[1]/div[2]">
+                   aria-labelledby="Newsletter" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -355,8 +322,7 @@
             </div>
 
             <div class="row">
-              <div class="col-md-3" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                   data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[1]">
+              <div class="col-md-3">
                 <h5 class="footer-title">Nos marques</h5>
                 <div class="border"></div>
 
@@ -383,38 +349,29 @@
               </div>
 
               <div class="col-md-3">
-                <h5 class="footer-title" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                    data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[2]/h5[1]">Informations
+                <h5 class="footer-title">Informations
                 </h5>
-                <div class="border" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                     data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[2]/div[1]"></div>
-                <p data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                   data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[2]/p[1]">
+                <div class="border"></div>
+                <p>
                   <a href="/a-propos#tabs-1" style="color: #1a2d3e;">Qui sommes-nous</a>
                 </p>
-                <p data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                   data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[2]/p[2]">
+                <p>
                   <a href="/a-propos#tabs-4" style="color: #1a2d3e;">Inscription et Assurances</a>
                   <br/>
                   <a href="/a-propos#tabs-4" style="color: #1a2d3e;">Conditions de vente</a>
                 </p>
                 <p>
                   Contact presse :
-                  <br data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                      data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[2]/p[3]/br[1]"/>
-                  <a href="mailto:presse@terre-voyages.com" class="link-email" data-oe-model="website" data-oe-id="1"
-                     data-oe-field="website_email" data-oe-type="char" data-oe-expression="website.website_email"
-                     data-oe-translate="0">presse@terre-voyages.com
+                  <br/>
+                  <a href="mailto:presse@terre-voyages.com" class="link-email">presse@terre-voyages.com
                   </a>
                 </p>
               </div>
 
               <div class="col-md-4">
-                <h5 class="footer-title" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                    data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/h5[1]">Nous contacter
+                <h5 class="footer-title">Nous contacter
                 </h5>
-                <div class="border" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                     data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[1]"></div>
+                <div class="border"></div>
 
                 <div class="row">
                   <div class="col-md-6">
@@ -432,29 +389,21 @@
                   </div>
                   <div class="col-md-6">
                     <form action="/messageus" id="contact-us" method="post" novalidate="novalidate" role="form">
-                      <input name="cookie" type="hidden" value="" data-oe-id="1689" data-oe-model="ir.ui.view"
-                             data-oe-field="arch"
-                             data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/input[1]"/>
-                      <input id="website" name="website" type="hidden" value="Golf Plus Voyages" data-oe-id="1689"
-                             data-oe-model="ir.ui.view" data-oe-field="arch"
-                             data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/input[2]"/>
-                      <input name="form_type" type="hidden" value="Message" data-oe-id="1689" data-oe-model="ir.ui.view"
-                             data-oe-field="arch"
-                             data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/input[3]"/>
-                      <div class="input-group" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/div[1]">
-                        <input aria-required="true" class="form-control" id="footerInputName" minlength="2" name="contact_name"
+                      <input name="cookie" type="hidden" value=""/>
+                      <input id="website" name="website" type="hidden" value="Golf Plus Voyages"/>
+                      <input name="form_type" type="hidden" value="Message"/>
+                      <div class="input-group">
+                        <input aria-required="true" class="form-control" id="footerInputName" minlength="2"
+                               name="contact_name"
                                placeholder="Votre nom" required="required" type="text"/>
                         <label class="error col-xs-12 text-center" for="footerInputName"></label>
                       </div>
-                      <div class="input-group" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/div[2]">
+                      <div class="input-group">
                         <input aria-required="true" class="form-control" id="footerInputEmail" name="email"
                                placeholder="Votre mail" required="required" type="email"/>
                         <label class="error col-xs-12 text-center" for="footerInputEmail"></label>
                       </div>
-                      <div class="input-group" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                           data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/div[3]">
+                      <div class="input-group">
                         <textarea aria-required="true" class="form-control" id="footerInputMess" name="message"
                                   placeholder="Votre message" required="required" rows="4"></textarea>
                         <label class="error col-xs-12 text-center" for="footerInputMess"></label>
@@ -462,9 +411,7 @@
                       <div class="input-group">
                         <div id="g-recaptcha-contctus" class="g-recaptcha form-control"
                              data-sitekey="6LclrUEcAAAAANJCu2AacZUZe7n126__8TXBvvn-"
-                             style="transform:scale(0.72);-webkit-transform:scale(0.72);transform-origin:0 0;-webkit-transform-origin:0 0;background: none !important; border: none !important; height:80px !important;"
-                             data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                             data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/div[4]/div[1]">
+                             style="transform:scale(0.72);-webkit-transform:scale(0.72);transform-origin:0 0;-webkit-transform-origin:0 0;background: none !important; border: none !important; height:80px !important;">
                           <div style="width: 304px; height: 78px;">
                             <div>
                               <iframe title="reCAPTCHA"
@@ -480,41 +427,30 @@
                           <iframe style="display: none;"></iframe>
                         </div>
                       </div>
-                      <button type="submit" class="btn btn-blue btn-rounded" data-oe-id="1689"
-                              data-oe-model="ir.ui.view"
-                              data-oe-field="arch"
-                              data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/form[1]/button[1]">
+                      <button type="submit" class="btn btn-blue btn-rounded">
                         Envoyer
                       </button>
                     </form>
-                    <div class="warning col-xs-12 " id="resultContactUs" data-oe-id="1689" data-oe-model="ir.ui.view"
-                         data-oe-field="arch"
-                         data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[1]"></div>
+                    <div class="warning col-xs-12 " id="resultContactUs"></div>
                   </div>
                 </div>
               </div>
               <div class="col-md-2">
-                <h5 class="footer-title" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                    data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[4]/h5[1]">Nous suivre
+                <h5 class="footer-title">Nous suivre
                 </h5>
                 <ul class="social-list">
                   <li>
-                    <a href="#" data-oe-id="1689" data-oe-model="ir.ui.view" data-oe-field="arch"
-                       data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[4]/ul[1]/li[1]/a[1]">
+                    <a href="#">
                       <i class="fa fa-twitter" aria-hidden="true"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/Golf-Plus-Voyages-408010862708295" data-oe-id="1689"
-                       data-oe-model="ir.ui.view" data-oe-field="arch"
-                       data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[4]/ul[1]/li[2]/a[1]">
+                    <a href="https://www.facebook.com/Golf-Plus-Voyages-408010862708295">
                       <i class="fa fa-facebook" aria-hidden="true"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://instagram.com/golfplusvoyages?igshid=m6iv45szxikp" data-oe-id="1689"
-                       data-oe-model="ir.ui.view" data-oe-field="arch"
-                       data-oe-xpath="/t[1]/xpath[1]/footer[1]/section[2]/div[1]/div[2]/div[4]/ul[1]/li[3]/a[1]">
+                    <a href="https://instagram.com/golfplusvoyages?igshid=m6iv45szxikp">
                       <i class="fa fa-instagram" aria-hidden="true"></i>
                     </a>
                   </li>

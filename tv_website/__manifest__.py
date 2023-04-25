@@ -21,6 +21,7 @@
         "views/devis_template.xml",
         "views/terre_voyage_template.xml",
         "views/product_template.xml",
+        "views/product_single_template.xml",
     ],
     'assets': {
         'web.assets_frontend': [

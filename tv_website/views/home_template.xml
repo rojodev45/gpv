@@ -3,15 +3,11 @@
   <template id="template_home_inherit" inherit_id="website.homepage" name="home custom">
     <xpath expr="//div[@id='wrap']" position="replace">
       <div id="wrap" class="oe_structure oe_empty">
-        <div class="oe_structure" data-oe-id="1705" data-oe-model="ir.ui.view" data-oe-field="arch"
-             data-oe-xpath="/t[1]/t[1]/div[1]/div[1]"></div>
-
+        <div class="oe_structure"></div>
         <section class="banner-section">
           <div class="banner">
             <video playsinline="true" autoplay="true" muted="true" loop="true" preload="auto">
-              <source src="https://assets.terre-voyages.com/gpv/video/gpv_video_homepage.mp4" type="video/mp4"
-                      data-oe-id="1754" data-oe-model="ir.ui.view" data-oe-field="arch"
-                      data-oe-xpath="/t[1]/section[1]/div[1]/video[1]/source[1]"/>
+              <source src="https://assets.terre-voyages.com/gpv/video/gpv_video_homepage.mp4" type="video/mp4"/>
             </video>
           </div>
         </section>
@@ -28,12 +24,9 @@
         <section class="bg-blue">
           <div class="container ptb-50">
             <div class="carousel-container">
-
-              <h1 class="main-title" data-oe-id="1755" data-oe-model="ir.ui.view" data-oe-field="arch"
-                  data-oe-xpath="/t[1]/section[1]/div[1]/div[1]/h1[1]">NOS COUPS DE COEUR
+              <h1 class="main-title">NOS COUPS DE COEUR
               </h1>
               <t t-set="products_heart" t-value="website.get_blow_of_heart()"/>
-
               <div id="owl-carousel" class="owl-carousel owl-theme">
                 <div class="item" t-foreach="products_heart" t-as="product">
                   <a href="" target="_blank">
@@ -71,8 +64,7 @@
         </section>
 
 
-        <section class="bg-green ptb-20" data-oe-id="1702" data-oe-model="ir.ui.view" data-oe-field="arch"
-                 data-oe-xpath="/t[1]/section[1]">
+        <section class="bg-green ptb-20">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -86,8 +78,7 @@
           </div>
         </section>
 
-        <section class="ptb-50" data-oe-id="1702" data-oe-model="ir.ui.view" data-oe-field="arch"
-                 data-oe-xpath="/t[1]/section[2]">
+        <section class="ptb-50">
           <div class="container">
             <div class="row j-center">
               <div class="col-md-3 text-center mb-20">

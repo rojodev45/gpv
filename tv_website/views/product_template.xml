@@ -19,25 +19,18 @@
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="//assets.terre-voyages.com/gpv/pays/afrique-du-sud/bando_afrique-du-sud-01.jpg" data-oe-id="1701"
-                 data-oe-model="ir.ui.view" data-oe-field="arch"
-                 data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/t[6]/t[1]/t[1]/div[1]/img[1]"/>
-            <div class="carousel-caption" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
-                 data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/t[6]/t[1]/t[1]/div[1]/div[1]"></div>
+            <img src="//assets.terre-voyages.com/gpv/pays/afrique-du-sud/bando_afrique-du-sud-01.jpg"/>
+            <div class="carousel-caption"></div>
           </div>
         </div>
       </div>
       <section id="produits" class="contain bordersection no-padding">
         <div class="container">
-          <h1 class="header_inverse nos_des_fair" style="border: 5px solid #388343;"
-              data-oe-model="product.public.category" data-oe-id="9" data-oe-field="web_categ_tag_text"
-              data-oe-type="text" data-oe-expression="category.web_categ_tag_text" data-oe-translate="0">Afrique du Sud
+          <h1 class="header_inverse nos_des_fair" style="border: 5px solid #388343;">Afrique du Sud
           </h1>
           <div class="row inner">
             <div class="breadcrumb breadcrunb_categ_name">
-              <div itemprop="breadcrumb" data-oe-model="product.public.category" data-oe-id="9"
-                   data-oe-field="web_breadcrumb" data-oe-type="html" data-oe-expression="category.web_breadcrumb"
-                   data-oe-translate="0">
+              <div itemprop="breadcrumb">
                 <a href="/">Accueil</a>
                 -
                 Afrique du Sud
@@ -45,8 +38,7 @@
             </div>
 
             <div class="col-md-12 col-xs-12 desc_produit">
-              <div class="forum-content col-md-12 no-padding" data-oe-id="1717" data-oe-model="ir.ui.view"
-                   data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]/section[1]/div[3]/t[1]/div[1]/t[2]/div[1]">
+              <div class="forum-content col-md-12 no-padding">
                 <div class="comments-space" style="font-family: Verdana,Arial,sans-serif !important;">
                   <div class="article">
                     <div class="text short" id="categ_web_info_short" style="display: block;">
@@ -58,10 +50,7 @@
                         sur le fameux parcours de Leopard Creek constituent des expériences extraordinaires.
                       </p>
                     </div>
-                    <div class="text full" id="categ_web_info_full" data-oe-model="product.public.category"
-                         data-oe-id="9"
-                         data-oe-field="web_intro" data-oe-type="html" data-oe-expression="category.web_intro"
-                         data-oe-translate="0" style="display: none;">
+                    <div class="text full" id="categ_web_info_full"style="display: none;">
                       <p>
                         A la pointe australe du continent africain, l’Afrique du Sud, la nation arc-en-ciel de Nelson
                         Mandela, saura vous séduire par sa culture métissée. Elle est une destination idéale pour
@@ -94,8 +83,7 @@
       </section>
     </xpath>
     <xpath expr="//div[@id='oe_structure_website_sale_products_2']" position="inside">
-      <section class="bg-green ptb-20" data-oe-id="1702" data-oe-model="ir.ui.view" data-oe-field="arch"
-               data-oe-xpath="/t[1]/section[1]">
+      <section class="bg-green ptb-20">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -108,8 +96,7 @@
           </div>
         </div>
       </section>
-      <section class="ptb-50" data-oe-id="1702" data-oe-model="ir.ui.view" data-oe-field="arch"
-               data-oe-xpath="/t[1]/section[2]">
+      <section class="ptb-50">
         <div class="container">
           <div class="row j-center">
             <div class="col-md-3 text-center mb-20">

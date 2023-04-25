@@ -4,32 +4,27 @@
     <t t-call="website.layout">
       <div id="wrap" class="oe_structure oe_empty">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
-              data-oe-xpath="/t[1]/t[1]/div[1]/t[1]/ol[1]">
+          <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1" class=""></li>
             <li data-target="#myCarousel" data-slide-to="2" class=""></li>
           </ol>
           <div class="carousel-inner" role="listbox">
-            <div class="item active" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
-                 data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/t[2]/div[1]">
+            <div class="item active">
               <img src="//assets.terre-voyages.com/gpv/bando_a-propos-01.jpg"/>
               <div class="carousel-caption"></div>
             </div>
-            <div class="item" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
-                 data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/t[2]/div[2]">
+            <div class="item">
               <img src="//assets.terre-voyages.com/gpv/bando_a-propos-02.jpg"/>
               <div class="carousel-caption"></div>
             </div>
-            <div class="item" data-oe-id="1701" data-oe-model="ir.ui.view" data-oe-field="arch"
-                 data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/t[2]/div[3]">
+            <div class="item">
               <img src="//assets.terre-voyages.com/gpv/bando_a-propos-03.jpg"/>
               <div class="carousel-caption"></div>
             </div>
           </div>
         </div>
-        <section id="produits" class="contain bordersection no-padding" data-oe-id="1707" data-oe-model="ir.ui.view"
-                 data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]/section[1]">
+        <section id="produits" class="contain bordersection no-padding">
           <div class="container">
             <h1 class="page_title">A PROPOS</h1>
             <div class="row inner mentions">
@@ -60,9 +55,7 @@
         <section class="contain bordersection" id="details">
           <div class="container">
             <div class="row mentions">
-              <div class="col-md-3 col-xs-12 s_tabs_nav mb-3" data-oe-id="1707" data-oe-model="ir.ui.view"
-                   data-oe-field="arch"
-                   data-oe-xpath="/t[1]/t[1]/div[1]/section[2]/div[1]/div[1]">
+              <div class="col-md-3 col-xs-12 s_tabs_nav mb-3">
                 <ul class="nav nav-pills tab_custom"
                     role="tablist">
                   <li class="nav-item" role="tab" tabindex="-1" aria-controls="tabs-1"
@@ -116,10 +109,7 @@
               </div>
               <div class="col-md-9 col-xs-12 s_tabs_content tab-content">
                 <div id="tabs-1" class="tab-pane fade active show contenttabs"
-                     aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="true" style="display: none;"
-                     data-oe-id="1707"
-                     data-oe-model="ir.ui.view" data-oe-field="arch"
-                     data-oe-xpath="/t[1]/t[1]/div[1]/section[2]/div[1]/div[2]/div[1]">
+                     aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="true" style="display: none;">
                   <div class="row">
                     <div class="col-xs-12 no-padding">
                       <h3 style="padding: 8px 5px 5px 0px;">EDDY MALDEREZ, NOTRE DIRECTEUR
@@ -186,8 +176,7 @@
                 </div>
                 <div id="tabs-2" class="tab-pane fadecontenttabs"
                      aria-labelledby="ui-id-2" role="tabpanel" aria-hidden="false">
-                  <div class="row" data-oe-id="1707" data-oe-model="ir.ui.view" data-oe-field="arch"
-                       data-oe-xpath="/t[1]/t[1]/div[1]/section[2]/div[1]/div[2]/div[2]/div[1]">
+                  <div class="row">
                     <div class="col-xs-12 no-padding">Eddy MALDEREZ, NOTRE DIRECTEUR D’AGENCE a une
                       grande expérience du monde du golf et une passion pour les voyages autour du
                       golf.
@@ -200,15 +189,12 @@
                   <div class="row margin-20">
                     <div class="col-sm-4 col-xs-12 no-padding">
                       <img alt="" class="img-responsive center-block"
-                           src="https://assets.terre-voyages.com/gpv/images/conseillers/eddy.jpg" data-oe-id="1745"
-                           data-oe-model="ir.ui.view" data-oe-field="arch"
-                           data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/img[1]"/>
+                           src="https://assets.terre-voyages.com/gpv/images/conseillers/eddy.jpg"/>
                     </div>
                     <div class="col-sm-8 col-xs-12" style="padding-top:0px;">
                       <h3>
                         Eddy
-                        <br data-oe-id="1745" data-oe-model="ir.ui.view" data-oe-field="arch"
-                            data-oe-xpath="/t[1]/t[1]/div[1]/div[2]/h3[1]/br[1]"/>
+                        <br/>
                       </h3>
                       <span>
                         Globe-trotter depuis une trentaine d'années, Eddy a parcouru plus de 70 pays sur les 6
@@ -223,15 +209,12 @@
                   <div class="row margin-20">
                     <div class="col-sm-4 col-xs-12 no-padding">
                       <img alt="" class="img-responsive center-block"
-                           src="https://assets.terre-voyages.com/gpv/images/conseillers/manon.jpg" data-oe-id="1745"
-                           data-oe-model="ir.ui.view" data-oe-field="arch"
-                           data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/img[1]"/>
+                           src="https://assets.terre-voyages.com/gpv/images/conseillers/manon.jpg"/>
                     </div>
                     <div class="col-sm-8 col-xs-12" style="padding-top:0px;">
                       <h3>
                         Manon
-                        <br data-oe-id="1745" data-oe-model="ir.ui.view" data-oe-field="arch"
-                            data-oe-xpath="/t[1]/t[1]/div[1]/div[2]/h3[1]/br[1]"/>
+                        <br/>
                       </h3>
                       <span>
                         Fraichement diplômée d’un Master en Tourisme et Evènementiel, Manon est la nouvelle étoile
@@ -244,15 +227,12 @@
                   <div class="row margin-20">
                     <div class="col-sm-4 col-xs-12 no-padding">
                       <img alt="" class="img-responsive center-block"
-                           src="https://assets.terre-voyages.com/gpv/images/conseillers/eugenia.jpg" data-oe-id="1745"
-                           data-oe-model="ir.ui.view" data-oe-field="arch"
-                           data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/img[1]"/>
+                           src="https://assets.terre-voyages.com/gpv/images/conseillers/eugenia.jpg"/>
                     </div>
                     <div class="col-sm-8 col-xs-12" style="padding-top:0px;">
                       <h3>
                         Eugénia
-                        <br data-oe-id="1745" data-oe-model="ir.ui.view" data-oe-field="arch"
-                            data-oe-xpath="/t[1]/t[1]/div[1]/div[2]/h3[1]/br[1]"/>
+                        <br/>
                       </h3>
                       <span>
                         La dernière recrue de Golf Plus Voyages est une passionnée de golf, qu’elle pratique aussi bien
@@ -271,15 +251,12 @@
                   <div class="row margin-20">
                     <div class="col-sm-4 col-xs-12 no-padding">
                       <img alt="" class="img-responsive center-block"
-                           src="https://assets.terre-voyages.com/gpv/images/conseillers/marie.jpg" data-oe-id="1745"
-                           data-oe-model="ir.ui.view" data-oe-field="arch"
-                           data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/img[1]"/>
+                           src="https://assets.terre-voyages.com/gpv/images/conseillers/marie.jpg"/>
                     </div>
                     <div class="col-sm-8 col-xs-12" style="padding-top:0px;">
                       <h3>
                         Marie
-                        <br data-oe-id="1745" data-oe-model="ir.ui.view" data-oe-field="arch"
-                            data-oe-xpath="/t[1]/t[1]/div[1]/div[2]/h3[1]/br[1]"/>
+                        <br/>
                       </h3>
                       <span>
                         Après avoir vogué sur les fleuves et les mers du Monde, c’est tout naturellement que Marie a
@@ -295,15 +272,12 @@
                   <div class="row margin-20">
                     <div class="col-sm-4 col-xs-12 no-padding">
                       <img alt="" class="img-responsive center-block"
-                           src="https://assets.terre-voyages.com/gpv/images/conseillers/gregoire.jpg" data-oe-id="1745"
-                           data-oe-model="ir.ui.view" data-oe-field="arch"
-                           data-oe-xpath="/t[1]/t[1]/div[1]/div[1]/img[1]"/>
+                           src="https://assets.terre-voyages.com/gpv/images/conseillers/gregoire.jpg"/>
                     </div>
                     <div class="col-sm-8 col-xs-12" style="padding-top:0px;">
                       <h3>
                         Grégoire
-                        <br data-oe-id="1745" data-oe-model="ir.ui.view" data-oe-field="arch"
-                            data-oe-xpath="/t[1]/t[1]/div[1]/div[2]/h3[1]/br[1]"/>
+                        <br/>
                       </h3>
                       <span>
                         Futur titulaire d’un BTS Tourisme, Grégoire est la nouvelle recrue de Golf Plus Voyages.
@@ -316,8 +290,7 @@
                     </div>
                   </div>
                 </div>
-                <div id="tabs-3" class="tab-pane fade contenttabs"
-                     data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]/section[2]/div[1]/div[2]/div[3]">
+                <div id="tabs-3" class="tab-pane fade contenttabs">
                   <div class="row">
                     <div class="col-xs-12 no-padding">
                       Depuis la création de golfplus Voyages, nous travaillons avec des
@@ -454,10 +427,7 @@
                     </div>
                   </div>
                 </div>
-                <div id="tabs-4" class="tab-pane fade contenttabs"
-                     data-oe-id="1707" data-oe-model="ir.ui.view" data-oe-field="arch"
-                     data-oe-xpath="/t[1]/t[1]/div[1]/section[2]/div[1]/div[2]/div[4]" aria-labelledby="ui-id-3"
-                     role="tabpanel" aria-hidden="true" style="display: none;">
+                <div id="tabs-4" class="tab-pane fade contenttabs" role="tabpanel" aria-hidden="true" style="display: none;">
                   <div class="row">
                     <div class="col-xs-12 file" id="inscription_sec">
                       <h3>Inscriptions</h3>
