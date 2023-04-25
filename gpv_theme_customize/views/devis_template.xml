@@ -5,12 +5,12 @@
       <div id="wrap" class="oe_structure oe_empty">
         <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carrousel">
           <div class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000"
-               id="myCarousel1682411948256" style="background-image: none;">
+               id="slide1" style="background-image: none;">
 
             <ol class="carousel-indicators o_we_no_overlay">
-              <li data-bs-slide-to="0" data-bs-target="#myCarousel1682411948256" class="active"/>
-              <li data-bs-slide-to="1" data-bs-target="#myCarousel1682411948256" aria-current="true"/>
-              <li data-bs-slide-to="2" data-bs-target="#myCarousel1682411948256"/>
+              <li data-bs-slide-to="0" data-bs-target="#slide1" class="active"/>
+              <li data-bs-slide-to="1" data-bs-target="#slide1" aria-current="true"/>
+              <li data-bs-slide-to="2" data-bs-target="#slide1"/>
             </ol>
             <div class="carousel-inner">
 
@@ -38,12 +38,12 @@
             </div>
 
             <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img"
-               aria-label="Précedent" title="Précedent" href="#myCarousel1682411948256">
+               aria-label="Précedent" title="Précedent" href="#slide1">
               <span class="carousel-control-prev-icon"/>
               <span class="visually-hidden o_default_snippet_text">Précédent</span>
             </a>
             <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img"
-               aria-label="Suivant" title="Suivant" href="#myCarousel1682411948256">
+               aria-label="Suivant" title="Suivant" href="#slide1">
               <span class="carousel-control-next-icon"/>
               <span class="visually-hidden o_default_snippet_text">Suivant</span>
             </a>

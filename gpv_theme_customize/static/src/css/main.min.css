@@ -4276,13 +4276,6 @@ has-feedback label ~ .form-control-feedback {
         color: #2a5a3b;
     }
 }
-#top_menu{
-    margin-top: 50px;
-    color: #FFFFFF;
-    list-style: none;
-    padding: 0;
-    margin-bottom: 50px;
-}
 .level-1.hover .nav-link {
     color: hsla(0, 0%, 100%, 0.2);
 }

@@ -8,12 +8,12 @@
         </div>
         <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carrousel">
           <div class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000"
-               id="myCarousel1682411948256" style="background-image: none;">
+               id="slide4" style="background-image: none;">
 
             <ol class="carousel-indicators o_we_no_overlay">
-              <li data-bs-slide-to="0" data-bs-target="#myCarousel1682411948256" class="active"/>
-              <li data-bs-slide-to="1" data-bs-target="#myCarousel1682411948256" aria-current="true"/>
-              <li data-bs-slide-to="2" data-bs-target="#myCarousel1682411948256"/>
+              <li data-bs-slide-to="0" data-bs-target="#slide4" class="active"/>
+              <li data-bs-slide-to="1" data-bs-target="#slide4" aria-current="true"/>
+              <li data-bs-slide-to="2" data-bs-target="#slide4"/>
             </ol>
             <div class="carousel-inner">
 
@@ -41,12 +41,12 @@
             </div>
 
             <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img"
-               aria-label="Précedent" title="Précedent" href="#myCarousel1682411948256">
+               aria-label="Précedent" title="Précedent" href="#slide4">
               <span class="carousel-control-prev-icon"/>
               <span class="visually-hidden o_default_snippet_text">Précédent</span>
             </a>
             <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img"
-               aria-label="Suivant" title="Suivant" href="#myCarousel1682411948256">
+               aria-label="Suivant" title="Suivant" href="#slide4">
               <span class="carousel-control-next-icon"/>
               <span class="visually-hidden o_default_snippet_text">Suivant</span>
             </a>
@@ -60,11 +60,11 @@
         <div class="product_demande_scroll">
           <a title="Golf Plus Voyages" style="color: #97B5AA;" href="tel:+01 55 37 37 40">✆ 01 55 37 37 40</a>
         </div>
-        <section id="produits" class="contain bordersection no-padding">
+        <section id="produits" class="contain bordersection">
           <div class="container">
             <h1 class="header_inverse" style="border: 5px solid #388343;">Constance Lemuria 5*
             </h1>
-            <div class="row inner no-padding mb16 mt16">
+            <div class="row inner mb16 mt16">
               <div class="breadcrumb breadcrunb_categ_name breadcrunb_new_prod_name mt16" style="">
                 <div itemprop="breadcrumb">
                   <span>
@@ -77,7 +77,7 @@
                 </div>
               </div>
               <div class="inner"></div>
-              <div class="col-md-7 col-xs-12 desc_produit no-padding">
+              <div class="col-md-7 col-xs-12 desc_produit">
                 <div class="col-md-12 col-xs-12 imgProduittop">
                   <b>
                     <span>7</span>
@@ -152,11 +152,11 @@
                  style="font-family: Verdana,Arial,sans-serif !important;font-size: 13px;">
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product_corse_box">
-                  <div class="col-md-2 no-padding">
+                  <div class="col-md-2">
                     <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
                          class="img-responsive center-block" style="height: 60px !important;"/>
                   </div>
-                  <div class="col-md-10 no-padding mt8 mb8">
+                  <div class="col-md-10 mt8 mb8">
                     <b>
                       <span>Golf du Constance Lemuria</span>
                     </b>
@@ -174,11 +174,11 @@
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product_corse_box">
-                  <div class="col-md-2 no-padding">
+                  <div class="col-md-2">
                     <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
                          class="img-responsive center-block" style="height: 60px !important;"/>
                   </div>
-                  <div class="col-md-10 no-padding mt8 mb8">
+                  <div class="col-md-10 mt8 mb8">
                     <b>
                       <span>Golf du Constance Lemuria</span>
                     </b>
@@ -196,11 +196,11 @@
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product_corse_box">
-                  <div class="col-md-2 no-padding">
+                  <div class="col-md-2">
                     <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
                          class="img-responsive center-block" style="height: 60px !important;"/>
                   </div>
-                  <div class="col-md-10 no-padding mt8 mb8">
+                  <div class="col-md-10 mt8 mb8">
                     <b>
                       <span>Golf du Constance Lemuria</span>
                     </b>
@@ -221,12 +221,12 @@
         </section>
         <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carrousel">
           <div class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000"
-               id="myCarousel1682411948256" style="background-image: none;">
+               id="slide5" style="background-image: none;">
 
             <ol class="carousel-indicators o_we_no_overlay">
-              <li data-bs-slide-to="0" data-bs-target="#myCarousel1682411948256" class="active"/>
-              <li data-bs-slide-to="1" data-bs-target="#myCarousel1682411948256" aria-current="true"/>
-              <li data-bs-slide-to="2" data-bs-target="#myCarousel1682411948256"/>
+              <li data-bs-slide-to="0" data-bs-target="#slide5" class="active"/>
+              <li data-bs-slide-to="1" data-bs-target="#slide5" aria-current="true"/>
+              <li data-bs-slide-to="2" data-bs-target="#slide5"/>
             </ol>
             <div class="carousel-inner">
 
@@ -254,18 +254,18 @@
             </div>
 
             <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img"
-               aria-label="Précedent" title="Précedent" href="#myCarousel1682411948256">
+               aria-label="Précedent" title="Précedent" href="#slide5">
               <span class="carousel-control-prev-icon"/>
               <span class="visually-hidden o_default_snippet_text">Précédent</span>
             </a>
             <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img"
-               aria-label="Suivant" title="Suivant" href="#myCarousel1682411948256">
+               aria-label="Suivant" title="Suivant" href="#slide5">
               <span class="carousel-control-next-icon"/>
               <span class="visually-hidden o_default_snippet_text">Suivant</span>
             </a>
           </div>
         </section>
-        <section class="contain contenttabs bordersection no-padding" id="details_parcours">
+        <section class="contain contenttabs bordersection" id="details_parcours">
           <div class="row inner">
             <div class="container" style="background-color:white;">
               <ul class="nav nav-tabs mt16">
@@ -336,17 +336,17 @@
                 </div>
                 <div id="product_parcours" class="tab-pane fade">
                   <div class="">
-                    <div class="col-md-12 product_info no-padding"
+                    <div class="col-md-12 product_info"
                          style="font-family: Verdana,Arial,sans-serif !important;">
                       <div class="row product_info"
                            style="font-family: Verdana,Arial,sans-serif !important;font-size: 13px;">
                         <div class="col-md-4 col-sm-6 col-xs-12">
                           <div class="product_corse_box">
-                            <div class="col-md-2 no-padding">
+                            <div class="col-md-2">
                               <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
                                    class="img-responsive center-block" style="height: 60px !important;"/>
                             </div>
-                            <div class="col-md-10 no-padding mt8 mb8">
+                            <div class="col-md-10 mt8 mb8">
                               <b>
                                 <span>Golf du Constance Lemuria</span>
                               </b>
@@ -364,11 +364,11 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
                           <div class="product_corse_box">
-                            <div class="col-md-2 no-padding">
+                            <div class="col-md-2">
                               <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
                                    class="img-responsive center-block" style="height: 60px !important;"/>
                             </div>
-                            <div class="col-md-10 no-padding mt8 mb8">
+                            <div class="col-md-10 mt8 mb8">
                               <b>
                                 <span>Golf du Constance Lemuria</span>
                               </b>
@@ -386,11 +386,11 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
                           <div class="product_corse_box">
-                            <div class="col-md-2 no-padding">
+                            <div class="col-md-2">
                               <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
                                    class="img-responsive center-block" style="height: 60px !important;"/>
                             </div>
-                            <div class="col-md-10 no-padding mt8 mb8">
+                            <div class="col-md-10 mt8 mb8">
                               <b>
                                 <span>Golf du Constance Lemuria</span>
                               </b>
@@ -483,8 +483,8 @@
                   </div>
                 </div>
                 <div id="product_gallery" class="tab-pane fade">
-                  <div class="col-xs-12 mb32 mt16 no-padding" style="padding-right: 0px; padding-left: 0px;">
-                    <div class="col-xs-12 col-md-6 col-lg-6 col-sm-6 mb16 no-padding" style="">
+                  <div class="col-xs-12 mb32 mt16" style="padding-right: 0px; padding-left: 0px;">
+                    <div class="col-xs-12 col-md-6 col-lg-6 col-sm-6 mb16" style="">
                       <iframe src="https://www.youtube.com/embed/c-HVff2VdR8" frameborder="0"
                               allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen"
                               msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"

@@ -1,7 +1,23 @@
 #top {
     #top_menu_collapse {
         position: absolute;
+        width: fit-content;
+        width: 90%;
+        padding: 0 50px;
+        top: 108px;
+    }
+    .nav-item.dropdown.position-static {
+        cursor: pointer;
+    }
+    .s_mega_menu_odoo_menu .row {
+        margin: 0 !important;
+    }
+    #top_menu {
+        list-style: none;
+        margin-bottom: 150px;
+        width: fit-content;
         background-color: #fff;
+        padding: 50px 10px;
     }
     img.img.img-fluid {
         width: 250px !important;
@@ -1561,7 +1577,7 @@ a.buttonPdf img {
 }
 .dropdown-menu.o_mega_menu.dropdown-menu-start {
     margin-bottom: 17px;
-    background-color: rgba(26,45,62,0.78);
+    background-color: transparent !important;
 }
 .dropdown-menu.o_mega_menu.dropdown-menu-start .nav-link:before {
     display:none !important;
@@ -1736,4 +1752,34 @@ div.product_demande_scroll_devis {
   padding-left: 70px;
   display: block;
   line-height: 1;
+}
+.nav-item.dropdown.position-static .dropdown-menu-start {
+    display: none !important;
+}
+.nav-item.dropdown.position-static:hover .dropdown-menu-start {
+    display: block !important;
+}
+.nav-item.dropdown.position-static .dropdown-menu-start {
+    position: absolute;
+    top: 0;
+    left: 247px !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding-top: 30px;
+    padding-left: 10px;
+    width: calc(100% - 247px);
+}
+.s_mega_menu_odoo_menu .col-md-6:hover h4 {
+    background: #2a5a3b;
+    transition: .3s;
+}
+#product_full_description, #oe_structure_website_sale_product_2 {
+    margin-top: 0 !important;
+}
+.read-more {
+    cursor: pointer;
+    display: inline-block;
+    color: blue;
+    font-style: italic;
+    margin-top: 2px;
 }
