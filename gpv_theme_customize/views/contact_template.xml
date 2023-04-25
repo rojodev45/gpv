@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <template id="contact_tv_template" name="Contact Us">
+    <t t-call="website.layout">
+      <div id="wrap" class="oe_structure oe_empty">
+        <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carrousel">
+          <div class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000"
+               id="myCarousel1682411948256" style="background-image: none;">
+
+            <ol class="carousel-indicators o_we_no_overlay">
+              <li data-bs-slide-to="0" data-bs-target="#myCarousel1682411948256" class="active"/>
+              <li data-bs-slide-to="1" data-bs-target="#myCarousel1682411948256" aria-current="true"/>
+              <li data-bs-slide-to="2" data-bs-target="#myCarousel1682411948256"/>
+            </ol>
+            <div class="carousel-inner">
+
+              <div class="carousel-item pt152 pb152 oe_img_bg o_bg_img_center o_colored_level active"
+                   style="background-image: url(&quot;/web/image/website.s_carousel_default_image_1&quot;);"
+                   data-name="Slide" placeholder="Tapez &quot;/&quot; pour les commandes">
+
+              </div>
+
+              <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg o_bg_img_center"
+                   style="background-image: url(&quot;/web/image/website.s_carousel_default_image_2&quot;);"
+                   data-name="Slide">
+                <div class="container oe_unremovable">
+
+                </div>
+              </div>
+
+              <div class="carousel-item pt128 pb128 o_colored_level oe_img_bg o_bg_img_center"
+                   style="background-image: url(&quot;/web/image/website.s_carousel_default_image_3&quot;);"
+                   data-name="Slide">
+                <div class="container oe_unremovable">
+
+                </div>
+              </div>
+            </div>
+
+            <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img"
+               aria-label="Précedent" title="Précedent" href="#myCarousel1682411948256">
+              <span class="carousel-control-prev-icon"/>
+              <span class="visually-hidden o_default_snippet_text">Précédent</span>
+            </a>
+            <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img"
+               aria-label="Suivant" title="Suivant" href="#myCarousel1682411948256">
+              <span class="carousel-control-next-icon"/>
+              <span class="visually-hidden o_default_snippet_text">Suivant</span>
+            </a>
+          </div>
+        </section>
+        <div class="container">
+          <section id="contactpage" class="contain  bordersection no-padding">
+            <h2 class="page_title">
+              Contactez-nous
+            </h2>
+            <div class="inner mentions ">
+              <div class="breadcrumb">
+                <div itemprop="breadcrumb">
+                  <a href="/">Accueil</a>
+                  - Contact
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <h3>Contactez-nous, un expert à votre service</h3>
+
+                <p class="chapo">Un projet de voyage, une question sur nos offres, un dossier en cours; les choix pour
+                  nous contacter sont nombreux.
+                  <br/>
+                  A notre agence, au téléphone, par courrier postal ou par email; notre équipe de spécialistes vous
+                  répondra dans les plus brefs délais.
+                </p>
+              </div>
+              <div class="row inner">
+                <div class="col-xs-12 col-sm-4 mt16">
+                  <div>
+                    <h3 class="leftprice" style="margin-bottom: 10px !important;">Par téléphone</h3>
+                    <p class="text-center font16">Au 01 55 37 37 40</p>
+                  </div>
+                  <div>
+                    <h3 class="leftprice mt16" style="margin-bottom: 10px !important;">A l'agence golf plus voyages</h3>
+                    <p class="text-center">
+                      28, Boulevard de la Bastille
+                      <br/>
+                      75012 PARIS
+                      <br/>
+                      <br/>
+                    </p>
+
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-8 mt16">
+                  <form id="contact-us-page" method="post" action="#" novalidate="novalidate">
+                    <input type="hidden" name="cookie" value=""/>
+                    <input type="hidden" value="Message" name="form_type"/>
+                    <input type="hidden" value="Golf Plus Voyages" id="website" name="website"/>
+                    <h3 class="leftprice contact-us">Avec le formulaire de contact</h3>
+                    <div class="row">
+                      <div class="form-group col-xs-12 col-sm-6">
+                        <label class="col-xs-12 col-sm-4 formmlabel">Nom</label>
+                        <input type="text" name="nom" id="nom" minlength="2" required="required"
+                               class="form col-xs-12 col-sm-8" placeholder="" aria-required="true"/>
+                        <label class="error col-xs-12 text-right" for="nom"></label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-group col-xs-12 col-sm-6">
+                        <label class="col-xs-12  col-sm-4 formmlabel">Email</label>
+                        <input type="email" name="email" id="email" required="required" class="form col-xs-12 col-sm-8"
+                               placeholder="" aria-required="true"/>
+                        <label class="error col-xs-12 text-right" for="email"></label>
+                      </div>
+                      <div class="form-group col-xs-12 col-sm-6">
+                        <label class="col-xs-12 col-sm-4 formmlabel">Téléphone</label>
+                        <input type="tel" name="telephone" id="telephone" required="required"
+                               class="form col-xs-12 col-sm-8" placeholder="" aria-required="true"/>
+                        <label class="error col-xs-12 text-right" for="telephone"></label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-group col-xs-12 col-sm-12">
+                        <label class="col-xs-12 col-sm-2 formmlabel">Message</label>
+                        <textarea name="desc_projet" id="message" required="required"
+                                  class="form textarea col-xs-12 col-sm-10" placeholder=""
+                                  aria-required="true"></textarea>
+                        <label class="error col-xs-12 text-right" for="message"></label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-group col-xs-12 col-sm-12">
+                        <button type="submit" id="submit" name="submit" class="form-btn">Envoyer mon message</button>
+                        <div id="result" class="warning col-xs-12 "></div>
+                      </div>
+                    </div>
+                  </form>
+                  <div>
+                    <p>Pour toutes questions, suggestions concernant le site vous pouvez contacter l'équipe en charge
+                      sur
+                      l'adresse :
+                      <a href="mailto: info@golfplusvoyages.com">info@golfplusvoyages.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </t>
+  </template>
+</odoo>
