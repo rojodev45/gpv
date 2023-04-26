@@ -2,7 +2,7 @@
 <odoo>
   <template id="product_single_template" name="" inherit_id="website_sale.product">
     <xpath expr="//section[@id='product_detail']" position="replace">
-      <div id="wrap" class="oe_structure oe_empty">
+      <div id="wrap" class="oe_structure">
         <div id="o_product_terms_and_share"
              class="d-flex justify-content-between flex-column flex-md-row align-items-md-end mb-3 hidden">
         </div>
@@ -16,30 +16,19 @@
               <li data-bs-slide-to="2" data-bs-target="#slide4"/>
             </ol>
             <div class="carousel-inner">
-
               <div class="carousel-item pt152 pb152 oe_img_bg o_bg_img_center o_colored_level active"
                    style="background-image: url(&quot;/web/image/website.s_carousel_default_image_1&quot;);"
                    data-name="Slide" placeholder="Tapez &quot;/&quot; pour les commandes">
-
               </div>
-
               <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg o_bg_img_center"
                    style="background-image: url(&quot;/web/image/website.s_carousel_default_image_2&quot;);"
                    data-name="Slide">
-                <div class="container oe_unremovable">
-
-                </div>
               </div>
-
               <div class="carousel-item pt128 pb128 o_colored_level oe_img_bg o_bg_img_center"
                    style="background-image: url(&quot;/web/image/website.s_carousel_default_image_3&quot;);"
                    data-name="Slide">
-                <div class="container oe_unremovable">
-
-                </div>
               </div>
             </div>
-
             <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img"
                aria-label="Précedent" title="Précedent" href="#slide4">
               <span class="carousel-control-prev-icon"/>
@@ -237,17 +226,11 @@
               <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg o_bg_img_center"
                    style="background-image: url(&quot;/web/image/website.s_carousel_default_image_2&quot;);"
                    data-name="Slide">
-                <div class="container oe_unremovable">
-
-                </div>
               </div>
 
               <div class="carousel-item pt128 pb128 o_colored_level oe_img_bg o_bg_img_center"
                    style="background-image: url(&quot;/web/image/website.s_carousel_default_image_3&quot;);"
                    data-name="Slide">
-                <div class="container oe_unremovable">
-
-                </div>
               </div>
             </div>
 
