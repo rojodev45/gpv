@@ -63,6 +63,8 @@ $(document).ready(function() {
         }
     });
 
+//    $('#emailnews').on('change keyup', function() {var thisVal = $(this).val(); $('#modal_emailnews').val() == thisVal})
+    $('form#emailnewsbutton').validate(console.log('test'));
     // FOOTER Message
     $('form#contact-us').validate({
         submitHandler: function(form) {

@@ -9,4 +9,9 @@ odoo.define('jam_portal.profile_controller', function(require) {
             items: 3,
         });
     });
+
+    $('#cg').on('change keyup', function() {
+        var thisVal = $(this).val(); $('#modal_emailnews').val() == thisVal
+        }
+});
 });

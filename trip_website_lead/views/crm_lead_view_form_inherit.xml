@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="crm_lead_view_form_inherit" model="ir.ui.view">
+            <field name="name">crm_lead_view_form_inherit</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_lead_view_form"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <xpath expr="//page[@name='internal_notes']" position="after">
+                    <page string="Cookies">
+                        <field name="cookies" nolabel="1"/>
+                    </page>
+                    <page string="quotation">
+                        <group>
+                            <field name="destination"/>
+                            <field name="circuit_title"/>
+                            <field name="departure_date"/>
+                            <field name="flexible_date"/>
+                            <field name="flight_included"/>
+                            <field name="duration"/>
+                            <field name="adult_nbr"/>
+                            <field name="child_nbr"/>
+                            <field name="golfer_nbr"/>
+                            <field name="non_golfer_nbr"/>
+                            <field name="budget"/>
+                            <field name="desc_project"/>
+                            <field name="country"/>
+                            <field name="form_type"/>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
