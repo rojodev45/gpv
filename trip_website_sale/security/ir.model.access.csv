@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_res_continent,access_res_continent_global,model_res_continent,,1,1,1,1
+access_res_continents,access_res_continents_global,model_res_continents,base.group_user,1,1,1,1

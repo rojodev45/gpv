@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <template id="product_single_template" name="" inherit_id="website_sale.product">
+    <xpath expr="//section[@id='product_detail']" position="replace">
+      <div id="wrap" class="oe_structure oe_empty">
+        <div id="o_product_terms_and_share"
+             class="d-flex justify-content-between flex-column flex-md-row align-items-md-end mb-3 hidden">
+        </div>
+        <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carrousel">
+          <div class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000"
+               id="slide4" style="background-image: none;">
+
+            <ol class="carousel-indicators o_we_no_overlay">
+              <li data-bs-slide-to="0" data-bs-target="#slide4" class="active"/>
+              <li data-bs-slide-to="1" data-bs-target="#slide4" aria-current="true"/>
+              <li data-bs-slide-to="2" data-bs-target="#slide4"/>
+            </ol>
+            <div class="carousel-inner">
+
+              <div class="carousel-item pt152 pb152 oe_img_bg o_bg_img_center o_colored_level active"
+                   style="background-image: url(&quot;/web/image/website.s_carousel_default_image_1&quot;);"
+                   data-name="Slide" placeholder="Tapez &quot;/&quot; pour les commandes">
+
+              </div>
+
+              <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg o_bg_img_center"
+                   style="background-image: url(&quot;/web/image/website.s_carousel_default_image_2&quot;);"
+                   data-name="Slide">
+                <div class="container oe_unremovable">
+
+                </div>
+              </div>
+
+              <div class="carousel-item pt128 pb128 o_colored_level oe_img_bg o_bg_img_center"
+                   style="background-image: url(&quot;/web/image/website.s_carousel_default_image_3&quot;);"
+                   data-name="Slide">
+                <div class="container oe_unremovable">
+
+                </div>
+              </div>
+            </div>
+
+            <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img"
+               aria-label="Précedent" title="Précedent" href="#slide4">
+              <span class="carousel-control-prev-icon"/>
+              <span class="visually-hidden o_default_snippet_text">Précédent</span>
+            </a>
+            <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img"
+               aria-label="Suivant" title="Suivant" href="#slide4">
+              <span class="carousel-control-next-icon"/>
+              <span class="visually-hidden o_default_snippet_text">Suivant</span>
+            </a>
+          </div>
+        </section>
+        <div class="product_demande_scroll_devis">
+          <a href="/contacts/devis/product/constance-lemuria-5-230" style="color: #97B5AA;">
+            Demande<br/>de devis
+          </a>
+        </div>
+        <div class="product_demande_scroll">
+          <a title="Golf Plus Voyages" style="color: #97B5AA;" href="tel:+01 55 37 37 40">✆ 01 55 37 37 40</a>
+        </div>
+        <section id="produits" class="contain bordersection">
+          <div class="container">
+            <h1 class="header_inverse" style="border: 5px solid #388343;">Constance Lemuria 5*
+            </h1>
+            <div class="row inner mb16 mt16">
+              <div class="breadcrumb breadcrunb_categ_name breadcrunb_new_prod_name mt16" style="">
+                <div itemprop="breadcrumb">
+                  <span>
+                    <a href="/">Accueil</a>
+                    -
+                    <a href="/voyage-golf-seychelles">Seychelles</a>
+                    -
+                    Constance Lemuria
+                  </span>
+                </div>
+              </div>
+              <div class="inner"></div>
+              <div class="col-md-7 col-xs-12 desc_produit">
+                <div class="col-md-12 col-xs-12 imgProduittop">
+                  <b>
+                    <span>7</span>
+                    jours
+
+                    - à partir de 3 995 €
+                  </b>
+                  <input name="more_link_option_value" class="more_link_option_value" value="378" type="hidden"/>
+                  <div class="forum-content mt16">
+                    <div class="comments-space" style="font-family: Verdana,Arial,sans-serif !important;">
+                      <div class="article">
+                        <div class="text short" id="categ_web_info_short">
+                          <p>Sur l'île de Praslin, sculpté dans les rochers au milieu d’une végétation luxuriante
+                            surplombant les plages d’Anse Kerlan, l'hôtel Constance Lemuria Seychelles est une
+                            destination
+                            en lui-même. Étant l’un des premiers hôtels 5 étoiles de luxe avec son propre parcours de
+                            championnat de 18 trous, il a ouvert ses portes en décembre 1999 et a été complètement
+                            rénové
+                            en 2016.
+                          </p>
+                        </div>
+                        <div class="text full" id="categ_web_info_full">
+                          <p>Sur l'île de Praslin, sculpté dans les rochers au milieu d’une végétation luxuriante
+                            surplombant les plages d’Anse Kerlan, l'hôtel Constance Lemuria Seychelles est une
+                            destination
+                            en lui-même. Étant l’un des premiers hôtels 5 étoiles de luxe avec son propre parcours de
+                            championnat de 18 trous, il a ouvert ses portes en décembre 1999 et a été complètement
+                            rénové
+                            en 2016.
+                            <br/>
+                            <br/>
+                            L’architecture moderne et la qualité des aménagements sont autant de garanties aux clients
+                            qui
+                            recherchent le luxe le plus raffiné et le meilleur confort en harmonie avec la beauté
+                            naturelle préservée de l’environnement.
+                            <br/>
+                            <br/>
+                            Envie de challenge, d'aventure et de souvenirs impérissables, jouez sur le seul parcours de
+                            golf 18 trous des Seychelles ou explorez des sites de plongée de renommée mondiale !
+                          </p>
+                        </div>
+                        <span class="hidden-xs read-more">...Plus</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 col-xs-12 plus_produit">
+                <h3 class="lefted plus">LES PLUS DU VOYAGE</h3>
+                <div class="marge">
+                  <p>
+                    - Luxe, confort et raffinement
+                    <br/>
+                    - Le seul 18 trous des Seychelles avec des vues spectaculaires
+                    <br/>
+                    - Végétation tropicale et plages sauvages où les tortues viennent pondre chaque année
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="parcours_section" class="bordersection">
+          <div class="container">
+            <h2 class="header_inverse "
+                style="font-weight: bold;font-size: 25px;border: 0px solid #388343; margin: auto;">
+              PARCOURS
+            </h2>
+            <div class="row product_info"
+                 style="font-family: Verdana,Arial,sans-serif !important;font-size: 13px;">
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="product_corse_box">
+                  <div class="col-md-2">
+                    <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
+                         class="img-responsive center-block" style="height: 60px !important;"/>
+                  </div>
+                  <div class="col-md-10 mt8 mb8">
+                    <b>
+                      <span>Golf du Constance Lemuria</span>
+                    </b>
+                    <br/>
+                    <span>18 trous, Par 70, 5580m</span>
+                    <br/>
+                    Architecte :
+                    <span>Marc-Antoine Farry et Rodney Wright</span>
+                    <br/>
+                    <a href="https://youtu.be/c-HVff2VdR8" target="_blank" class="italic_link">
+                      La vidéo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="product_corse_box">
+                  <div class="col-md-2">
+                    <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
+                         class="img-responsive center-block" style="height: 60px !important;"/>
+                  </div>
+                  <div class="col-md-10 mt8 mb8">
+                    <b>
+                      <span>Golf du Constance Lemuria</span>
+                    </b>
+                    <br/>
+                    <span>18 trous, Par 70, 5580m</span>
+                    <br/>
+                    Architecte :
+                    <span>Marc-Antoine Farry et Rodney Wright</span>
+                    <br/>
+                    <a href="https://youtu.be/c-HVff2VdR8" target="_blank" class="italic_link">
+                      La vidéo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="product_corse_box">
+                  <div class="col-md-2">
+                    <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
+                         class="img-responsive center-block" style="height: 60px !important;"/>
+                  </div>
+                  <div class="col-md-10 mt8 mb8">
+                    <b>
+                      <span>Golf du Constance Lemuria</span>
+                    </b>
+                    <br/>
+                    <span>18 trous, Par 70, 5580m</span>
+                    <br/>
+                    Architecte :
+                    <span>Marc-Antoine Farry et Rodney Wright</span>
+                    <br/>
+                    <a href="https://youtu.be/c-HVff2VdR8" target="_blank" class="italic_link">
+                      La vidéo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carrousel">
+          <div class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000"
+               id="slide5" style="background-image: none;">
+
+            <ol class="carousel-indicators o_we_no_overlay">
+              <li data-bs-slide-to="0" data-bs-target="#slide5" class="active"/>
+              <li data-bs-slide-to="1" data-bs-target="#slide5" aria-current="true"/>
+              <li data-bs-slide-to="2" data-bs-target="#slide5"/>
+            </ol>
+            <div class="carousel-inner">
+
+              <div class="carousel-item pt152 pb152 oe_img_bg o_bg_img_center o_colored_level active"
+                   style="background-image: url(&quot;/web/image/website.s_carousel_default_image_1&quot;);"
+                   data-name="Slide" placeholder="Tapez &quot;/&quot; pour les commandes">
+
+              </div>
+
+              <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg o_bg_img_center"
+                   style="background-image: url(&quot;/web/image/website.s_carousel_default_image_2&quot;);"
+                   data-name="Slide">
+                <div class="container oe_unremovable">
+
+                </div>
+              </div>
+
+              <div class="carousel-item pt128 pb128 o_colored_level oe_img_bg o_bg_img_center"
+                   style="background-image: url(&quot;/web/image/website.s_carousel_default_image_3&quot;);"
+                   data-name="Slide">
+                <div class="container oe_unremovable">
+
+                </div>
+              </div>
+            </div>
+
+            <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img"
+               aria-label="Précedent" title="Précedent" href="#slide5">
+              <span class="carousel-control-prev-icon"/>
+              <span class="visually-hidden o_default_snippet_text">Précédent</span>
+            </a>
+            <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img"
+               aria-label="Suivant" title="Suivant" href="#slide5">
+              <span class="carousel-control-next-icon"/>
+              <span class="visually-hidden o_default_snippet_text">Suivant</span>
+            </a>
+          </div>
+        </section>
+        <section class="contain contenttabs bordersection" id="details_parcours">
+          <div class="row inner">
+            <div class="container" style="background-color:white;">
+              <ul class="nav nav-tabs mt16">
+                <li class="active parc_right">
+                  <a data-bs-toggle="tab" href="#product_hebergement">
+                    <h2>Hébergement</h2>
+                  </a>
+                </li>
+                <li class="parc_right">
+                  <a data-bs-toggle="tab" href="#product_parcours">
+                    <h2>Parcours</h2>
+                  </a>
+                </li>
+                <li class="parc_right">
+                  <a data-bs-toggle="tab" href="#product_tarrifs">
+                    <h2>Tarifs</h2>
+                  </a>
+                </li>
+                <li class="parc_right">
+                  <a data-bs-toggle="tab" href="#product_gallery">
+                    <h2>Galerie</h2>
+                  </a>
+                </li>
+              </ul>
+              <div class="tab-content mt16">
+                <div id="product_hebergement" class="tab-pane fade in active">
+                  <span class="text-justify" id="product_web_hebergement">
+                    <h3>Séjourner</h3>
+                    <p>
+                      Sur un site exceptionnel, le long de la plage d’Anse Kerlan, les chambres à la décoration élégante
+                      et raffinée sont orientées vers l’océan.
+                      <br/>
+                      <br/>
+                      En parfaite harmonie avec la nature et construites avec des matériaux nobles, comme le bois, le
+                      marbre et le granit rose : 88 suites Junior de 52 m² et 8 suites Senior de 115 m² avec un salon
+                      séparé, une salle de bain avec bain à remous, un grand balcon ou une terrasse. Ce resort propose
+                      également des villas sur la plage.
+                    </p>
+                    <h3>Restaurants</h3>
+                    <p>
+                      Cuisine raffinée dans tous les restaurants : surplombant la baie, le « Legend » propose une
+                      cuisine des quatre coins du monde, sous forme de buffets :
+                      <br/>
+                      <strong>- le « Diva »</strong>
+                      situé près du golf, vous fera découvrir une cuisine seychelloise revisitée
+                      <br/>
+                      <strong>- « The Nest »</strong>
+                      perché sur ses blocs de granit, pour déguster des fruits de mer aux saveurs créoles
+                      <br/>
+                      <strong>- le « Takamaka »</strong>
+                      pour des déjeuners légers, les pieds dans le sable. 5 bars.
+                    </p>
+                    <h3>Loisirs</h3>
+                    <p>
+                      1 piscine en espaliers, 3 plages, tennis, plongée, salle de musculation, VTT, kayaks, voile,
+                      planche à voile, sauna, hammam.
+                      <br/>
+                      Golf 18 trous, dessiné par l’architecte Rodney Wright, offrant des panoramas époustouflants.
+                      <br/>
+                      Vos enfants : le « Constance Kids club » pour les enfants de 4 à 12 ans, de 9h à 21h.
+                    </p>
+                    <h3>Spa</h3>
+                    <p>
+                      Bien-être : au coeur du jardin, le U Spa by Constance et son pavillon Valmont.
+                    </p>
+                  </span>
+                </div>
+                <div id="product_parcours" class="tab-pane fade">
+                  <div class="">
+                    <div class="col-md-12 product_info"
+                         style="font-family: Verdana,Arial,sans-serif !important;">
+                      <div class="row product_info"
+                           style="font-family: Verdana,Arial,sans-serif !important;font-size: 13px;">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="product_corse_box">
+                            <div class="col-md-2">
+                              <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
+                                   class="img-responsive center-block" style="height: 60px !important;"/>
+                            </div>
+                            <div class="col-md-10 mt8 mb8">
+                              <b>
+                                <span>Golf du Constance Lemuria</span>
+                              </b>
+                              <br/>
+                              <span>18 trous, Par 70, 5580m</span>
+                              <br/>
+                              Architecte :
+                              <span>Marc-Antoine Farry et Rodney Wright</span>
+                              <br/>
+                              <a href="https://youtu.be/c-HVff2VdR8" target="_blank" class="italic_link">
+                                La vidéo
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="product_corse_box">
+                            <div class="col-md-2">
+                              <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
+                                   class="img-responsive center-block" style="height: 60px !important;"/>
+                            </div>
+                            <div class="col-md-10 mt8 mb8">
+                              <b>
+                                <span>Golf du Constance Lemuria</span>
+                              </b>
+                              <br/>
+                              <span>18 trous, Par 70, 5580m</span>
+                              <br/>
+                              Architecte :
+                              <span>Marc-Antoine Farry et Rodney Wright</span>
+                              <br/>
+                              <a href="https://youtu.be/c-HVff2VdR8" target="_blank" class="italic_link">
+                                La vidéo
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="product_corse_box">
+                            <div class="col-md-2">
+                              <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
+                                   class="img-responsive center-block" style="height: 60px !important;"/>
+                            </div>
+                            <div class="col-md-10 mt8 mb8">
+                              <b>
+                                <span>Golf du Constance Lemuria</span>
+                              </b>
+                              <br/>
+                              <span>18 trous, Par 70, 5580m</span>
+                              <br/>
+                              Architecte :
+                              <span>Marc-Antoine Farry et Rodney Wright</span>
+                              <br/>
+                              <a href="https://youtu.be/c-HVff2VdR8" target="_blank" class="italic_link">
+                                La vidéo
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="new_product_parcourse_accordion" class="row mt8 col-md-12 col-xs-12 col-sm-12">
+                        <h4>Golf du Constance Lemuria</h4>
+                        <div class="no-padding">
+                          <h3>Parcours</h3>
+                          <p>
+                            Le Lémuria Golf Course qui a été désigné le meilleur Resort de Golf dans l'Océan Indien par
+                            le World Travel Award depuis son ouverture en Octobre 2000 surplombe 3 plages magnifiques de
+                            l'Océan Indien.
+                            <br/>
+                            <br/>
+                            Ce parcours est le premier et le seul parcours de 18 trous aux Seychelles. Avec ses greens
+                            très larges et son aménagement paysager inspiré, les 12 premiers trous se situent dans la
+                            vallée de Grand Anse Kerlan, les 6 derniers trous étant surélevés sur une petite pente
+                            offrant des vues spectaculaires.
+                            <br/>
+                            Le départ du trou signature (15e trou) offre une vue imprenable sur l'une des plus belles
+                            plages (Anse Georgette) du monde.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="product_tarrifs" class="tab-pane fade">
+                  <div id="accordion">
+                    <h4>PRIX</h4>
+                    <div class="no-padding">
+                      <p>
+                        <strong>A partir de 3995,00 € par personne</strong>
+                        <br/>
+                        <br/>
+                        - Vols Emirates / Air Seychelles aller/retour au départ de Paris
+                        <br/>
+                        - Transferts aéroport - hôtel - aéroport
+                        <br/>
+                        - Séjour 7 nuits en junior suite et petit déjeuner inclus
+                        <br/>
+                        - Green fees illimités
+                        <br/>
+                        - Assurance assistance
+                        <br/>
+                      </p>
+                    </div>
+                    <h4>DETAILS</h4>
+                    <div class="no-padding">
+                      <p>Exemple de prix* pour un départ de Paris en septembre 2023 :
+                        <br/>
+                        <br/>
+                      </p>
+                      <p>
+                        <strong>Le prix comprend :</strong>
+                        <br/>
+                        - Vols Emirates au départ de Paris (Autres villes de départ : nous consulter)
+                        <br/>
+                        - Transferts aéroport - hôtel - aéroport
+                        <br/>
+                        - Hébergement 7 nuits en Junior Suite et petit déjeuner
+                        <br/>
+                        - Green fees illimités
+                        <br/>
+                        - Assurance assistance
+                        <br/>
+                      </p>
+                      <p>
+                        <strong>Le prix ne comprend pas :</strong>
+                        <br/>
+                        - Pourboires et dépenses personnelles
+                        <br/>
+                        - Les repas non mentionnés
+                        <br/>
+                        - L’assurance Multirisque
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="product_gallery" class="tab-pane fade">
+                  <div class="col-xs-12 mb32 mt16" style="padding-right: 0px; padding-left: 0px;">
+                    <div class="col-xs-12 col-md-6 col-lg-6 col-sm-6 mb16" style="">
+                      <iframe src="https://www.youtube.com/embed/c-HVff2VdR8" frameborder="0"
+                              allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen"
+                              msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"
+                              webkitallowfullscreen="webkitallowfullscreen" width="410" height="300"
+                              class="video_width_style">
+                      </iframe>
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-xs-12 mt32 mb32 gallery-container">
+                    <div class="tz-gallery row" id="image_popup">
+                      <div class="col-sm-6 col-md-4 col-lg-3 item" id="image_popup">
+                        <a class="lightbox pop openmodal1"
+                           text="//assets.terre-voyages.com/gpv/produits/constance-lemuria/bando_constance-lemuria-01.jpg"
+                           href="//assets.terre-voyages.com/gpv/produits/constance-lemuria/bando_constance-lemuria-01.jpg"
+                           data-lightbox="roadtrip">
+                          <img class="img_fluid_box" data-toggle="modal" data-target="#imagemodal1"
+                               src="//assets.terre-voyages.com/gpv/produits/constance-lemuria/bando_constance-lemuria-01.jpg"/>
+                        </a>
+                      </div>
+                      <div class="col-sm-6 col-md-4 col-lg-3 item" id="image_popup">
+                        <a class="lightbox pop openmodal1"
+                           text="//assets.terre-voyages.com/gpv/produits/constance-lemuria/bando_constance-lemuria-02.jpg"
+                           href="//assets.terre-voyages.com/gpv/produits/constance-lemuria/bando_constance-lemuria-02.jpg"
+                           data-lightbox="roadtrip">
+                          <img class="img_fluid_box" data-toggle="modal" data-target="#imagemodal1"
+                               src="//assets.terre-voyages.com/gpv/produits/constance-lemuria/bando_constance-lemuria-02.jpg"/>
+                        </a>
+                      </div>
+                      <div class="col-sm-6 col-md-4 col-lg-3 item" id="image_popup">
+                        <a class="lightbox pop openmodal1"
+                           text="//assets.terre-voyages.com/gpv/produits/constance-lemuria/bando_constance-lemuria-03.jpg"
+                           href="//assets.terre-voyages.com/gpv/produits/constance-lemuria/bando_constance-lemuria-03.jpg"
+                           data-lightbox="roadtrip">
+                          <img class="img_fluid_box" data-toggle="modal" data-target="#imagemodal1"
+                               src="//assets.terre-voyages.com/gpv/produits/constance-lemuria/bando_constance-lemuria-03.jpg"/>
+                        </a>
+                      </div>
+                      <div class="col-sm-6 col-md-4 col-lg-3 item" id="image_popup">
+                        <a class="lightbox pop openmodal1"
+                           text="//assets.terre-voyages.com/gpv/produits/constance-lemuria/bando_constance-lemuria-04.jpg"
+                           href="//assets.terre-voyages.com/gpv/produits/constance-lemuria/bando_constance-lemuria-04.jpg"
+                           data-lightbox="roadtrip">
+                          <img class="img_fluid_box" data-toggle="modal" data-target="#imagemodal1"
+                               src="//assets.terre-voyages.com/gpv/produits/constance-lemuria/bando_constance-lemuria-04.jpg"/>
+                        </a>
+                      </div>
+                      <div class="col-sm-6 col-md-4 col-lg-3 item" id="image_popup1">
+                        <a class="lightbox pop openmodal"
+                           text="//assets.terre-voyages.com/gpv/produits/constance-lemuria/pano_constance-lemuria-01.jpg"
+                           href="//assets.terre-voyages.com/gpv/produits/constance-lemuria/pano_constance-lemuria-01.jpg"
+                           data-lightbox="roadtrip">
+                          <img class="img_fluid_box" data-toggle="modal" data-target="#imagemodal"
+                               src="//assets.terre-voyages.com/gpv/produits/constance-lemuria/pano_constance-lemuria-01.jpg"/>
+                        </a>
+                      </div>
+                      <div class="col-sm-6 col-md-4 col-lg-3 item" id="image_popup1">
+                        <a class="lightbox pop openmodal"
+                           text="//assets.terre-voyages.com/gpv/produits/constance-lemuria/pano_constance-lemuria-02.jpg"
+                           href="//assets.terre-voyages.com/gpv/produits/constance-lemuria/pano_constance-lemuria-02.jpg"
+                           data-lightbox="roadtrip">
+                          <img class="img_fluid_box" data-toggle="modal" data-target="#imagemodal"
+                               src="//assets.terre-voyages.com/gpv/produits/constance-lemuria/pano_constance-lemuria-02.jpg"/>
+                        </a>
+                      </div>
+                      <div class="col-sm-6 col-md-4 col-lg-3 item" id="image_popup1">
+                        <a class="lightbox pop openmodal"
+                           text="//assets.terre-voyages.com/gpv/produits/constance-lemuria/pano_constance-lemuria-03.jpg"
+                           href="//assets.terre-voyages.com/gpv/produits/constance-lemuria/pano_constance-lemuria-03.jpg"
+                           data-lightbox="roadtrip">
+                          <img class="img_fluid_box" data-toggle="modal" data-target="#imagemodal"
+                               src="//assets.terre-voyages.com/gpv/produits/constance-lemuria/pano_constance-lemuria-03.jpg"/>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 mt32 visible-xs" id="product_web_info_full_responsive">
+            <p>Sur l'île de Praslin, sculpté dans les rochers au milieu d’une végétation luxuriante surplombant les
+              plages d’Anse Kerlan, l'hôtel Constance Lemuria Seychelles est une destination en lui-même. Étant l’un des
+              premiers hôtels 5 étoiles de luxe avec son propre parcours de championnat de 18 trous, il a ouvert ses
+              portes en décembre 1999 et a été complètement rénové en 2016.
+              <br/>
+              <br/>
+              L’architecture moderne et la qualité des aménagements sont autant de garanties aux clients qui recherchent
+              le luxe le plus raffiné et le meilleur confort en harmonie avec la beauté naturelle préservée de
+              l’environnement.
+              <br/>
+              <br/>
+              Envie de challenge, d'aventure et de souvenirs impérissables, jouez sur le seul parcours de golf 18 trous
+              des Seychelles ou explorez des sites de plongée de renommée mondiale !
+            </p>
+          </div>
+        </section>
+        <section class="bg-green ptb-20">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="title text-center">
+                  7 engagements
+                  <br/>
+                  pour vous donner envie de voyager avec nous
+                </h1>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="ptb-50">
+          <div class="container">
+            <div class="row j-center">
+              <div class="col-md-3 text-center mb-20">
+                <div class="icon-box">
+                  <img src="/gpv_theme_customize/static/src/image/icons/picto_EXPERTISE.svg" width="100%"/>
+                </div>
+                <div class="text-box">
+                  <h6 class="block-title">L’expertise</h6>
+                  <p class="block-text">
+                    Quelle que soit la destination, vous avez l’assurance de bénéficier de l’expertise d’un spécialiste
+                    qui aura à coeur de partager ses connaissances du terrain pour organiser votre voyage.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 text-center mb-20">
+                <div class="icon-box">
+                  <img src="/gpv_theme_customize/static/src/image/icons/picto_SUR-MESURE.svg" width="100%"/>
+                </div>
+                <div class="text-box">
+                  <h6 class="block-title">Le sur-mesure</h6>
+                  <p class="block-text">
+                    Votre créateur de voyage prend un soin tout particulier à vous écouter pour définir votre projet et
+                    personnaliser votre voyage suivant vos souhaits et vos envies.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 text-center mb-20">
+                <div class="icon-box">
+                  <img src="/gpv_theme_customize/static/src/image/icons/picto_PRIX.svg" width="100%"/>
+                </div>
+                <div class="text-box">
+                  <h6 class="block-title">Les prix</h6>
+                  <p class="block-text">
+                    Les prix de nos voyages sont tous étudiés au plus juste. Nous les vendons en direct et pratiquons
+                    des niveaux de marge modérés.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 text-center mb-20">
+                <div class="icon-box">
+                  <img src="/gpv_theme_customize/static/src/image/icons/picto_VOYAGE-TOUT-COMPRIS.svg" height="100%"/>
+                </div>
+                <div class="text-box">
+                  <h6 class="block-title">Des voyages tout compris</h6>
+                  <p class="block-text">
+                    Pas de mauvaises surprises : nos prix détaillent très clairement les prestations qui vous sont
+                    proposées et incluent toutes les taxes et les frais de dossiers éventuels.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 text-center mb-20">
+                <div class="icon-box">
+                  <img src="/gpv_theme_customize/static/src/image/icons/picto_GARANTIE-FINANC.svg" height="100%"/>
+                </div>
+                <div class="text-box">
+                  <h6 class="block-title">La garantie financière</h6>
+                  <p class="block-text">
+                    Vous partez en toute tranquillité puisque vous bénéficiez de la garantie financière APST des
+                    Tour-Opérateurs français.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 text-center mb-20">
+                <div class="icon-box">
+                  <img src="/gpv_theme_customize/static/src/image/icons/picto_CARNET-VOYAGE.svg" height="100%"/>
+                </div>
+                <div class="text-box">
+                  <h6 class="block-title">Le carnet de voyage</h6>
+                  <p class="block-text">
+                    Avant votre départ, nous vous remettons votre carnet de voyage personnalisé. Il détaille l’ensemble
+                    de votre programme.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 text-center mb-20">
+                <div class="icon-box">
+                  <img src="/gpv_theme_customize/static/src/image/icons/picto_ASSISTANCE.svg" height="100%"/>
+                </div>
+                <div class="text-box">
+                  <h6 class="block-title">L’assistance 24/24</h6>
+                  <p class="block-text">
+                    Pendant tout votre séjour, vous bénéficiez d’une assistance 24 heures sur 24 en France comme à
+                    destination.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </xpath>
+  </template>
+</odoo>

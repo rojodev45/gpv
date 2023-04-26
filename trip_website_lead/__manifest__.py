@@ -13,7 +13,7 @@
     "depends": [
         "base",
         "crm",
-        "tv_website",
+        "gpv_theme_customize",
     ],
     "data": [
         "views/crm_lead_view_form_inherit.xml",

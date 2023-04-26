@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <template id="product_description_template" name="" inherit_id="website_sale.products_item">
+    <xpath expr="//a[hasclass('oe_product_image_link')]" position="inside">
+      <div class="itemdefault_categ_product_desc">
+        <h3 style="font-size: 22px;">
+          La route des vins et des jardins
+        </h3>
+        <p>Réalisez tous vos rêves d'Afrique du Sud durant ce voyage exceptionnel. Préparez vous à d'incroyables parties
+          de golf, à des paysages éblouissants, à des vins qui n'ont rien à envier à nos crus et à des rencontres en
+          face-à-face avec une nature sauvage !
+        </p>
+      </div>
+    </xpath>
+  </template>
+  <template id="product_tv_template" name="" inherit_id="website_sale.products">
+    <xpath expr="//div[@id='products_grid']/div[1]" position="replace"/>
+    <xpath expr="//div[@id='oe_structure_website_sale_products_1']" position="inside">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="//assets.terre-voyages.com/gpv/pays/afrique-du-sud/bando_afrique-du-sud-01.jpg"/>
+            <div class="carousel-caption"></div>
+          </div>
+        </div>
+      </div>
+      <section id="produits" class="contain bordersection no-padding">
+        <div class="container">
+          <h1 class="header_inverse nos_des_fair" style="border: 5px solid #388343;">Afrique du Sud
+          </h1>
+          <div class="row inner">
+            <div class="breadcrumb breadcrunb_categ_name">
+              <div itemprop="breadcrumb">
+                <a href="/">Accueil</a>
+                -
+                Afrique du Sud
+              </div>
+            </div>
+
+            <div class="col-md-12 col-xs-12 desc_produit">
+              <div class="forum-content col-md-12 no-padding">
+                <div class="comments-space" style="font-family: Verdana,Arial,sans-serif !important;">
+                  <div class="article">
+                    <div class="text short" id="categ_web_info_short" style="display: block;">
+                      <p>
+                        A la pointe australe du continent africain, l’Afrique du Sud, la nation arc-en-ciel de Nelson
+                        Mandela, saura vous séduire par sa culture métissée. Elle est une destination idéale pour
+                        associer
+                        découverte et golf sur les terres des légendaires Gary Player ou Ernie Els. Jouer à Sun City, ou
+                        sur le fameux parcours de Leopard Creek constituent des expériences extraordinaires.
+                      </p>
+                    </div>
+                    <div class="text full" id="categ_web_info_full" style="display: none;">
+                      <p>
+                        A la pointe australe du continent africain, l’Afrique du Sud, la nation arc-en-ciel de Nelson
+                        Mandela, saura vous séduire par sa culture métissée. Elle est une destination idéale pour
+                        associer
+                        découverte et golf sur les terres des légendaires Gary Player ou Ernie Els. Jouer à Sun City, ou
+                        sur le fameux parcours de Leopard Creek constituent des expériences extraordinaires.
+                        <br/>
+                        <br/>
+                        Partez à la rencontre des Zoulous du Swaziland ou du petit royaume du Lesotho. Visitez les
+                        villes
+                        dynamiques de Johannesburg, de Durban et de Capetown.;
+                      </p>
+                      <p>Côté nature, l’Afrique du sud est la destination des grands espaces et d’une faune sauvage
+                        préservée. Les réserves privées et des parcs nationaux, comme le célèbre parc Kruger ou les
+                        parcs
+                        d’Hluhluwe et d’Addo sont autant de possibilités de safaris photos à la recherche des "big
+                        five".
+                        <br/>
+                        <br/>
+                        L'Afrique du Sud : notre coup de cœur !
+                      </p>
+                    </div>
+                    <span class="hidden-xs read-more">...Plus</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </xpath>
+    <xpath expr="//div[@id='oe_structure_website_sale_products_2']" position="inside">
+      <section class="bg-green ptb-20">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="title text-center">
+                7 engagements
+                <br/>
+                pour vous donner envie de voyager avec nous
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ptb-50">
+        <div class="container">
+          <div class="row j-center">
+            <div class="col-md-3 text-center mb-20">
+              <div class="icon-box">
+                <img src="/gpv_theme_customize/static/src/image/icons/picto_EXPERTISE.svg" width="100%"/>
+              </div>
+              <div class="text-box">
+                <h6 class="block-title">L’expertise</h6>
+                <p class="block-text">
+                  Quelle que soit la destination, vous avez l’assurance de bénéficier de l’expertise d’un spécialiste
+                  qui aura à coeur de partager ses connaissances du terrain pour organiser votre voyage.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center mb-20">
+              <div class="icon-box">
+                <img src="/gpv_theme_customize/static/src/image/icons/picto_SUR-MESURE.svg" width="100%"/>
+              </div>
+              <div class="text-box">
+                <h6 class="block-title">Le sur-mesure</h6>
+                <p class="block-text">
+                  Votre créateur de voyage prend un soin tout particulier à vous écouter pour définir votre projet et
+                  personnaliser votre voyage suivant vos souhaits et vos envies.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center mb-20">
+              <div class="icon-box">
+                <img src="/gpv_theme_customize/static/src/image/icons/picto_PRIX.svg" width="100%"/>
+              </div>
+              <div class="text-box">
+                <h6 class="block-title">Les prix</h6>
+                <p class="block-text">
+                  Les prix de nos voyages sont tous étudiés au plus juste. Nous les vendons en direct et pratiquons
+                  des niveaux de marge modérés.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center mb-20">
+              <div class="icon-box">
+                <img src="/gpv_theme_customize/static/src/image/icons/picto_VOYAGE-TOUT-COMPRIS.svg" height="100%"/>
+              </div>
+              <div class="text-box">
+                <h6 class="block-title">Des voyages tout compris</h6>
+                <p class="block-text">
+                  Pas de mauvaises surprises : nos prix détaillent très clairement les prestations qui vous sont
+                  proposées et incluent toutes les taxes et les frais de dossiers éventuels.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center mb-20">
+              <div class="icon-box">
+                <img src="/gpv_theme_customize/static/src/image/icons/picto_GARANTIE-FINANC.svg" height="100%"/>
+              </div>
+              <div class="text-box">
+                <h6 class="block-title">La garantie financière</h6>
+                <p class="block-text">
+                  Vous partez en toute tranquillité puisque vous bénéficiez de la garantie financière APST des
+                  Tour-Opérateurs français.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center mb-20">
+              <div class="icon-box">
+                <img src="/gpv_theme_customize/static/src/image/icons/picto_CARNET-VOYAGE.svg" height="100%"/>
+              </div>
+              <div class="text-box">
+                <h6 class="block-title">Le carnet de voyage</h6>
+                <p class="block-text">
+                  Avant votre départ, nous vous remettons votre carnet de voyage personnalisé. Il détaille l’ensemble
+                  de votre programme.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center mb-20">
+              <div class="icon-box">
+                <img src="/gpv_theme_customize/static/src/image/icons/picto_ASSISTANCE.svg" height="100%"/>
+              </div>
+              <div class="text-box">
+                <h6 class="block-title">L’assistance 24/24</h6>
+                <p class="block-text">
+                  Pendant tout votre séjour, vous bénéficiez d’une assistance 24 heures sur 24 en France comme à
+                  destination.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </xpath>
+  </template>
+</odoo>

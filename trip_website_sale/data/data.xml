@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="africa_continents_id" model="res.continents">
+        <field name="name">AFRICA</field>
+        <field name="sequence">0</field>
+        <field name="display_name">FAIRWAYS OF AFRICA</field>
+    </record>
+
+    <record id="america_continents_id" model="res.continents">
+        <field name="name">AMERICA</field>
+        <field name="sequence">1</field>
+        <field name="display_name">FAIRWAYS OF AMERICAS</field>
+    </record>
+
+    <record id="asia_continents_id" model="res.continents">
+        <field name="name">ASIA</field>
+        <field name="sequence">2</field>
+        <field name="display_name">FAIRWAYS OF ASIA</field>
+    </record>
+
+    <record id="europe_continents_id" model="res.continents">
+        <field name="name">EUROPE</field>
+        <field name="sequence">3</field>
+        <field name="display_name">FAIRWAYS OF EUROPE</field>
+    </record>
+
+    <record id="australia_continents_id" model="res.continents">
+        <field name="name">AUSTRALIA</field>
+        <field name="sequence">4</field>
+        <field name="display_name">Islands and Oceania Fairways</field>
+    </record>
+
+    <record id="middle_east_continents_id" model="res.continents">
+        <field name="name">MIDDLE-EAST</field>
+        <field name="sequence">5</field>
+        <field name="display_name">MIDDLE EAST FAIRWAYS</field>
+    </record>
+</odoo>
