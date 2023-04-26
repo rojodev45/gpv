@@ -118,7 +118,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <form id="FormNews" method="post" action="" novalidate="novalidate">
+                <form id="FormNews" method="post" action="/emailing" novalidate="novalidate">
                   <div class="input-group-custom">
                     <input type="hidden" name="cookie" value=""/>
                     <input type="hidden" value="Emailing" name="form_type"/>
@@ -127,7 +127,7 @@
                            placeholder="Votre email"
                            required="required"/>
                     <div style="color:black;" class="modal fade" id="newsletter_recaptcha" tabindex="-1" role="dialog"
-                         aria-labelledby="Newsletter" aria-hidden="true">
+                         aria-labelledby="Newsletter"  aria-hidden="true">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
@@ -168,7 +168,7 @@
                     </div>
 
                     <input data-bs-toggle="modal" data-bs-target="#newsletter_recaptcha" class="custom-btn"
-                           type="button"
+                           type="button" id="emailnewsbutton"
                            value="S’inscrire"/>
 
                     <label class="error col-xs-12 text-center" for="emailnews"></label>

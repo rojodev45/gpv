@@ -2,7 +2,7 @@
 # License AGPL-3.0
 
 {
-    "name": "GPV - Footer",
+    "name": "GPV - Lead",
     "description": """
         Odoo application for GPV""",
     "author": "eTech",
@@ -16,7 +16,7 @@
         "gpv_theme_customize",
     ],
     "data": [
-
+        "views/crm_lead_view_form_inherit.xml",
     ],
     'assets': {
         },

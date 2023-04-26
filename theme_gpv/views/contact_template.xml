@@ -90,15 +90,15 @@
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-8 mt16">
-                  <form id="contact-us-page" method="post" action="#" novalidate="novalidate">
+                  <form id="contact-us-page" method="post" action="/contact-us" novalidate="novalidate">
                     <input type="hidden" name="cookie" value=""/>
-                    <input type="hidden" value="Message" name="form_type"/>
+                    <input type="hidden" value="Contact" name="form_type"/>
                     <input type="hidden" value="Golf Plus Voyages" id="website" name="website"/>
                     <h3 class="leftprice contact-us">Avec le formulaire de contact</h3>
                     <div class="row">
                       <div class="form-group col-xs-12 col-sm-6">
                         <label class="col-xs-12 col-sm-4 formmlabel">Nom</label>
-                        <input type="text" name="nom" id="nom" minlength="2" required="required"
+                        <input type="text" name="contact_name" id="nom" minlength="2" required="required"
                                class="form col-xs-12 col-sm-8" placeholder="" aria-required="true"/>
                         <label class="error col-xs-12 text-right" for="nom"></label>
                       </div>

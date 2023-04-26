@@ -85,12 +85,12 @@
                   </div>
                 </div>
                 <div id="devisMyTrip" class="col-xs-12 col-sm-8 margin-20">
-                  <form id="demande-de-devis" method="post" action="#" novalidate="novalidate">
-                    <input type="hidden" value="Devis" name="form_type"/>
+                  <form id="demande-de-devis" method="post" action="/asking-quote" novalidate="novalidate">
+                    <input type="hidden" value="Quotation" name="form_type"/>
                     <input type="hidden" value="" name="titre_circuit"/>
                     <input type="hidden" value="" name="cookie"/>
                     <input type="hidden" value="Golf Plus Voyages" id="website" name="website"/>
-
+                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
                     <h3 class="leftprice contact-us">Votre projet
                     </h3>
                     <div class="row">
