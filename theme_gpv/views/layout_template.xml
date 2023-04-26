@@ -102,7 +102,7 @@
     </xpath>
   </template>
   <!-- Footer templates -->
-  <template id="website.footer_custom" inherit_id="website.layout" name="Default" active="True">
+  <template id="footer_gpv" inherit_id="website.layout" name="Default" active="True">
     <xpath expr="//div[@id='footer']" position="replace">
       <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true">
         <section class="bg-blue ptb-10">
@@ -337,7 +337,7 @@
       </div>
     </xpath>
   </template>
-  <template id="website.footer_copyright_company_name" inherit_id="website.layout">
+  <template id="footer_copyright_company_name" inherit_id="website.layout">
     <xpath expr="//footer//span[hasclass('o_footer_copyright_name')]" position="replace">
       <p class="mb-10 text-white">
         <a href="#" class="link text-white fw-normal">Mentions légales</a>
