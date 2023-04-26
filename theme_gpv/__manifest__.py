@@ -25,16 +25,16 @@
     ],
     'assets': {
         'web.assets_frontend': [
-            'gpv_theme_customize/static/src/css/destination.css',
-            'gpv_theme_customize/static/src/scss/terre_voyage.scss',
-            'gpv_theme_customize/static/src/css/main.min.css',
-            'gpv_theme_customize/static/src/css/owl.carousel.css',
-            'gpv_theme_customize/static/src/css/owl.carousel.min.css',
-            'gpv_theme_customize/static/src/css/owl.theme.default.css',
-            'gpv_theme_customize/static/src/js/jquery-ui-1.11.1/jquery-ui.min.js',
-            'gpv_theme_customize/static/src/js/owl.carousel.js',
-            'gpv_theme_customize/static/src/js/owl.carousel.min.js',
-            'gpv_theme_customize/static/src/js/terre_voyage.js',
+            'theme_gpv/static/src/css/destination.css',
+            'theme_gpv/static/src/scss/terre_voyage.scss',
+            'theme_gpv/static/src/css/main.min.css',
+            'theme_gpv/static/src/css/owl.carousel.css',
+            'theme_gpv/static/src/css/owl.carousel.min.css',
+            'theme_gpv/static/src/css/owl.theme.default.css',
+            'theme_gpv/static/src/js/jquery-ui-1.11.1/jquery-ui.min.js',
+            'theme_gpv/static/src/js/owl.carousel.js',
+            'theme_gpv/static/src/js/owl.carousel.min.js',
+            'theme_gpv/static/src/js/terre_voyage.js',
         ]
     },    "application": True,
 }

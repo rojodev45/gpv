@@ -127,7 +127,7 @@
                 </div>
                 <div class="col-xs-12">
                   <div class="mapleftslide text-center">
-                    <img src="/gpv_theme_customize/static/src/ftp-img/apropos/plan_95360.PNG" class="img-responsive center-block"
+                    <img src="/theme_gpv/static/src/ftp-img/apropos/plan_95360.PNG" class="img-responsive center-block"
                          alt=""/>
                   </div>
                 </div>
@@ -358,7 +358,7 @@
                   </div>
                   <div class="row margin-20">
                     <div class="col-sm-4 col-xs-12 no-padding">
-                      <img src="/gpv_theme_customize/static/src/ftp-img/apropos/equipe_laos_89754.jpg"
+                      <img src="/theme_gpv/static/src/ftp-img/apropos/equipe_laos_89754.jpg"
                            class="img-responsive center-block" alt=""/>
                     </div>
                     <div class="col-sm-8 col-xs-12">
@@ -377,7 +377,7 @@
                   </div>
                   <div class="row margin-20">
                     <div class="col-sm-4 col-xs-12 no-padding">
-                      <img src="/gpv_theme_customize/static/src/ftp-img/apropos/equipe_mongolie_5763.jpg"
+                      <img src="/theme_gpv/static/src/ftp-img/apropos/equipe_mongolie_5763.jpg"
                            class="img-responsive center-block" alt=""/>
                     </div>
                     <div class="col-sm-8 col-xs-12">
@@ -396,7 +396,7 @@
                   </div>
                   <div class="row margin-20">
                     <div class="col-sm-4 col-xs-12 no-padding">
-                      <img src="/gpv_theme_customize/static/src/ftp-img/apropos/equipe_senegal_43138.jpg"
+                      <img src="/theme_gpv/static/src/ftp-img/apropos/equipe_senegal_43138.jpg"
                            class="img-responsive center-block" alt=""/>
                     </div>
                     <div class="col-sm-8 col-xs-12">
@@ -415,7 +415,7 @@
                   </div>
                   <div class="row margin-20">
                     <div class="col-sm-4 col-xs-12 no-padding">
-                      <img src="/gpv_theme_customize/static/src/ftp-img/apropos/equipe_birmanie_7964.jpg"
+                      <img src="/theme_gpv/static/src/ftp-img/apropos/equipe_birmanie_7964.jpg"
                            class="img-responsive center-block" alt=""/>
                     </div>
                     <div class="col-sm-8 col-xs-12">
@@ -434,7 +434,7 @@
                   </div>
                   <div class="row margin-20">
                     <div class="col-sm-4 col-xs-12 no-padding">
-                      <img src="/gpv_theme_customize/static/src/ftp-img/apropos/equipe_ouzbekistan_28537.jpg"
+                      <img src="/theme_gpv/static/src/ftp-img/apropos/equipe_ouzbekistan_28537.jpg"
                            class="img-responsive center-block" alt=""/>
                     </div>
                     <div class="col-sm-8 col-xs-12">

@@ -99,7 +99,7 @@
             <div class="row j-center">
               <div class="col-md-3 text-center mb-20">
                 <div class="icon-box">
-                  <img src="/gpv_theme_customize/static/src/image/icons/picto_EXPERTISE.svg" width="100%"/>
+                  <img src="/theme_gpv/static/src/image/icons/picto_EXPERTISE.svg" width="100%"/>
                 </div>
                 <div class="text-box">
                   <h6 class="block-title">L’expertise</h6>
@@ -112,7 +112,7 @@
 
               <div class="col-md-3 text-center mb-20">
                 <div class="icon-box">
-                  <img src="/gpv_theme_customize/static/src/image/icons/picto_SUR-MESURE.svg" width="100%"/>
+                  <img src="/theme_gpv/static/src/image/icons/picto_SUR-MESURE.svg" width="100%"/>
                 </div>
                 <div class="text-box">
                   <h6 class="block-title">Le sur-mesure</h6>
@@ -125,7 +125,7 @@
 
               <div class="col-md-3 text-center mb-20">
                 <div class="icon-box">
-                  <img src="/gpv_theme_customize/static/src/image/icons/picto_PRIX.svg" width="100%"/>
+                  <img src="/theme_gpv/static/src/image/icons/picto_PRIX.svg" width="100%"/>
                 </div>
                 <div class="text-box">
                   <h6 class="block-title">Les prix</h6>
@@ -138,7 +138,7 @@
 
               <div class="col-md-3 text-center mb-20">
                 <div class="icon-box">
-                  <img src="/gpv_theme_customize/static/src/image/icons/picto_VOYAGE-TOUT-COMPRIS.svg" height="100%"/>
+                  <img src="/theme_gpv/static/src/image/icons/picto_VOYAGE-TOUT-COMPRIS.svg" height="100%"/>
                 </div>
                 <div class="text-box">
                   <h6 class="block-title">Des voyages tout compris</h6>
@@ -151,7 +151,7 @@
 
               <div class="col-md-3 text-center mb-20">
                 <div class="icon-box">
-                  <img src="/gpv_theme_customize/static/src/image/icons/picto_GARANTIE-FINANC.svg" height="100%"/>
+                  <img src="/theme_gpv/static/src/image/icons/picto_GARANTIE-FINANC.svg" height="100%"/>
                 </div>
                 <div class="text-box">
                   <h6 class="block-title">La garantie financière</h6>
@@ -164,7 +164,7 @@
 
               <div class="col-md-3 text-center mb-20">
                 <div class="icon-box">
-                  <img src="/gpv_theme_customize/static/src/image/icons/picto_CARNET-VOYAGE.svg" height="100%"/>
+                  <img src="/theme_gpv/static/src/image/icons/picto_CARNET-VOYAGE.svg" height="100%"/>
                 </div>
                 <div class="text-box">
                   <h6 class="block-title">Le carnet de voyage</h6>
@@ -177,7 +177,7 @@
 
               <div class="col-md-3 text-center mb-20">
                 <div class="icon-box">
-                  <img src="/gpv_theme_customize/static/src/image/icons/picto_ASSISTANCE.svg" height="100%"/>
+                  <img src="/theme_gpv/static/src/image/icons/picto_ASSISTANCE.svg" height="100%"/>
                 </div>
                 <div class="text-box">
                   <h6 class="block-title">L’assistance 24/24</h6>

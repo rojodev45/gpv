@@ -217,7 +217,7 @@
                 </div>
                 <div class="rows">
                   <a href="/">
-                    <img alt="Groupe - Terre Voyages" src="/gpv_theme_customize/static/src/img/GroupeTerreVoyages.png"
+                    <img alt="Groupe - Terre Voyages" src="/theme_gpv/static/src/img/GroupeTerreVoyages.png"
                          style="width: 180px; padding-top:9px" class="mt8"/>
                   </a>
                 </div>

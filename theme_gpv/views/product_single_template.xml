@@ -140,7 +140,7 @@
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product_corse_box">
                   <div class="col-md-2">
-                    <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
+                    <img src="/theme_gpv/static/src/image/logo_parcours_golf.png" alt="Course"
                          class="img-responsive center-block" style="height: 60px !important;"/>
                   </div>
                   <div class="col-md-10 mt8 mb8">
@@ -162,7 +162,7 @@
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product_corse_box">
                   <div class="col-md-2">
-                    <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
+                    <img src="/theme_gpv/static/src/image/logo_parcours_golf.png" alt="Course"
                          class="img-responsive center-block" style="height: 60px !important;"/>
                   </div>
                   <div class="col-md-10 mt8 mb8">
@@ -184,7 +184,7 @@
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product_corse_box">
                   <div class="col-md-2">
-                    <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
+                    <img src="/theme_gpv/static/src/image/logo_parcours_golf.png" alt="Course"
                          class="img-responsive center-block" style="height: 60px !important;"/>
                   </div>
                   <div class="col-md-10 mt8 mb8">
@@ -323,7 +323,7 @@
                         <div class="col-md-4 col-sm-6 col-xs-12">
                           <div class="product_corse_box">
                             <div class="col-md-2">
-                              <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
+                              <img src="/theme_gpv/static/src/image/logo_parcours_golf.png" alt="Course"
                                    class="img-responsive center-block" style="height: 60px !important;"/>
                             </div>
                             <div class="col-md-10 mt8 mb8">
@@ -345,7 +345,7 @@
                         <div class="col-md-4 col-sm-6 col-xs-12">
                           <div class="product_corse_box">
                             <div class="col-md-2">
-                              <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
+                              <img src="/theme_gpv/static/src/image/logo_parcours_golf.png" alt="Course"
                                    class="img-responsive center-block" style="height: 60px !important;"/>
                             </div>
                             <div class="col-md-10 mt8 mb8">
@@ -367,7 +367,7 @@
                         <div class="col-md-4 col-sm-6 col-xs-12">
                           <div class="product_corse_box">
                             <div class="col-md-2">
-                              <img src="/gpv_theme_customize/static/src/image/logo_parcours_golf.png" alt="Course"
+                              <img src="/theme_gpv/static/src/image/logo_parcours_golf.png" alt="Course"
                                    class="img-responsive center-block" style="height: 60px !important;"/>
                             </div>
                             <div class="col-md-10 mt8 mb8">
@@ -579,7 +579,7 @@
             <div class="row j-center">
               <div class="col-md-3 text-center mb-20">
                 <div class="icon-box">
-                  <img src="/gpv_theme_customize/static/src/image/icons/picto_EXPERTISE.svg" width="100%"/>
+                  <img src="/theme_gpv/static/src/image/icons/picto_EXPERTISE.svg" width="100%"/>
                 </div>
                 <div class="text-box">
                   <h6 class="block-title">L’expertise</h6>
@@ -591,7 +591,7 @@
               </div>
               <div class="col-md-3 text-center mb-20">
                 <div class="icon-box">
-                  <img src="/gpv_theme_customize/static/src/image/icons/picto_SUR-MESURE.svg" width="100%"/>
+                  <img src="/theme_gpv/static/src/image/icons/picto_SUR-MESURE.svg" width="100%"/>
                 </div>
                 <div class="text-box">
                   <h6 class="block-title">Le sur-mesure</h6>
@@ -603,7 +603,7 @@
               </div>
               <div class="col-md-3 text-center mb-20">
                 <div class="icon-box">
-                  <img src="/gpv_theme_customize/static/src/image/icons/picto_PRIX.svg" width="100%"/>
+                  <img src="/theme_gpv/static/src/image/icons/picto_PRIX.svg" width="100%"/>
                 </div>
                 <div class="text-box">
                   <h6 class="block-title">Les prix</h6>
@@ -615,7 +615,7 @@
               </div>
               <div class="col-md-3 text-center mb-20">
                 <div class="icon-box">
-                  <img src="/gpv_theme_customize/static/src/image/icons/picto_VOYAGE-TOUT-COMPRIS.svg" height="100%"/>
+                  <img src="/theme_gpv/static/src/image/icons/picto_VOYAGE-TOUT-COMPRIS.svg" height="100%"/>
                 </div>
                 <div class="text-box">
                   <h6 class="block-title">Des voyages tout compris</h6>
@@ -627,7 +627,7 @@
               </div>
               <div class="col-md-3 text-center mb-20">
                 <div class="icon-box">
-                  <img src="/gpv_theme_customize/static/src/image/icons/picto_GARANTIE-FINANC.svg" height="100%"/>
+                  <img src="/theme_gpv/static/src/image/icons/picto_GARANTIE-FINANC.svg" height="100%"/>
                 </div>
                 <div class="text-box">
                   <h6 class="block-title">La garantie financière</h6>
@@ -639,7 +639,7 @@
               </div>
               <div class="col-md-3 text-center mb-20">
                 <div class="icon-box">
-                  <img src="/gpv_theme_customize/static/src/image/icons/picto_CARNET-VOYAGE.svg" height="100%"/>
+                  <img src="/theme_gpv/static/src/image/icons/picto_CARNET-VOYAGE.svg" height="100%"/>
                 </div>
                 <div class="text-box">
                   <h6 class="block-title">Le carnet de voyage</h6>
@@ -651,7 +651,7 @@
               </div>
               <div class="col-md-3 text-center mb-20">
                 <div class="icon-box">
-                  <img src="/gpv_theme_customize/static/src/image/icons/picto_ASSISTANCE.svg" height="100%"/>
+                  <img src="/theme_gpv/static/src/image/icons/picto_ASSISTANCE.svg" height="100%"/>
                 </div>
                 <div class="text-box">
                   <h6 class="block-title">L’assistance 24/24</h6>
